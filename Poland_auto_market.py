@@ -10,3 +10,4 @@ orignal_df = df
 pd.options.display.max_columns = None
 # print(pd.get_option('display.max_rows', None))
 print(df.head(2))
+
