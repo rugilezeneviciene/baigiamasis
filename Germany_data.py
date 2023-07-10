@@ -44,7 +44,7 @@ missing_df["Percent Missing After"] = [round(missingCounts[i] / totalCounts[i], 
 #sutvarkome auto metus:
 #print('Values in the year column before filtering:')
 #print(df['year'].unique(), '\n')
-yearsToFilter = df['year'].unique()[:29] #apiribojam 29 metu reiksmemis, kadangi turime 1955-2023 laikotarpi
+yearsToFilter = df['year'].unique()[:29] #apiribojam 29 metu reiksmemis, kadangi turime 1995-2023 laikotarpi
 filt = []
 
 for i in range(df.shape[0]):
@@ -109,6 +109,13 @@ df['fuel_consumption_l_100km'] = df['fuel_consumption_l_100km'].astype(float)
 pd.options.display.max_columns = None
 print(df.head(2))
 
+for i in df.columns:
+    print('{} column has {} missing values. Data type is {}'.format(i, df[i].isna().sum(), df[i].dtype))
+    print(' ')
+
+#yra problema su KIA CEED pavadimu, bandau taisyti:
+df['model'] = df['model'].str.replace("'", "")
+
 db_params = {
     'host': 'localhost',
     'port': 5432,
@@ -156,6 +163,5 @@ def insert_data():
 insert_data()
 
 
-for i in df.columns:
-    print('{} column has {} missing values. Data type is {}'.format(i, df[i].isna().sum(), df[i].dtype))
-    print(' ')
+
+
