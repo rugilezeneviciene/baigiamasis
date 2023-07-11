@@ -4,6 +4,7 @@ import brotli
 from bs4 import BeautifulSoup
 import psycopg2
 import time
+import matplotlib.pyplot as plt
 
 delay = 5
 def scrape_auto_listings():
@@ -112,7 +113,7 @@ def scrape_auto_listings():
 #         id SERIAL PRIMARY KEY,
 #         brand VARCHAR(50),
 #         model VARCHAR(50),
-#         year VARCHAR(10),
+#         year INT,
 #         transmission_type VARCHAR(50),
 #         mileage_in_km FLOAT,
 #         fuel_type VARCHAR(50), 
@@ -148,6 +149,18 @@ def scrape_auto_listings():
 
 
 df = pd.read_csv('auto_listings.csv')
+df['price_in_euro'] = df['price_in_euro'].astype(int)
+df['mileage_in_km'] = df['mileage_in_km'].astype(float)
+
+
+#Year duomenu tipas pakeiciamas i int, jei year stulpelio reiksme nera None
+for index, value in enumerate(df['year']):
+    try:
+        df.at[index, 'year'] = int(value)
+    except ValueError:
+        df.at[index, 'year'] = None  
+# print(df['year'])
+
 #skaiciuojamas markes kainos vidurkis Lietuvoje
 avg_price_by_make= df.groupby('brand')['price_in_euro'].mean()
 # print(avg_price_by_make)
@@ -155,7 +168,18 @@ sorted_car_makes = avg_price_by_make.sort_values(ascending=False)
 #filtruojamos 8 brangiausios markes
 top_8_expensive_makes = sorted_car_makes.head(8)
 # print(top_8_expensive_makes)
-#filtruojamos 8 populiariausios automobiliu markes Lietuvoje
 make_counts = df['brand'].value_counts()
+#filtruojamos 8 populiariausios automobiliu markes Lietuvoje
 top_8_car_makes = make_counts.head(8)
-print(make_counts)
+# print(top_8_car_makes)
+
+
+#NEVEIKIA
+# top_8_car_makes.plot(kind='pie')
+# plot = df.plot.pie(y='', figsize=(5, 5))
+# plt.title('8 populiariausios markės Lietuvoje')
+# plt.show()
+# print(df)
+
+df['Auto age'] = 2023 - df['year'] 
+print(df)
