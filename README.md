@@ -10,7 +10,7 @@
 7. Aumatinė/mechaninė M
 8. Ridos poveikis kainai R
 9. Prognozė, kaip keisis kuro rūšys R
-10. Markės pasiskirtymas skirtingose šalyse R
+10. Markės pasiskirtymas skirtingose šalyse M
 11. Populairiausioj markėj populiariausi modeliai M
 12. PBI žemėlapis pagal auto/mech
 13. PBI žemėlapis pagal the post popular mark
