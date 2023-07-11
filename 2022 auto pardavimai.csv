@@ -1,0 +1,21 @@
+Pirmą kartą įregistruotų Lietuvoje M1 klasės transporto priemonių skaičius pagal degalų rūšį 2022 m. sausio-gruodžio mėn.;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+SAVYBĖ;DEGALŲ RŪSIS;MĖNUO;;;;;;;;;;;
+;;1;2;3;4;5;6;7;8;9;10;11;12
+Naudota;Benzinas;2301;2408;2389;3095;3313;3131;2427;2614;2706;2678;2570;2542
+Naudota;Benzinas/Dujos;95;100;111;135;141;119;116;122;105;118;103;96
+Naudota;Benzinas/Dujos/Elektra;18;17;21;19;29;28;26;23;29;31;26;33
+Naudota;Benzinas/Elektra;429;434;508;632;698;602;593;618;555;632;524;509
+Naudota;Benzinas/Suskystintos naftos dujos;38;52;48;55;75;54;46;47;50;49;36;38
+Naudota;Dyzelinas;6052;6070;6334;8764;9829;9509;7235;7734;7810;8314;7953;7308
+Naudota;Dyzelinas/Elektra;39;34;37;48;60;56;67;84;92;125;152;166
+Naudota;Elektra;85;92;159;150;158;114;154;131;112;137;123;134
+Naudota;Kita;106;129;118;272;547;514;194;277;339;370;496;614
+Nauja;Benzinas;769;785;951;1193;1228;1233;1062;980;1062;661;668;558
+Nauja;Benzinas/Dujos;32;21;25;19;5;6;18;35;10;19;43;14
+Nauja;Benzinas/Elektra;912;665;969;774;883;815;566;800;720;644;601;588
+Nauja;Benzinas/Suskystintos naftos dujos;27;13;4;10;11;13;5;15;1;6;8;11
+Nauja;Dyzelinas;335;263;218;195;262;303;263;237;227;201;242;128
+Nauja;Dyzelinas/Elektra;79;82;85;63;84;63;57;76;74;44;55;47
+Nauja;Elektra;87;72;98;91;153;85;159;103;122;133;148;99
+Nauja;Kita;;;;;;1;;;;3;1;

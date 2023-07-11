@@ -53,4 +53,4 @@ df['fuel_type'] = df['fuel_type'].str.replace("Benzyna + CNG", "CNG")
 #print(df['fuel_type'].unique(), '\n')
 
 
-print(df['model'].unique(), '\n')
+#print(df['model'].unique(), '\n')
