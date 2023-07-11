@@ -1,0 +1,31 @@
+id,brand,model,year,transmission_type,mileage_in_km,fuel_type,price_in_euro
+1,Kia,Sorento,2004,Mechanical,,Diesel,2450
+2,Volkswagen,Sharan,2000,Mechanical,300000.0,Diesel,1250
+3,BMW,320,2001,Mechanical,302230.0,Diesel,1499
+4,Volkswagen,Passat,2005,Mechanical,,Diesel,1700
+5,BMW,523,2000,Mechanical,,Petrol / Gas,2290
+6,Volkswagen,Touran,2007,Automatic,337726.0,Diesel,2999
+7,BMW,X5,2005,Automatic,261083.0,Diesel,4300
+8,BMW,520,2011,Automatic,,Diesel,12000
+9,Jeep,Cherokee,2004,Automatic,,Diesel,2650
+10,Peugeot,1007,2005,Automatic,176000.0,Gasoline,1000
+11,Volkswagen,Golf V,2005,Mechanical,,Gasoline,2699
+12,Volkswagen,Golf Plus,2007,Mechanical,233000.0,Diesel,3099
+13,Volkswagen,Golf,2008,Automatic,253000.0,Diesel,3199
+14,Audi,A4,2009,Mechanical,,Diesel,4250
+15,BMW,530,2001,Automatic,375250.0,Diesel,1190
+16,Volvo,S40 II,2005,Mechanical,301000.0,Diesel,1650
+17,Toyota,Corolla Verso,2005,Mechanical,300000.0,Diesel,2990
+18,Audi,A6 C5,2001,Automatic,,Diesel,850
+19,Volkswagen,Fox,2010,Mechanical,186000.0,Diesel,1850
+20,Volvo,V50,2004,Mechanical,,Diesel,2190
+21,Nissan,X-Trail I,2006,Mechanical,,Diesel,2900
+22,Volkswagen,Golf,2009,Mechanical,209850.0,Diesel,3000
+23,Audi,A6 C6,2006,Automatic,319000.0,Diesel,4500
+24,Audi,A6 C6,2009,Automatic,,Diesel,4650
+25,BMW,320 E90,2006,Mechanical,291000.0,Diesel,4850
+26,Mercedes-Benz,E 320 W211,2008,Automatic,364750.0,Diesel,6350
+27,Mercedes-Benz,GLA 250,2019,Automatic,16000.0,Gasoline,24500
+28,Opel,Vectra,2000,Mechanical,,Petrol / Gas,500
+29,Opel,Astra,2000,Mechanical,280000.0,Gasoline,580
+30,Volkswagen,Passat B5,1997,Mechanical,,Diesel,999
