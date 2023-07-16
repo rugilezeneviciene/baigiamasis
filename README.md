@@ -16,6 +16,7 @@ Turinys
 | Lietuva   | Autogidas.lt               | 2023-07-10         | 3030      |
 | -         | NordPool duomenys          | 2010.01  - 2023.04 | 161       |     
 | Lietuva   | Registrų centras           | 2018 - 2023        | -         |
+
 Projekto eiga
 1. Atsisiųsti duomenis iš atvirų šaltinių.
 2. Atlikti duomenų pasiėmimą (angl. Scrapping) iš autogidas.lt
