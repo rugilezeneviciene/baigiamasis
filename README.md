@@ -29,7 +29,7 @@ Naudotos bibliotekos ir įrankiai
 2. Duomenų įkėlimui, tvarkymui ir atvaizdavimui kuriamos funkcijos.
 3. Duomenų sujungimui iš kelių lentelių – naudojama sujungimas (merge).
 4. Lentelė su Vokietijos ir Lietuvos duomenimis įsikelta į Postgress.
-5. Naudojamos bibliotekos: Pandas, NumPy, Matplotlib, Seaborn, Psycopg2, Sklearn.
+5. Naudojamos bibliotekos: Pandas, NumPy, Matplotlib, Seaborn, Psycopg2, Sklearn, Brotli.
  
 Duomenų analizė
 Analizės klausimai:
