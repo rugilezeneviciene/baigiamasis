@@ -1,9 +1,11 @@
 import pandas as pd
 
+#funkcija duomenu ikelimui
 def load_data(file_path):     #reikia nurodyti file path, kuri mes ikelsime
     data = pd.read_csv(file_path, delimiter=';')
     return data
 
+#funkcija duomenu isvalymui
 def clean_data(data, column_names):
     data = data.dropna(how='all', axis=0)
     data = data.dropna(how='all', axis=1)
@@ -69,9 +71,12 @@ def main():
 if __name__ == '__main__':
     joined_data5 = main()
 
-if joined_data5 is None:
-    print("Duomenu nera")
-else:
-    df = pd.DataFrame(joined_data5)
-    df.to_csv('Auto registered in 2018-2023', index=False)
-    print('Data successfully  saved to "Auto registered in 2018-2023".')
+    if joined_data5 is None:
+        print("Duomenu nera")
+    else:
+        df = pd.DataFrame(joined_data5)
+        df.to_csv('Auto registered in 2018-2023.csv', index=False)
+        print('Data successfully  saved to "Auto registered in 2018-2023.csv".')
+
+
+
