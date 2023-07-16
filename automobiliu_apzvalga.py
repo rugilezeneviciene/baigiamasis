@@ -273,7 +273,6 @@ df_germany = calculate_age(pd.read_csv('Germany_autoscout24_2023.csv'))
 df_poland = calculate_age(pd.read_csv('Polish_market_scrapped_on_2023 06 27.csv'))
 
 # Skaičiuojamas skirtingose valstybėse parduodamų automobilių amžiaus vidurkis
-<<<<<<< HEAD
 # avg_age_lt = df_lithuania['age'].mean()
 # avg_age_pl = df_germany['age'].mean()
 # avg_age_ger = df_poland['age'].mean()
@@ -295,7 +294,6 @@ df_poland = calculate_age(pd.read_csv('Polish_market_scrapped_on_2023 06 27.csv'
 # plt.title('Vidutinis parduodamų automobilių amžius Lietuvoje, Lenkijoje ir Vokietijoje', pad=20)
 # plt.show()
 
-=======
 avg_age_lt = df_lithuania['age'].mean()
 avg_age_pl = df_germany['age'].mean()
 avg_age_ger = df_poland['age'].mean()
@@ -312,7 +310,6 @@ plt.ylabel('Vidutinis amžius')
 plt.title('Vidutinis parduodamų automobilių amžius Lietuvoje, Lenkijoje ir Vokietijoje', pad=20)
 plt.show()
 plt.savefig("Grafikas_Vidutinis parduodamų automobilių amžius Lietuvoje, Lenkijoje ir Vokietijoje.png")
->>>>>>> a92c9a5319547519b8b47e32141dd2608cd3f68f
 
 
 # Sukuriama f-ja suskaičiuoti skirtingo amžiaus parduodamų automobilių skaičių kiekvienoje valstybėje
@@ -521,7 +518,6 @@ cheapest_brands = top_8_pigiausi_pagal_kainu_vidurki(df_lt, n=8)
 # # plt.title('Automatinės ir mechaninės pavarų dėžės pasiskirstymas Vokietijoje')
 # # plt.show()
 
-<<<<<<< HEAD
 # countries = ['Lietuva', 'Lenkija', 'Vokietija']
 # # Sujungia trijų valstybių DataFrame į vieną
 # testdf = pd.concat([df_germany_in_lt, df_lithuania_in_lt, df_poland_in_lt])
@@ -550,7 +546,6 @@ cheapest_brands = top_8_pigiausi_pagal_kainu_vidurki(df_lt, n=8)
 #
 # ###      RIDOS IR PAGAMINIMO METU POVEIKIS KAINAI        ####
 #
-=======
 countries = ['Lietuva', 'Lenkija', 'Vokietija']
 # Sujungia trijų valstybių DataFrame į vieną
 testdf = pd.concat([df_germany_in_lt, df_lithuania_in_lt, df_poland_in_lt])
@@ -579,7 +574,6 @@ plt.show()
 
 ###      RIDOS IR AMZIAUS POVEIKIS KAINAI        ####
 
->>>>>>> a92c9a5319547519b8b47e32141dd2608cd3f68f
 #sukuriu duomenu sujungimo funkcija
 # def concat_data(df_de, df_pl, df_lt, columns_to_concat, columns_to_return):
 #     dataframes = [df_de[columns_to_concat], df_pl[columns_to_concat], df_lt[columns_to_concat]]
@@ -666,39 +660,6 @@ distribution_of_models_in_most_popular_brand(df_poland, "Lenkijoje")
 
 ### AUTOMOBILIU REGISTRAVIMO STATISTIKA, KURO ASPEKTU
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### AUTOMOBILIU REGISTRAVIMO STATISTIKA, KURO ASPEKTU
 def load_data(file_path):     #reikia nurodyti file path, kuri mes ikelsime
     data = pd.read_csv(file_path, delimiter =';', encoding="utf-8")
     return data
@@ -750,7 +711,6 @@ min_limit = np.floor(min_kaina/interval) * interval
 # selected_data=nauji_auto[['Degalu_rusis'] + columns]
 # #priskiriame nauja index(unikalus idet.),inpl = True uztikrina kad pokyciai bus atliekami dataframe selected_data
 # selected_data.set_index('Degalu_rusis', inplace=True)
-<<<<<<< HEAD
 # #paverciame lentele
 # transposed_data_new=selected_data.transpose()
 #
@@ -793,7 +753,6 @@ min_limit = np.floor(min_kaina/interval) * interval
 # #apsirasau, kad bus du grafikai
 # fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(10, 10))
 #
-=======
 # paverciame lentele
 # transposed_data=selected_data.transpose()
 # transposed_data.plot(kind='line', figsize=(10,6))
@@ -834,7 +793,6 @@ plt.show()
 #apsirasau, kad bus du grafikai
 # fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(10, 10))
 
->>>>>>> a92c9a5319547519b8b47e32141dd2608cd3f68f
 # #1  grafiko duomenys
 # ax1.plot(naftos_kainos_filtered['date'], naftos_kainos_filtered['oil'], linestyle='-', marker='o')
 # ax1.set_xlabel('Laikotarpis')
@@ -843,23 +801,19 @@ plt.show()
 # #kad sutvarkyti datas, panaudoju mdates
 # ax1.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m'))
 # #2 grafiko duomenys
-<<<<<<< HEAD
 # transposed_data_new.plot(kind='line', ax=ax2, figsize=(10, 6))
 # ax2.set_xlabel('Laikotarpis')
 # ax2.set_ylabel('Registruoti automobiliai')
 # ax2.set_title('Lietuvoje registruotu NAUJU automobiliu dinamika pagal kuro tipa')
-=======
 # transposed_data.plot(kind='line', ax=ax2, figsize=(10, 6))
 # ax2.set_xlabel('Laikotarpis')
 # ax2.set_ylabel('Registruoti automobiliai')
 # ax2.set_title('Lietuvoje registruotu NAUDOTU automobiliu dinamika pagal kuro tipa')
->>>>>>> a92c9a5319547519b8b47e32141dd2608cd3f68f
 # #neuzteko nuro dyti loc='upper right', naudojame bbox_to_anchor(x,y)
 # ax2.legend(title='Degalu tipas', loc='upper right', bbox_to_anchor=(1.2, 1.08))
 # #nustatomas tarpas tarp lenteliu
 # plt.subplots_adjust(hspace=0.5)
-<<<<<<< HEAD
-# plt.savefig('Grafikas_Nauji_auto ir barelio kainos')
+# plt.savefig(grafikai +'Grafikas_Nauji_auto ir barelio kainos')
 # plt.show()#
 
 ###  PROGNOZAVIMAS. Kokia automobilio kaina, ivedus ridos, markes, metu reiksmes.
@@ -875,7 +829,6 @@ plt.show()
 # model = LinearRegression()
 # model.fit(X_encoded, y)
 #
-=======
 
 #plt.show()#
 
@@ -892,32 +845,25 @@ plt.show()
 # model = LinearRegression()
 # model.fit(X_encoded, y)
 
->>>>>>> a92c9a5319547519b8b47e32141dd2608cd3f68f
 # #darome spejimus testavimo rinkinyje
 # y_pred = model.predict(X_encoded)
 # #skaiciuojame nuokrypi
 # nuokrypis = mean_squared_error(y, y_pred, squared=False)
 # print('Vidutinis kvadratinis nuokrypis: ', nuokrypis)
-<<<<<<< HEAD
 #
-=======
 
->>>>>>> a92c9a5319547519b8b47e32141dd2608cd3f68f
 # while True:
 #     Metai = int(input("Iveskite automobilio pagaminimo metus:  "))
 #     if str(Metai).lower() == 'exit':
 #         break
-<<<<<<< HEAD
 #
 #     Modelis = input("Iveskite automobilio modeli:  ")
 #     Rida = int(input("Iveskite maksimalia automobilio rida, skaiciais   "))
 #
-=======
 
 #     Modelis = input("Iveskite automobilio modeli:  ")
 #     Rida = int(input("Iveskite maksimalia automobilio rida, skaiciais   "))
 
->>>>>>> a92c9a5319547519b8b47e32141dd2608cd3f68f
 #     new_data=pd.DataFrame({'year': [Metai], 'brand':[Modelis], 'mileage_in_km':[Rida]})
 #     new_data_encoded = pd.get_dummies(new_data)
 #     #uztikrinimui, kad new_data turi tuos pacius stulpelius kaip ir train data
@@ -926,14 +872,11 @@ plt.show()
 #         new_data_encoded[col] = 0
 #     #perrikiuojame stulpelius, kad atitiktu tuos pacius stulpelius per treniravima
 #     new_data_encoded = new_data_encoded[X_encoded.columns]
-<<<<<<< HEAD
 #
 #     prediction = model.predict(new_data_encoded)
 #     print('Predicted price:', prediction)
-=======
 
 #     prediction = model.predict(new_data_encoded)
 #     print('Predicted price:', prediction)
 
 
->>>>>>> a92c9a5319547519b8b47e32141dd2608cd3f68f
