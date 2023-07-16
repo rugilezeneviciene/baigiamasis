@@ -254,23 +254,23 @@ df_lt = df_lt.drop(df_lt[df_lt['fuel_type'] == '2020 y'].index)
 df_lt['fuel_type'] = df_lt['fuel_type'].str.replace("Gasoline", "Petrol")
 
 ## Sukuriama f-ja suskaičiuoti automobilių amžiui skirtingose valstybėse
-def calculate_age(dataframe):
-    for index, value in enumerate(dataframe['year']):
-        try:
-            dataframe.at[index, 'year'] = int(value)
-            dataframe.at[index, 'age'] = 2023 - dataframe.at[index, 'year']
-        except ValueError:
-            dataframe.at[index, 'year'] = None
-#     #print(dataframe)
-    return dataframe
+# def calculate_age(dataframe):
+#     for index, value in enumerate(dataframe['year']):
+#         try:
+#             dataframe.at[index, 'year'] = int(value)
+#             dataframe.at[index, 'age'] = 2023 - dataframe.at[index, 'year']
+#         except ValueError:
+#             dataframe.at[index, 'year'] = None
+# #     #print(dataframe)
+#     return dataframe
 
 # Sukuriami skirtingų valstybių duomenų DataFrame su automobilių amžiumi ir duomenimis, nuskaitytais iš csv
 
 
 
-df_lithuania = calculate_age(pd.read_csv('auto_listings.csv'))
-df_germany = calculate_age(pd.read_csv('Germany_autoscout24_2023.csv'))
-df_poland = calculate_age(pd.read_csv('Polish_market_scrapped_on_2023 06 27.csv'))
+# df_lithuania = calculate_age(pd.read_csv('auto_listings.csv'))
+# df_germany = calculate_age(pd.read_csv('Germany_autoscout24_2023.csv'))
+# df_poland = calculate_age(pd.read_csv('Polish_market_scrapped_on_2023 06 27.csv'))
 
 # Skaičiuojamas skirtingose valstybėse parduodamų automobilių amžiaus vidurkis
 # avg_age_lt = df_lithuania['age'].mean()
@@ -294,61 +294,61 @@ df_poland = calculate_age(pd.read_csv('Polish_market_scrapped_on_2023 06 27.csv'
 # plt.title('Vidutinis parduodamų automobilių amžius Lietuvoje, Lenkijoje ir Vokietijoje', pad=20)
 # plt.show()
 
-avg_age_lt = df_lithuania['age'].mean()
-avg_age_pl = df_germany['age'].mean()
-avg_age_ger = df_poland['age'].mean()
-
+# avg_age_lt = df_lithuania['age'].mean()
+# avg_age_pl = df_germany['age'].mean()
+# avg_age_ger = df_poland['age'].mean()
+#
 
 # # Nubraižomas grafikas pavaizduoti vidutinį parduodamų automobilių amžių kiekvienoje šalyje
-countries = ['Lietuva', 'Vokietija', 'Lenkija']
-average_ages = avg_age_lt, avg_age_pl, avg_age_ger
-for i, v in enumerate(average_ages):
-   plt.text(i, v, "{:.0f}".format(v), ha='center', va='bottom')
-plt.bar(countries, average_ages)
-plt.xlabel('Valstybė')
-plt.ylabel('Vidutinis amžius')
-plt.title('Vidutinis parduodamų automobilių amžius Lietuvoje, Lenkijoje ir Vokietijoje', pad=20)
-plt.show()
-plt.savefig("Grafikas_Vidutinis parduodamų automobilių amžius Lietuvoje, Lenkijoje ir Vokietijoje.png")
+# countries = ['Lietuva', 'Vokietija', 'Lenkija']
+# average_ages = avg_age_lt, avg_age_pl, avg_age_ger
+# for i, v in enumerate(average_ages):
+#    plt.text(i, v, "{:.0f}".format(v), ha='center', va='bottom')
+# plt.bar(countries, average_ages)
+# plt.xlabel('Valstybė')
+# plt.ylabel('Vidutinis amžius')
+# plt.title('Vidutinis parduodamų automobilių amžius Lietuvoje, Lenkijoje ir Vokietijoje', pad=20)
+# plt.show()
+# plt.savefig("Grafikas_Vidutinis parduodamų automobilių amžius Lietuvoje, Lenkijoje ir Vokietijoje.png")
 
 
 # Sukuriama f-ja suskaičiuoti skirtingo amžiaus parduodamų automobilių skaičių kiekvienoje valstybėje
-def vehicle_ages_graph(df,country):
-    # Pašalinami nekorektiški amžiaus duomenys
-    age = df[df['age'] >= 0]['age']
-    age_counts = age.value_counts()
-    # Paimimamas automobilių amžius
-    ages = age_counts.index
-    # Paimimamas skirtingo amžiaus automobilių skaičius
-    counts = age_counts.values
-    plt.bar(ages, counts)
-    plt.xlabel('Automobilio amžius')
-    plt.ylabel('Automobilių skaičius')
-    plt.title('Parduodamų automobilių amžius '+country)
-    plt.show()
-
-vehicle_ages_graph(df_lithuania,'Lietuvoje')
-vehicle_ages_graph(df_germany,'Vokietijoje')
-vehicle_ages_graph(df_poland,'Lenkijoje')
-
-
-
+# def vehicle_ages_graph(df,country):
+#     # Pašalinami nekorektiški amžiaus duomenys
+#     age = df[df['age'] >= 0]['age']
+#     age_counts = age.value_counts()
+#     # Paimimamas automobilių amžius
+#     ages = age_counts.index
+#     # Paimimamas skirtingo amžiaus automobilių skaičius
+#     counts = age_counts.values
+#     plt.bar(ages, counts)
+#     plt.xlabel('Automobilio amžius')
+#     plt.ylabel('Automobilių skaičius')
+#     plt.title('Parduodamų automobilių amžius '+country)
+#     plt.show()
+#
+# vehicle_ages_graph(df_lithuania,'Lietuvoje')
+# vehicle_ages_graph(df_germany,'Vokietijoje')
+# vehicle_ages_graph(df_poland,'Lenkijoje')
+#
+#
+#
 
 ### KURIO BRANDO VIDUTINE KAINA YRA DIDZIAUSIA?
 
 
 #pasirasome funkcija suskaiciuoti modelius, kuriu vidutine kaina yra didziauia
-# def top_8_brangiausi_pagal_kainu_vidurki(data, n=8):
-#     average_price = data.groupby('brand')['price_in_euro'].mean()
-#     top_8_brands = average_price.nlargest(n)
-#     top_8_brands = top_8_brands.astype(int)
-#     return top_8_brands
+def top_8_brangiausi_pagal_kainu_vidurki(data, n=8):
+    average_price = data.groupby('brand')['price_in_euro'].mean()
+    top_8_brands = average_price.nlargest(n)
+    top_8_brands = top_8_brands.astype(int)
+    return top_8_brands
 #
-# #funkcija pritaikome kiekvienai valstybei atskirai
+#funkcija pritaikome kiekvienai valstybei atskirai
 # top_8_brands = top_8_brangiausi_pagal_kainu_vidurki(df_de, n=8)
 # print('TOP 8 Vokietijoje brangiausi automobiliu modeliai pagal vidutine kaina yra: ')
 # print(top_8_brands)
-# #
+# # #
 # top_8_brands = top_8_brangiausi_pagal_kainu_vidurki(df_pl, n=8)
 # print('TOP 8 Lenkijoje brangiausi automobiliu modeliai pagal vidutine kaina yra: ')
 # print(top_8_brands)
@@ -357,7 +357,7 @@ vehicle_ages_graph(df_poland,'Lenkijoje')
 # print('TOP 8 Lietuvoje brangiausi automobiliu modeliai pagal vidutine kaina yra: ')
 # print(top_8_brands)
 #
-# #pasirasome funkcija diagramai
+#pasirasome funkcija diagramai
 # def stulpeline_diagrama (data, labels, title, filename):
 #     colors = ['red', 'blue', 'green', 'orange', 'purple', 'yellow', 'cyan', 'magenta']
 #     plt.figure(figsize=(10,6))
@@ -372,7 +372,7 @@ vehicle_ages_graph(df_poland,'Lenkijoje')
 #         plt.text(bar.get_x() + bar.get_width() / 2, height, round(data[i], 2), ha='center', va='bottom')
 #
 #     plt.tight_layout()
-#     plt.savefig(filename)
+#     #plt.savefig(filename)
 #     plt.show()
 # def main(data, n=8):
 #     average_price = data.groupby('brand')['price_in_euro'].mean()
@@ -385,28 +385,28 @@ vehicle_ages_graph(df_poland,'Lenkijoje')
 #     stulpeline_diagrama(top_8_brands,labels,title, filename)
 #
 #     if __name__ == '__main__':
-#         main(df_lt)
-#paleidziame funkcija, ir norint pakeisti Title, priklausmai nuo to, kurios salies lentele rodome,
-# input irasome pvz.Vokietijoje
+#         main(df_de)
+# #paleidziame funkcija, ir norint pakeisti Title, priklausmai nuo to, kurios salies lentele rodome,
+# #input irasome pvz.Vokietijoje
 # Vokietija = main(df_de)
+#
+# #pasirasome funkcija suskaiciuoti modelius, kuriu vidutine kaina yra maziausia:
+# def top_8_pigiausi_pagal_kainu_vidurki(data, n=8):
+#     average_price = data.groupby('brand')['price_in_euro'].mean()
+#     The_cheapest_8_brands = average_price.nsmallest(n)
+#     return The_cheapest_8_brands
 
-#pasirasome funkcija suskaiciuoti modelius, kuriu vidutine kaina yra maziausia:
-def top_8_pigiausi_pagal_kainu_vidurki(data, n=8):
-    average_price = data.groupby('brand')['price_in_euro'].mean()
-    The_cheapest_8_brands = average_price.nsmallest(n)
-    return The_cheapest_8_brands
-
-cheapest_brands = top_8_pigiausi_pagal_kainu_vidurki(df_de, n=8)
-# print('TOP 8 Vokietijoje pigiausi automobiliu modeliai pagal vidutine kaina yra: ')
-# print(cheapest_brands)
-
-cheapest_brands = top_8_pigiausi_pagal_kainu_vidurki(df_pl, n=8)
-# print('TOP 8 Lenkijoje pigiausi automobiliu modeliai pagal vidutine kaina yra: ')
-# print(cheapest_brands)
-
-cheapest_brands = top_8_pigiausi_pagal_kainu_vidurki(df_lt, n=8)
-# print('TOP 8 Lietuvoje pigiausi automobiliu modeliai pagal vidutine kaina yra: ')
-# print(cheapest_brands)
+# cheapest_brands = top_8_pigiausi_pagal_kainu_vidurki(df_de, n=8)
+# # print('TOP 8 Vokietijoje pigiausi automobiliu modeliai pagal vidutine kaina yra: ')
+# # print(cheapest_brands)
+#
+# cheapest_brands = top_8_pigiausi_pagal_kainu_vidurki(df_pl, n=8)
+# # print('TOP 8 Lenkijoje pigiausi automobiliu modeliai pagal vidutine kaina yra: ')
+# # print(cheapest_brands)
+#
+# cheapest_brands = top_8_pigiausi_pagal_kainu_vidurki(df_lt, n=8)
+# # print('TOP 8 Lietuvoje pigiausi automobiliu modeliai pagal vidutine kaina yra: ')
+# # print(cheapest_brands)
 
 # def main2(data, n=8):
 #     average_price = data.groupby('brand')['price_in_euro'].mean()
@@ -546,30 +546,30 @@ cheapest_brands = top_8_pigiausi_pagal_kainu_vidurki(df_lt, n=8)
 #
 # ###      AUTOMATINĖS IR MECHANINĖS PAVARŲ DĖŽĖS PASISKIRSTYMAS       ####
 #
-countries = ['Lietuva', 'Lenkija', 'Vokietija']
-# Sujungia trijų valstybių DataFrame į vieną
-testdf = pd.concat([df_germany_in_lt, df_lithuania_in_lt, df_poland_in_lt])
-# Sudaroma dviejų ašių lentelė
-cross_tab_prop = pd.crosstab(index=testdf['country'],
-                             columns=testdf['transmission_type'],
-                             normalize="index")
-
-cross_tab_prop.plot(kind='bar',
-                    # Kelios reik6m4s viename stulpelyje
-                    stacked=True,
-                    colormap='tab10',
-                    figsize=(10, 6))
-# Einama per reikšmes ir uždedamos duomenų etiketės
-for i, (x, y) in enumerate(cross_tab_prop.iterrows()):
-    # Nustatoma duomenų etiketės vieta diagramoje
-    plt.text(x=i-0.05, y=y.Automatinė/2, s=f"{round(y.Automatinė*100)}%")
-    plt.text(x=i-0.05, y=(y.Mechaninė/2)+y.Automatinė, s=f"{round(y.Mechaninė*100)}%")
-# Legendos vieta ir jos stulplių skaičius
-plt.legend(loc="upper left", ncol=2)
-plt.xlabel("Valstybės")
-plt.ylabel("Dalis")
-plt.title('Automatinės ir mechaninės pavarų dėžės pasiskirstymas Lietuvoje, Vokietijoje ir Lenkijoje')
-plt.show()
+# countries = ['Lietuva', 'Lenkija', 'Vokietija']
+# # Sujungia trijų valstybių DataFrame į vieną
+# testdf = pd.concat([df_germany_in_lt, df_lithuania_in_lt, df_poland_in_lt])
+# # Sudaroma dviejų ašių lentelė
+# cross_tab_prop = pd.crosstab(index=testdf['country'],
+#                              columns=testdf['transmission_type'],
+#                              normalize="index")
+#
+# cross_tab_prop.plot(kind='bar',
+#                     # Kelios reik6m4s viename stulpelyje
+#                     stacked=True,
+#                     colormap='tab10',
+#                     figsize=(10, 6))
+# # Einama per reikšmes ir uždedamos duomenų etiketės
+# for i, (x, y) in enumerate(cross_tab_prop.iterrows()):
+#     # Nustatoma duomenų etiketės vieta diagramoje
+#     plt.text(x=i-0.05, y=y.Automatinė/2, s=f"{round(y.Automatinė*100)}%")
+#     plt.text(x=i-0.05, y=(y.Mechaninė/2)+y.Automatinė, s=f"{round(y.Mechaninė*100)}%")
+# # Legendos vieta ir jos stulplių skaičius
+# plt.legend(loc="upper left", ncol=2)
+# plt.xlabel("Valstybės")
+# plt.ylabel("Dalis")
+# plt.title('Automatinės ir mechaninės pavarų dėžės pasiskirstymas Lietuvoje, Vokietijoje ir Lenkijoje')
+# plt.show()
 
 
 ###      RIDOS IR AMZIAUS POVEIKIS KAINAI        ####
@@ -594,69 +594,69 @@ plt.show()
 #             xticklabels=rodikliai, yticklabels=rodikliai,)
 # ax.set_title("Automobilio pagaminimo metu ir kilometrazo itaka kainai", fontsize=10)
 # plt.figure(figsize=(12,8))
-# plt.savefig('Grafikas_ridos metu ir kainos priklausomybe')
+# plt.savefig('Grafikas_Ridos_metu_kainos priklausomybe')
 # plt.show()
-#
+
 
 
 #########################
 # Surkuriama f-ja pavaizduoti populiauriausias markes skirtingose valstybėse
-def distribution_of_brands(df,salis):
-    # Markės sudedamos į sąrašą
-    makes = df['brand'].tolist() 
-     # Suskaičiuojamos reikšmės, kiek kokių yra
-    make_counts = pd.Series(makes).value_counts()
-    top_7_car_makes = make_counts.head(7)
-      # Sumuojami kiti automobiliai, kurie nepapuola į TOP 7  ir nurodoma kaip Kita markė
-    for index, value in enumerate(df['brand']):
-        if(value not in top_7_car_makes): 
-            df.at[index, 'brand'] = 'Kita'
-    makes = df['brand'].tolist()
-    make_counts = pd.Series(makes).value_counts()
-    top_8_car_makes = make_counts.head(8)
-    #  Nustatomas šrifto dydis 
-    plt.rcParams['font.size'] = 8 
-    plt.pie(make_counts, labels=top_8_car_makes.index, autopct='%1.1f%%', startangle=90)
-    # Nustatomas tarpas tarp grafiko antraštės ir grafiko vidinės dalies
-    plt.title("Populiariausios parduodamų automobilių markės "+salis,  pad=20) # Nustatomas tarpas tarp grafiko antraštės ir grafiko vidinės dalies
-    plt.axis('equal')
-    plt.show()
-    return df
+# def distribution_of_brands(df,salis):
+#     # Markės sudedamos į sąrašą
+#     makes = df['brand'].tolist()
+#      # Suskaičiuojamos reikšmės, kiek kokių yra
+#     make_counts = pd.Series(makes).value_counts()
+#     top_7_car_makes = make_counts.head(7)
+#       # Sumuojami kiti automobiliai, kurie nepapuola į TOP 7  ir nurodoma kaip Kita markė
+#     for index, value in enumerate(df['brand']):
+#         if(value not in top_7_car_makes):
+#             df.at[index, 'brand'] = 'Kita'
+#     makes = df['brand'].tolist()
+#     make_counts = pd.Series(makes).value_counts()
+#     top_8_car_makes = make_counts.head(8)
+#     #  Nustatomas šrifto dydis
+#     plt.rcParams['font.size'] = 8
+#     plt.pie(make_counts, labels=top_8_car_makes.index, autopct='%1.1f%%', startangle=90)
+#     # Nustatomas tarpas tarp grafiko antraštės ir grafiko vidinės dalies
+#     plt.title("Populiariausios parduodamų automobilių markės "+salis,  pad=20) # Nustatomas tarpas tarp grafiko antraštės ir grafiko vidinės dalies
+#     plt.axis('equal')
+#     plt.show()
+#     return df
 
-distribution_of_brands(df_lithuania, "Lietuvoje")
-distribution_of_brands(df_germany, "Vokietijoje")
-distribution_of_brands(df_poland, "Lenkijoje")
+# distribution_of_brands(df_lithuania, "Lietuvoje")
+# distribution_of_brands(df_germany, "Vokietijoje")
+# distribution_of_brands(df_poland, "Lenkijoje")
 
 
 # # Sukuriama f-ja, išskirti ir nubraižyti diagramą ir atvaizduoti populiariausios markės populiariausius modelius valstybėse
-def distribution_of_models_in_most_popular_brand(df,salis):
-    makes = df['brand'].tolist()
-    make_counts = pd.Series(makes).value_counts()
-    top_car_make = make_counts.head(2)
-    k = 0
-    if(top_car_make.index[k] == 'Kita'):
-         k=1
-    df = df[df['brand'] == top_car_make.index[k]]
-    models = df['model'].tolist()
-    model_counts = pd.Series(models).value_counts()
-    top_7_brand_models = model_counts.head(7)
-    for index, value in enumerate(df['model']):
-        if(value not in top_7_brand_models):
-            df.at[index, 'model'] = 'Kita'
-    models = df['model'].tolist()
-    model_counts = pd.Series(models).value_counts()
-    top_8_brand_models = model_counts.head(8)
-    print(top_8_brand_models)
-    plt.rcParams['font.size'] = 8
-    plt.pie(top_8_brand_models.values, labels=top_8_brand_models.index, autopct='%1.1f%%', startangle=90)
-    plt.title("Populiariausios markės "+top_car_make.index[k]+" populiariausi modeliai "+salis,  pad=20)
-    plt.axis('equal')
-    plt.show()
-    plt.savefig("Populiariausios markės" + salis + ".png")  
-    return df
-distribution_of_models_in_most_popular_brand(df_lithuania, "Lietuvoje")
-distribution_of_models_in_most_popular_brand(df_germany, "Vokietijoje")
-distribution_of_models_in_most_popular_brand(df_poland, "Lenkijoje")
+# def distribution_of_models_in_most_popular_brand(df,salis):
+#     makes = df['brand'].tolist()
+#     make_counts = pd.Series(makes).value_counts()
+#     top_car_make = make_counts.head(2)
+#     k = 0
+#     if(top_car_make.index[k] == 'Kita'):
+#          k=1
+#     df = df[df['brand'] == top_car_make.index[k]]
+#     models = df['model'].tolist()
+#     model_counts = pd.Series(models).value_counts()
+#     top_7_brand_models = model_counts.head(7)
+#     for index, value in enumerate(df['model']):
+#         if(value not in top_7_brand_models):
+#             df.at[index, 'model'] = 'Kita'
+#     models = df['model'].tolist()
+#     model_counts = pd.Series(models).value_counts()
+#     top_8_brand_models = model_counts.head(8)
+#     print(top_8_brand_models)
+#     plt.rcParams['font.size'] = 8
+#     plt.pie(top_8_brand_models.values, labels=top_8_brand_models.index, autopct='%1.1f%%', startangle=90)
+#     plt.title("Populiariausios markės "+top_car_make.index[k]+" populiariausi modeliai "+salis,  pad=20)
+#     plt.axis('equal')
+#     plt.show()
+#     plt.savefig("Populiariausios markės" + salis + ".png")
+#     return df
+# distribution_of_models_in_most_popular_brand(df_lithuania, "Lietuvoje")
+# distribution_of_models_in_most_popular_brand(df_germany, "Vokietijoje")
+# distribution_of_models_in_most_popular_brand(df_poland, "Lenkijoje")
 
 ### AUTOMOBILIU REGISTRAVIMO STATISTIKA, KURO ASPEKTU
 
@@ -695,32 +695,25 @@ min_limit = np.floor(min_kaina/interval) * interval
 
 #atsidarome pries tai is xlx failiuku sudaryta faila (atskirame python file nuskaiciau 5 xlsx failus,
 # #konvertavau juos i csv ir sujungiau i viena csv.
-# regitros_data = pd.read_csv('Auto registered in 2018-2023.csv')
-# #issifiltruojame kad dirbsime su Naujais automobiliai
+regitros_data = pd.read_csv('Auto registered in 2018-2023.csv')
+# #issifiltruojame kad dirbsime su Naujais automobiliais
 #
-# nauji_auto = regitros_data[regitros_data['Naudota_nauja'] == 'Nauja']
+nauji_auto = regitros_data[regitros_data['Naudota_nauja'] == 'Nauja']
 # #kadangi yra daug stulpeliu, juos apsirasau kaip columns
-# columns = ['2018_01', '2018_02', '2018_03', '2018_04', '2018_05', '2018_06','2018_07', '2018_08', '2018_09', '2018_10',
-#         '2018_11', '2018_12', '2019_01', '2019_02', '2019_03', '2019_04', '2019_05', '2019_06', '2019_07', '2019_08',
-#         '2019_09', '2019_10', '2019_11', '2019_12', '2020_01', '2020_02', '2020_03', '2020_04', '2020_05', '2020_06',
-#         '2020_07', '2020_08', '2020_09', '2020_10', '2020_11', '2020_12', '2021_01', '2021_02', '2021_03', '2021_04',
-#         '2021_05', '2021_06', '2021_07', '2021_08', '2021_09', '2021_10', '2021_11', '2021_12','2022_01', '2022_02',
-#         '2022_03', '2022_04', '2022_05', '2022_06', '2022_07', '2022_08', '2022_09', '2022_10', '2022_11', '2022_12',
-#         '2023_01', '2023_02', '2023_03', '2023_04', '2023_05', '2023_06']
-#
-# selected_data=nauji_auto[['Degalu_rusis'] + columns]
-# #priskiriame nauja index(unikalus idet.),inpl = True uztikrina kad pokyciai bus atliekami dataframe selected_data
-# selected_data.set_index('Degalu_rusis', inplace=True)
-# #paverciame lentele
-# transposed_data_new=selected_data.transpose()
-#
-# # si lentele tampa neaktuali, kadangi sukureme nauja, kurioje atvaizduojamos abi
-# # transposed_data.plot(kind='line', figsize=(10,6))
-# # plt.xlabel('Laikotarpis')
-# # plt.ylabel('Registruoti automobiliai')
-# # plt.title('Lietuvoje registruotu NAUJU automobiliu dinamika pagal kuro tipa')
-# # plt.savefig('Grafikas_Lietuvoje regustruotu NAUJU automobiliu dinamika pagal kuro tipa')
-# # plt.show()
+columns = ['2018_01', '2018_02', '2018_03', '2018_04', '2018_05', '2018_06','2018_07', '2018_08', '2018_09', '2018_10',
+        '2018_11', '2018_12', '2019_01', '2019_02', '2019_03', '2019_04', '2019_05', '2019_06', '2019_07', '2019_08',
+        '2019_09', '2019_10', '2019_11', '2019_12', '2020_01', '2020_02', '2020_03', '2020_04', '2020_05', '2020_06',
+        '2020_07', '2020_08', '2020_09', '2020_10', '2020_11', '2020_12', '2021_01', '2021_02', '2021_03', '2021_04',
+        '2021_05', '2021_06', '2021_07', '2021_08', '2021_09', '2021_10', '2021_11', '2021_12','2022_01', '2022_02',
+        '2022_03', '2022_04', '2022_05', '2022_06', '2022_07', '2022_08', '2022_09', '2022_10', '2022_11', '2022_12',
+        '2023_01', '2023_02', '2023_03', '2023_04', '2023_05', '2023_06']
+
+selected_data=nauji_auto[['Degalu_rusis'] + columns]
+#priskiriame nauja index(unikalus idet.),inpl = True uztikrina kad pokyciai bus atliekami dataframe selected_data
+selected_data.set_index('Degalu_rusis', inplace=True)
+#paverciame lentele
+transposed_data_new=selected_data.transpose()
+
 # # #pakartojame viska su naudotais automobiliais
 # naudoti_auto = regitros_data[regitros_data['Naudota_nauja'] == 'Naudota']
 # columns = ['2018_01', '2018_02', '2018_03', '2018_04', '2018_05', '2018_06','2018_07', '2018_08', '2018_09', '2018_10',
@@ -734,103 +727,36 @@ min_limit = np.floor(min_kaina/interval) * interval
 # selected_data=naudoti_auto[['Degalu_rusis'] + columns]
 # selected_data.set_index('Degalu_rusis', inplace=True)
 # transposed_data_old=selected_data.transpose()
-# # si lentele tampa neaktuali, kadangi bus bendra lentele
-# # transposed_data.plot(kind='line', figsize=(10,6))
-# # plt.xlabel('Laikotarpis')
-# # plt.ylabel('Registruoti automobiliai')
-# # plt.title('Lietuvoje registruotu NAUDOTU automobiliu dinamika pagal kuro tipa')
-# # plt.legend(title='Degalu tipas')
-# # plt.savefig('Grafikas_Lietuvoje registruotu NAUDOTU automobiliu dinamika pagal kuro tipa')
-# # plt.show()
-# # #
+
 # # ###   AR EGZISTUOJA RYSYS TARP NAFTOS KAINOS UZ BARELI IR LIETUVIU VARTOTOJU IPROCIU RENKANTIS AUTOMOBILIO KURO TIPA:
 # # #naudoju is anksciau sutvarkytus duomenis
 # #
 # # #p.s Lygiagreciai buvo padaryti grafikai su NAUJAIS ir NAUDOTAIS automobiliais
 # # #kad sulyginti naftos duomenu kainas su auto registro datomis, nustatau, kad filtruotu nuo 2018-01-01
 # #
-# naftos_kainos_filtered = naftos_kainos[naftos_kainos['date'] >='2018-01-01']
-# #apsirasau, kad bus du grafikai
-# fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(10, 10))
-#
-# paverciame lentele
-# transposed_data=selected_data.transpose()
-# transposed_data.plot(kind='line', figsize=(10,6))
-# plt.xlabel('Laikotarpis')
-# plt.ylabel('Registruoti automobiliai')
-# plt.title('Lietuvoje registruotu NAUJU automobiliu dinamika pagal kuro tipa')
-
-#plt.show()
-#pakartojame viska su naudotais automobiliais
-naudoti_auto = regitros_data[regitros_data['Naudota_nauja'] == 'Naudota']
-columns = ['2018_01', '2018_02', '2018_03', '2018_04', '2018_05', '2018_06','2018_07', '2018_08', '2018_09', '2018_10',
-        '2018_11', '2018_12', '2019_01', '2019_02', '2019_03', '2019_04', '2019_05', '2019_06', '2019_07', '2019_08',
-        '2019_09', '2019_10', '2019_11', '2019_12', '2020_01', '2020_02', '2020_03', '2020_04', '2020_05', '2020_06',
-        '2020_07', '2020_08', '2020_09', '2020_10', '2020_11', '2020_12', '2021_01', '2021_02', '2021_03', '2021_04',
-        '2021_05', '2021_06', '2021_07', '2021_08', '2021_09', '2021_10', '2021_11', '2021_12','2022_01', '2022_02',
-        '2022_03', '2022_04', '2022_05', '2022_06', '2022_07', '2022_08', '2022_09', '2022_10', '2022_11', '2022_12',
-        '2023_01', '2023_02', '2023_03', '2023_04', '2023_05', '2023_06']
-
-selected_data=naudoti_auto[['Degalu_rusis'] + columns]
-
-selected_data.set_index('Degalu_rusis', inplace=True)
-transposed_data=selected_data.transpose()
-
-transposed_data.plot(kind='line', figsize=(10,6))
-plt.xlabel('Laikotarpis')
-plt.ylabel('Registruoti automobiliai')
-plt.title('Lietuvoje registruotu NAUDOTU automobiliu dinamika pagal kuro tipa')
-plt.legend(title='Degalu tipas')
-plt.show()
-
-###   AR EGZISTUOJA RYSYS TARP NAFTOS KAINOS UZ BARELI IR LIETUVIU VARTOTOJU IPROCIU RENKANTIS AUTOMOBILIO KURO TIPA:
-#naudoju is anksciau sutvarkytus duomenis
-
-#p.s Lygiagreciai buvo padaryti grafikai su NAUJAIS ir NAUDOTAIS automobiliais
-#kad sulyginti naftos duomenu kainas su auto registro datomis, nustatau, kad filtruotu nuo 2018-01-01
-
-# naftos_kainos_filtered = naftos_kainos[naftos_kainos['date'] >='2018-01-01']
+naftos_kainos_filtered = naftos_kainos[naftos_kainos['date'] >='2018-01-01']
 #apsirasau, kad bus du grafikai
-# fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(10, 10))
-
-# #1  grafiko duomenys
-# ax1.plot(naftos_kainos_filtered['date'], naftos_kainos_filtered['oil'], linestyle='-', marker='o')
-# ax1.set_xlabel('Laikotarpis')
-# ax1.set_ylabel('Naftos kaina uz bareli')
-# ax1.set_title('Naftos kainos uz bareli kitimo grafikas')
-# #kad sutvarkyti datas, panaudoju mdates
-# ax1.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m'))
-# #2 grafiko duomenys
-# transposed_data_new.plot(kind='line', ax=ax2, figsize=(10, 6))
-# ax2.set_xlabel('Laikotarpis')
-# ax2.set_ylabel('Registruoti automobiliai')
-# ax2.set_title('Lietuvoje registruotu NAUJU automobiliu dinamika pagal kuro tipa')
-# transposed_data.plot(kind='line', ax=ax2, figsize=(10, 6))
-# ax2.set_xlabel('Laikotarpis')
-# ax2.set_ylabel('Registruoti automobiliai')
-# ax2.set_title('Lietuvoje registruotu NAUDOTU automobiliu dinamika pagal kuro tipa')
-# #neuzteko nuro dyti loc='upper right', naudojame bbox_to_anchor(x,y)
-# ax2.legend(title='Degalu tipas', loc='upper right', bbox_to_anchor=(1.2, 1.08))
-# #nustatomas tarpas tarp lenteliu
-# plt.subplots_adjust(hspace=0.5)
-# plt.savefig(grafikai +'Grafikas_Nauji_auto ir barelio kainos')
-# plt.show()#
-
-###  PROGNOZAVIMAS. Kokia automobilio kaina, ivedus ridos, markes, metu reiksmes.
-
-# #ruosiame duomenis treniravimui
-# X = df_de[['year', 'model', 'mileage_in_km']]
-# y = df_de['price_in_euro']
-# X_encoded = pd.get_dummies(X)
+fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(10, 10))
 #
-# #daliname duomenis i treniravimo rinkinius
-# X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-# #treniruojame tiesines regresijos modeli
-# model = LinearRegression()
-# model.fit(X_encoded, y)
-#
+#1  grafiko duomenys
+ax1.plot(naftos_kainos_filtered['date'], naftos_kainos_filtered['oil'], linestyle='-', marker='o')
+ax1.set_xlabel('Laikotarpis')
+ax1.set_ylabel('Naftos kaina uz bareli')
+ax1.set_title('Naftos kainos uz bareli kitimo grafikas')
+#kad sutvarkyti datas, panaudoju mdates
+ax1.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m'))
+#2 grafiko duomenys
+transposed_data_new.plot(kind='line', ax=ax2, figsize=(10, 6))
+ax2.set_xlabel('Laikotarpis')
+ax2.set_ylabel('Registruoti automobiliai')
+ax2.set_title('Lietuvoje registruotu NAUJU automobiliu dinamika pagal kuro tipa')
 
-#plt.show()#
+#neuzteko nurodyti loc='upper right', naudojame bbox_to_anchor(x,y)
+ax2.legend(title='Degalu tipas', loc='upper right', bbox_to_anchor=(1.2, 1.08))
+#nustatomas tarpas tarp lenteliu
+plt.subplots_adjust(hspace=0.5)
+plt.savefig('Grafikas_Nauji_auto ir barelio kainos')
+plt.show()#
 
 ###  PROGNOZAVIMAS. Kokia automobiilio kaina, ivedus ridos, markes, metu reiksmes.
 

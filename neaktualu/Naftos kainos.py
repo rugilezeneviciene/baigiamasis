@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-data = pd.read_csv('naftos kainos.csv', delimiter=';')
+data = pd.read_csv('../naftos kainos.csv', delimiter=';')
 df = pd.DataFrame(data)
 
 print(df.dtypes)
