@@ -23,6 +23,7 @@ Projekto eiga
 3. Duomenų tvarkymas: tuščių eilučių pašalinimas, duomenų tipų suvienodinimas ir nustatymas, pavadinimų suvienodinimas.
 4. Analizė ir grafikų braižymas
 5. Prognozavimo modelio sudarymas
+   
 Naudotos bibliotekos ir įrankiai
 1. Duomenų pasiėmimui iš Autogidas.lt naudojama angl. Scrappinimas.
 2. Duomenų įkėlimui, tvarkymui ir atvaizdavimui kuriamos funkcijos.
