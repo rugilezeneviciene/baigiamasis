@@ -544,7 +544,7 @@ cheapest_brands = top_8_pigiausi_pagal_kainu_vidurki(df_lt, n=8)
 #
 #
 #
-# ###      RIDOS IR PAGAMINIMO METU POVEIKIS KAINAI        ####
+# ###      AUTOMATINĖS IR MECHANINĖS PAVARŲ DĖŽĖS PASISKIRSTYMAS       ####
 #
 countries = ['Lietuva', 'Lenkija', 'Vokietija']
 # Sujungia trijų valstybių DataFrame į vieną
