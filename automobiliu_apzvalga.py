@@ -6,7 +6,9 @@ import psycopg2
 import time
 import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_squared_error
 import seaborn as sns
+
 
 
 # # Surenkami duomenys iš autogidas.lt portalo
@@ -155,21 +157,6 @@ import seaborn as sns
 # #     connection.close()
 # # insert_data()
 
-# Sukuriama f-ja suskaičiuoti automobilių amžiui skirtingose valstybėse
-def calculate_age(dataframe):
-    for index, value in enumerate(dataframe['year']):
-        try:
-            dataframe.at[index, 'year'] = int(value)
-            dataframe.at[index, 'age'] = 2023 - dataframe.at[index, 'year']
-        except ValueError:
-            dataframe.at[index, 'year'] = None  
-#     #print(dataframe)
-    return dataframe
-
-# Sukuriami skirtingų valstybių duomenų DataFrame su automobilių amžiumi ir duomenimis, nuskaitytais iš csv
-df_lithuania = calculate_age(pd.read_csv('auto_listings.csv'))
-df_germany = calculate_age(pd.read_csv('Germany_autoscout24_2023.csv'))
-df_poland = calculate_age(pd.read_csv('Polish_market_scrapped_on_2023 06 27.csv'))
 
 #Rugiles apsibrezimai:df_de ( Vokietija), df_pl (Lenkija), df_lt(lietuva)
 #nuskaitome faila su vokietijos duomenimis.
@@ -266,14 +253,35 @@ df_lt = df_lt.drop(df_lt[df_lt['fuel_type'] == '2020 y'].index)
 df_lt['fuel_type'] = df_lt['fuel_type'].str.replace("Gasoline", "Petrol")
 
 
+
+### Sukuriama f-ja suskaičiuoti automobilių amžiui skirtingose valstybėse
+def calculate_age(dataframe):
+    for index, value in enumerate(dataframe['year']):
+        try:
+            dataframe.at[index, 'year'] = int(value)
+            dataframe.at[index, 'age'] = 2023 - dataframe.at[index, 'year']
+        except ValueError:
+            dataframe.at[index, 'year'] = None  
+#     #print(dataframe)
+    return dataframe
+
+
+# Sukuriami skirtingų valstybių duomenų DataFrame su automobilių amžiumi ir duomenimis, nuskaitytais iš csv
+df_lithuania = calculate_age(pd.read_csv('auto_listings.csv'))
+df_germany = calculate_age(pd.read_csv('Germany_autoscout24_2023.csv'))
+df_poland = calculate_age(pd.read_csv('Polish_market_scrapped_on_2023 06 27.csv'))
+
+
 # Skaičiuojamas skirtingose valstybėse parduodamų automobilių amžiaus vidurkis
 avg_age_lt = df_lithuania['age'].mean()
 avg_age_pl = df_germany['age'].mean()
 avg_age_ger = df_poland['age'].mean()
 
+
 print(avg_age_lt)
 print(avg_age_pl)
 print(avg_age_ger)
+
 
 # # Nubraižomas grafikas pavaizduoti vidutinį parduodamų automobilių amžių kiekvienoje šalyje
 countries = ['Lietuva', 'Vokietija', 'Lenkija']
@@ -285,6 +293,8 @@ plt.xlabel('Valstybė')
 plt.ylabel('Vidutinis amžius')
 plt.title('Vidutinis parduodamų automobilių amžius Lietuvoje, Lenkijoje ir Vokietijoje', pad=20)
 plt.show()
+
+
 
 # Sukuriama f-ja suskaičiuoti skirtingo amžiaus parduodamų automobilių skaičių kiekvienoje valstybėje
 # def vehicle_ages_graph(df,country):
@@ -305,7 +315,11 @@ plt.show()
 # vehicle_ages_graph(df_germany,'Vokietijoje')
 # vehicle_ages_graph(df_poland,'Lenkijoje')
 
-#KURIO BRANDO VIDUTINE KAINA YRA DIDZIAUSIA?
+
+
+
+### KURIO BRANDO VIDUTINE KAINA YRA DIDZIAUSIA?
+
 
 #pasirasome funkcija suskaiciuoti modelius, kuriu vidutine kaina yra didziauia
 def top_8_brangiausi_pagal_kainu_vidurki(data, n=8):
@@ -360,6 +374,7 @@ def main(data, n=8):
 # input irasome pvz.Vokietijoje
 #Vokietija = main(df_lt)
 
+
 #pasirasome funkcija suskaiciuoti modelius, kuriu vidutine kaina yra maziausia:
 def top_8_pigiausi_pagal_kainu_vidurki(data, n=8):
     average_price = data.groupby('brand')['price_in_euro'].mean()
@@ -391,7 +406,7 @@ cheapest_brands = top_8_pigiausi_pagal_kainu_vidurki(df_lt, n=8)
 #         main2(df_de)
 # Vokietija = main2(df_de)
 
-# Kuro pasiskirstymas pagal salis
+###  KURO PASISKIRSTYMAS PAGAL SALIS ###
 #kad kiekviena salis turetu savo stulpeli, pridedame:
 df_de['Country'] = 'Germany'
 df_pl['Country'] = 'Poland'
@@ -430,7 +445,10 @@ plt.legend(title='Country', loc='upper right')
 plt.savefig("Grafikas_kuro pasiskirstymas pagal salis")
 plt.show()
 
-# PAVARU DEZES (AUTOMATINE/MECHANINE) PASISKIRSTYMAS PAGAL SALIS
+
+
+### PAVARU DEZES (AUTOMATINE/MECHANINE) PASISKIRSTYMAS PAGAL SALIS ###
+
 # Sukuriama f-ja pakeisti pavadinimus iš EN į LT
 # Jei PL, naudojamas kitas pavadinimas
 def change_en_to_lt(df, salis, isPL=False):
@@ -449,6 +467,7 @@ def change_en_to_lt(df, salis, isPL=False):
         else:
             df.at[index, transmission_column] = 'Kita'
     return df
+
 # Sutvarkomi pavarų dėžių duomenys pašalinant nekorektiškas reikšmes (Kita)
 df_lithuania_in_lt = change_en_to_lt(df_lithuania,'Lietuva')
 df_lithuania_in_lt= df_lithuania_in_lt[df_lithuania_in_lt['transmission_type'] != 'Kita']
@@ -466,7 +485,6 @@ df_germany_in_lt= df_germany_in_lt[df_germany_in_lt['transmission_type'] != 'Unk
 # print(transmission_type_counts_pl)
 transmission_type_counts_ger = df_germany_in_lt['transmission_type'].value_counts()
 # print(transmission_type_counts_ger)
-
 
 
 # # transmission_type_counts_lt.plot(kind='pie')
@@ -508,7 +526,10 @@ plt.xlabel("Valstybės")
 plt.ylabel("Dalis")
 plt.show()
 
-#Ridos poveikis kainai
+
+
+###      RIDOS IR AMZIAUS POVEIKIS KAINAI        ####
+
 #sukuriu duomenu sujungimo funkcija
 def concat_data(df_de, df_pl, df_lt, columns_to_concat, columns_to_return):
     dataframes = [df_de[columns_to_concat], df_pl[columns_to_concat], df_lt[columns_to_concat]]
@@ -588,7 +609,8 @@ def concat_data(df_de, df_pl, df_lt, columns_to_concat, columns_to_return):
 # distribution_of_models_in_most_popular_brand(df_germany, "Vokietijoje")
 # distribution_of_models_in_most_popular_brand(df_poland, "Lenkijoje")
 
-#####Automobiliu pagal kuro tipa registravimo statistika Lietuvoje
+### AUTOMOBILIU REGISTRAVIMO STATISTIKA, KURO ASPEKTU
+
 #atsidarome pries tai is xlx failiuku sudaryta faila (atskirame python file nuskaiciau 5 xlsx failus,
 #konvertavau juos i csv ir sujungiau i viena csv.
 
@@ -638,8 +660,9 @@ plt.title('Lietuvoje registruotu NAUDOTU automobiliu dinamika pagal kuro tipa')
 plt.legend(title='Degalu tipas')
 plt.show()
 
-#Ar egzistuoja rysys tarp naftos kainos uz bareli ir Lietuviu vartotoju iprociai renkatis automobilio kuro tipa:
+###   AR EGZISTUOJA RYSYS TARP NAFTOS KAINOS UZ BARELI IR LIETUVIU VARTOTOJU IPROCIU RENKANTIS AUTOMOBILIO KURO TIPA:
 #naudoju is anksciau sutvarkytus duomenis
+
 #p.s Lygiagreciai buvo padaryti grafikai su NAUJAIS ir NAUDOTAIS automobiliais
 #kad sulyginti naftos duomenu kainas su auto registro datomis, nustatau, kad filtruotu nuo 2018-01-01
 
@@ -666,10 +689,11 @@ plt.subplots_adjust(hspace=0.5)
 
 #plt.show()#
 
-#PROGNOZAVIMAS. Kokia automobiilio kaina, ivedus ridos, markes, metu reiksmes.
+###  PROGNOZAVIMAS. Kokia automobiilio kaina, ivedus ridos, markes, metu reiksmes.
+
 #ruosiame duomenis treniravimui
-X = df[['year', 'model', 'mileage_in_km']]
-y = df['price_in_euro']
+X = df_de[['year', 'model', 'mileage_in_km']]
+y = df_de['price_in_euro']
 X_encoded = pd.get_dummies(X)
 
 #daliname duomenis i treniravimo rinkinius
