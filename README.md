@@ -40,6 +40,7 @@ Analizės klausimai:
 5. Transmisijos tipo pasiskirstymas skirtingose šalyse.
 6. Automobilių markių pasiskirstymas skirtingose šalyse.
 7. Ar pasiskirstymui turi įtakos naftos kainos už barelį pokyčiai?
+   
 Išvados
 1. Lietuvoje didžiausias vidutinis parduodamų automobilių amžius, o Vokietijoje mažiausias.
 2. Lenkijoje ir Vokietijoje vidutiniškai brangiausia automobilio markė  - Lamborghini, Lietuvoje - Porsche. Lenkijoje ir Vokietijoje vidutiniškai brangiausia automobilio markė  - Daewoo, Lietuvoje - Moskvitch.
