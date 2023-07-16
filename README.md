@@ -25,15 +25,14 @@ Naudotos bibliotekos ir įrankiai
  
 Duomenų analizė
 Analizės klausimai:
-1.   	Išanalizuoti automobilių amžiaus pasiskirstymą skirtingose šalyse. Kokio amžiaus automobiliai populiariausi?
-2.   	Remiantis vidutine modelių kaina, išsiaiškinti, kurie automobiliai yra brangiausi ir kurie pigiausi skirtingose šalyse.
-3.   	Įvertinti ridos ir amžiaus įtaką automobilio kainai.
-4.   	Kuro tipo pasiskirstymas skirtingose šalyse.
-5.   	Transmisijos tipo pasiskirstymas skirtingose šalyse.
-6.   	Automobilių markių pasiskirstymas skirtingose šalyse.
-7.   	Lietuvoje registruotų automobilių pasiskirstymas pagal kuro tipą?
-8.   	Ar pasiskirstymui turi įtakos naftos kainos už barelį pokyčiai?
-  
+1. Išanalizuoti automobilių amžiaus pasiskirstymą skirtingose šalyse. Kokio amžiaus automobiliai populiariausi?
+2. Remiantis vidutine modelių kaina, išsiaiškinti, kurie automobiliai yra brangiausi ir kurie pigiausi skirtingose šalyse.
+3. Įvertinti ridos ir amžiaus įtaką automobilio kainai.
+4. Kuro tipo pasiskirstymas skirtingose šalyse.
+5. Transmisijos tipo pasiskirstymas skirtingose šalyse.
+6. Automobilių markių pasiskirstymas skirtingose šalyse.
+7. Lietuvoje registruotų automobilių pasiskirstymas pagal kuro tipą?
+8. Ar pasiskirstymui turi įtakos naftos kainos už barelį pokyčiai?
 Išvados
 Lietuvoje didžiausias vidutinis parduodamų automobilių amžius, o Vokietijoje mažiausias.
 Lenkijoje ir Vokietijoje vidutiniškai brangiausia automobilio markė  - Lamborghini, Lietuvoje - Porsche. Lenkijoje ir Vokietijoje vidutiniškai brangiausia automobilio markė  - Daewoo, Lietuvoje - Moskvitch.
