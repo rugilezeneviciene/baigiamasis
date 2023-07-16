@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 import seaborn as sns
 
+
 # # Surenkami duomenys iš autogidas.lt portalo
 # def scrape_auto_listings():
 #     auto_listings = [] #Sukuriamas tuščias sąrašas

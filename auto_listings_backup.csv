@@ -1,0 +1,3031 @@
+id,brand,model,year,transmission_type,mileage_in_km,fuel_type,price_in_euro
+1,Kia,Sorento,2004,Mechanical,,Diesel,2450
+2,Volkswagen,Sharan,2000,Mechanical,300000.0,Diesel,1250
+3,BMW,320,2001,Mechanical,302230.0,Diesel,1499
+4,Volkswagen,Passat,2005,Mechanical,,Diesel,1700
+5,BMW,523,2000,Mechanical,,Petrol / Gas,2290
+6,Volkswagen,Touran,2007,Automatic,337726.0,Diesel,2999
+7,BMW,X5,2005,Automatic,261083.0,Diesel,4300
+8,BMW,320,2001,Mechanical,310.0,Diesel,1200
+9,Jeep,Cherokee,2004,Automatic,,Diesel,2650
+10,Peugeot,1007,2005,Automatic,176000.0,Gasoline,1000
+11,Volkswagen,Golf V,2005,Mechanical,,Gasoline,2699
+12,Volkswagen,Golf Plus,2007,Mechanical,233000.0,Diesel,3099
+13,Volkswagen,Golf,2008,Automatic,253000.0,Diesel,3199
+14,Audi,A6 C6,2008,Mechanical,341200.0,Diesel,3950
+15,Audi,A4,2009,Mechanical,,Diesel,4250
+16,BMW,530,2001,Automatic,375250.0,Diesel,1190
+17,Honda,Shuttle,2003,Automatic,,Gasoline,1600
+18,Volvo,S40 II,2005,Mechanical,301000.0,Diesel,1650
+19,Audi,A6 C5,2001,Automatic,,Diesel,850
+20,Volkswagen,Fox,2010,Mechanical,186000.0,Diesel,1850
+21,Nissan,X-Trail I,2006,Mechanical,,Diesel,2900
+22,Volkswagen,Golf,2009,Mechanical,209850.0,Diesel,3000
+23,Audi,A6 C6,2006,Automatic,319000.0,Diesel,4500
+24,BMW,320 E90,2006,Mechanical,291000.0,Diesel,4850
+25,Mercedes-Benz,GLA 250,2019,Automatic,16000.0,Gasoline,24500
+26,Opel,Vectra,2000,Mechanical,,Petrol / Gas,500
+27,Opel,Astra,2000,Mechanical,280000.0,Gasoline,580
+28,Volkswagen,Passat B5,1997,Mechanical,,Diesel,999
+29,Suzuki,Liana,2002,Mechanical,287000.0,Gasoline,999
+30,Opel,Astra,1993,Mechanical,,Gasoline,999
+31,Toyota,Corolla,2005,Mechanical,224000.0,Diesel,1000
+32,Toyota,Avensis,2003,Mechanical,,Diesel,1050
+33,Mitsubishi,Space Star,2003,Mechanical,319000.0,Diesel,1199
+34,Audi,A6 C5,2003,Automatic,340000.0,Diesel,1200
+35,Citroen,Berlingo,2010,Mechanical,243000.0,Gasoline,1399
+36,Volvo,V50,2005,Mechanical,279000.0,Gasoline,1399
+37,Subaru,Legacy,2004,Mechanical,120000.0,Gasoline,1500
+38,Volvo,S60,2005,Mechanical,332000.0,Diesel,1599
+39,Volvo,S40,2007,Mechanical,210000.0,Gasoline,1599
+40,Volvo,V50,2005,Mechanical,,Diesel,1650
+41,Honda,Civic,2008,Automatic,,Gasoline,1650
+42,Ford,Focus C-Max,2007,Mechanical,254000.0,Diesel,1799
+43,Volkswagen,Sharan I,2002,Mechanical,,Diesel,1800
+44,MINI,ONE,2002,Mechanical,133000.0,Gasoline,1999
+45,Volkswagen,Passat,2007,Mechanical,,Diesel,2250
+46,Opel,Frontera,2002,Mechanical,270000.0,Diesel,2350
+47,Ford,Mondeo,2008,Automatic,337000.0,Gasoline,2399
+48,Mercedes-Benz,ML 270,2003,Automatic,310.0,Diesel,2750
+49,Nissan,X-Trail,2004,Mechanical,,Diesel,2750
+50,Citroen,Jumpy,2008,Mechanical,288000.0,Diesel,2799
+51,Peugeot,308,2012,Mechanical,136000.0,Gasoline,2800
+52,Fiat,Doblo,2010,Mechanical,279000.0,Diesel,2999
+53,Chevrolet,Epica,2007,Automatic,125000.0,Diesel,2999
+54,Volkswagen,Golf Plus,2006,Automatic,278000.0,Diesel,3000
+55,Citroen,C5,2012,Mechanical,243000.0,Diesel,3199
+56,Hyundai,Santa Fe,2006,Mechanical,,Diesel,3250
+57,Volkswagen,Passat,2007,Mechanical,,Diesel,3350
+58,Skoda,Octavia,2009,Automatic,289000.0,Diesel,3499
+59,Subaru,OUTBACK,2004,Mechanical,182000.0,Gasoline,3500
+60,BMW,530,2007,Automatic,,Diesel,3600
+61,Audi,A6 C6,2006,Mechanical,272000.0,Diesel,3650
+62,Volkswagen,Transporter,2004,Mechanical,,Diesel,3950
+63,Volkswagen,Touran,2007,Mechanical,191000.0,Diesel,3960
+64,BMW,118,2011,Mechanical,278000.0,Diesel,3999
+65,Toyota,RAV4,2006,Automatic,,Gasoline,4000
+66,Nissan,Navara,2008,Mechanical,,Diesel,4800
+67,Hyundai,Santa Fe II,2009,Mechanical,247930.0,Diesel,4900
+68,Renault,Koleos,2012,Mechanical,262000.0,Diesel,5400
+69,Mercedes-Benz,E 250,2009,Automatic,279000.0,Diesel,5499
+70,Audi,A4,2012,Automatic,,Gasoline,5950
+71,Iveco,Daily,2013,Mechanical,194000.0,Diesel,5999
+72,MINI,Countryman,2011,Mechanical,186000.0,Diesel,6999
+73,Mercedes-Benz,190,1990,Mechanical,270000.0,Gasoline,10000
+74,Volvo,XC60,2013,Automatic,179324.0,Petrol / Gas,14000
+75,Volvo,S80,2001,Mechanical,220000.0,Diesel,450
+76,Audi,A4,1997,Mechanical,295000.0,Diesel,700
+77,Opel,Meriva,2004,Mechanical,280000.0,Petrol / Gas,750
+78,Mitsubishi,Colt,2005,Mechanical,,Diesel,780
+79,Volkswagen,Golf IV,2000,Mechanical,311000.0,Diesel,800
+80,Volkswagen,Passat,1997,Mechanical,474550.0,Diesel,800
+81,Volkswagen,Passat B5 FL,2003,Mechanical,32417.0,Diesel,900
+82,Volkswagen,Golf IV,2001,Mechanical,,Diesel,900
+83,Toyota,Avensis II,2004,Mechanical,,Diesel,1350
+84,Volkswagen,Passat B5 FL,2004,Mechanical,361000.0,Diesel,1450
+85,Skoda,Fabia I,2006,Mechanical,119000.0,Gasoline,1550
+86,Volkswagen,Golf,1999,Mechanical,,Diesel,1650
+87,Honda,FR-V,2006,Mechanical,,Diesel,1750
+88,Volkswagen,Golf IV,2003,Automatic,234000.0,Diesel,1900
+89,Audi,A4 B6,2003,Mechanical,,Gasoline,1950
+90,BMW,330 E46,2003,Mechanical,,Diesel,2150
+91,Renault,Megane,2008,Mechanical,135000.0,Diesel,2200
+92,Volkswagen,Passat,2007,Mechanical,352000.0,Diesel,2340
+93,Volkswagen,Touran I,2005,Automatic,255745.0,Gasoline,2450
+94,Mercedes-Benz,Sprinter,2005,Mechanical,450000.0,Diesel,2450
+95,BMW,530 E60,2004,Automatic,400.0,Diesel,2500
+96,Toyota,Corolla,2006,Mechanical,344516.0,Diesel,2850
+97,Volkswagen,Passat,2009,Automatic,240000.0,Diesel,3450
+98,Opel,Zafira,2008,Mechanical,243670.0,Diesel,3550
+99,Hyundai,H-1,1998,Mechanical,242860.0,Diesel,4400
+100,Audi,A6 C6,2004,Automatic,326878.0,Diesel,4750
+101,Volkswagen,Jetta,2014,Mechanical,334000.0,Diesel,5000
+102,Mitsubishi,Outlander,2010,Automatic,32000.0,Petrol / Gas,5650
+103,BMW,320,2008,Mechanical,,Gasoline,6450
+104,Audi,A6,2011,Automatic,188000.0,Gasoline,7850
+105,Hyundai,ix35,2012,Mechanical,194900.0,Gasoline,8200
+106,Toyota,Prius,2012,Automatic,203425.0,Gasoline/Electric,8400
+107,Volkswagen,Golf,2016,Automatic,274000.0,Diesel,9900
+108,Mercedes-Benz,S 350 W221,2013,Automatic,397000.0,Diesel,9999
+109,BMW,X6 E71,2009,Automatic,333000.0,Diesel,11750
+110,Mazda,CX-5,2017,Automatic,145000.0,Diesel,14700
+111,Citroen,Xsara Picasso,2000,Mechanical,,Gasoline,250
+112,Volkswagen,Polo IV,2002,Mechanical,,Diesel,300
+113,Audi,80 B3,1987,Mechanical,296358.0,Gasoline,420
+114,Honda,Accord,1999,Automatic,,Petrol / Gas,450
+115,Opel,Zafira,2001,Mechanical,,Diesel,450
+116,Volvo,V50,2005,Mechanical,239000.0,Diesel,500
+117,Volkswagen,Golf IV,1999,Mechanical,,Diesel,520
+118,Volkswagen,Golf,2003,Mechanical,,Diesel,550
+119,Audi,A4,1996,Mechanical,,Diesel,599
+120,Nissan,Terrano,1995,Mechanical,185400.0,Gasoline,599
+121,Volkswagen,Passat,1990,Mechanical,,Diesel,600
+122,Volkswagen,Passat B5,1997,Mechanical,308552.0,Diesel,649
+123,Kia,Ceed,2007,Mechanical,,Diesel,650
+124,Audi,A6 C5,1999,Mechanical,456549.0,Diesel,660
+125,Volkswagen,Golf,1998,Mechanical,,Diesel,690
+126,BMW,520 E39,2002,Mechanical,,Diesel,750
+127,Audi,A6 C5,2003,Automatic,,Gasoline,850
+128,Audi,A4,1997,Automatic,167000.0,Gasoline,890
+129,Volkswagen,Passat B5 FL,2004,Mechanical,,Diesel,900
+130,Volkswagen,Passat B5,1997,Mechanical,181481.0,Gasoline,990
+131,Peugeot,307,2005,Mechanical,,Diesel,999
+132,Volkswagen,Sharan,2003,Automatic,,Diesel,1000
+133,Audi,A4,2006,Automatic,,Diesel,1000
+134,Audi,A4 B6,2002,Mechanical,,Diesel,1050
+135,Opel,Astra,1999,Automatic,244153.0,Diesel,1100
+136,Volkswagen,Golf,2006,Mechanical,,Gasoline,1150
+137,Subaru,Legacy,2008,Mechanical,,Diesel,1200
+138,Opel,Zafira,1999,Mechanical,246000.0,Gasoline,1200
+139,Volvo,V70,2001,Mechanical,,Diesel,1250
+140,Toyota,Corolla Verso,2002,Mechanical,,Diesel,1250
+141,Volvo,S60,2002,Mechanical,,Diesel,1300
+142,Opel,Meriva,2007,Mechanical,239000.0,Diesel,1350
+143,Volkswagen,Passat,2001,Mechanical,,Diesel,1380
+144,Toyota,Corolla Verso,2004,Mechanical,349000.0,Diesel,1400
+145,Seat,Leon II,2005,Mechanical,310000.0,Diesel,1450
+146,Volvo,S60,2002,Mechanical,386240.0,Diesel,1450
+147,Mercedes-Benz,C 240 W203,2000,Automatic,210000.0,Petrol / Gas,1450
+148,Volkswagen,Passat B5 FL,2003,Mechanical,,Diesel,1499
+149,Volkswagen,Passat B5 FL,2001,Mechanical,430000.0,Diesel,1500
+150,Audi,A6,2005,Automatic,353000.0,Diesel,1500
+151,Audi,A4 B6,2003,Mechanical,307852.0,Diesel,1500
+152,Saab,9-3,2004,Mechanical,265694.0,Gasoline,1500
+153,BMW,320 E46,2003,Mechanical,333333.0,Diesel,1500
+154,Volkswagen,Golf V,2005,Mechanical,,Gasoline,1500
+155,Opel,Meriva,2008,Mechanical,228000.0,Diesel,1500
+156,Seat,Alhambra,2001,Mechanical,400000.0,Diesel,1500
+157,Audi,A6 C5,2004,Mechanical,355781.0,Diesel,1500
+158,Audi,A6 C6,2006,Mechanical,433359.0,Gasoline,1500
+159,Toyota,Avensis Verso,2002,Mechanical,295000.0,Diesel,1500
+160,Audi,A8,1998,Automatic,364600.0,Diesel,1550
+161,Mercedes-Benz,C 220,2005,Automatic,,Diesel,1550
+162,BMW,320 E46,2003,Mechanical,,Diesel,1600
+163,Mercedes-Benz,E 320 W211,2005,Automatic,260000.0,Diesel,1600
+164,Volkswagen,Golf,2004,Mechanical,332000.0,Diesel,1600
+165,Volvo,V70,2002,Mechanical,,Diesel,1600
+166,Toyota,Yaris Verso,2004,Mechanical,,Diesel,1600
+167,Volkswagen,Golf,1984,Mechanical,,Gasoline,1650
+168,Nissan,Juke,2011,Mechanical,170000.0,Gasoline,1650
+169,Opel,Astra III,2005,Mechanical,,Diesel,1650
+170,Opel,Frontera,2001,Mechanical,,Gasoline,1650
+171,BMW,318 E46,2004,Mechanical,,Gasoline,1650
+172,Audi,100 C3,1989,Mechanical,300000.0,Gasoline,1650
+173,Mercedes-Benz,E 290,1993,Automatic,,Diesel,1700
+174,Renault,Master III,2007,Mechanical,,Diesel,1700
+175,Opel,Astra,2006,Mechanical,,Diesel,1700
+176,Peugeot,Boxer,2002,Mechanical,321644.0,Diesel,1700
+177,Volkswagen,Golf V,2008,Mechanical,317000.0,Diesel,1700
+178,Peugeot,407,2005,Mechanical,293410.0,Gasoline,1700
+179,Audi,A4 B5,1998,Mechanical,270420.0,Gasoline,1700
+180,Volkswagen,Bora,2000,Mechanical,326000.0,Petrol / Gas,1700
+181,Volvo,V50,2005,Mechanical,,Diesel,1749
+182,Opel,Astra,2001,Mechanical,240808.0,Gasoline,1750
+183,Volvo,S40 II,2004,Mechanical,306000.0,Diesel,1750
+184,Volkswagen,Bora,2000,Mechanical,265000.0,Diesel,1750
+185,Opel,Signum,2007,Mechanical,278893.0,Diesel,1750
+186,Toyota,RAV4,2001,Mechanical,85.0,Diesel,1750
+187,Volkswagen,Passat,2003,Mechanical,347518.0,Diesel,1750
+188,Volvo,V50,2005,Mechanical,,Diesel,1800
+189,Volkswagen,Passat,2006,Mechanical,270000.0,Diesel,1800
+190,Mazda,323 II,1985,Mechanical,231480.0,Gasoline,1800
+191,Audi,A4 B6,2003,Automatic,,Gasoline,1800
+192,Volkswagen,Passat B5 FL,2003,Mechanical,,Diesel,1830
+193,BMW,525 E60,2005,Automatic,212556.0,Diesel,1850
+194,BMW,320 E46,2004,Automatic,356000.0,Diesel,1850
+195,Mercedes-Benz,E 220 W211,2002,Mechanical,415000.0,Diesel,1850
+196,Seat,Altea,2004,Mechanical,239000.0,Gasoline,1900
+197,Mercedes-Benz,W124,1989,Mechanical,,Petrol / Gas,1900
+198,Toyota,Avensis,2005,Mechanical,,Diesel,1900
+199,Peugeot,1007,2009,Mechanical,67140.0,Gasoline,1900
+200,Skoda,Superb I,2007,Mechanical,314000.0,Diesel,1950
+201,Volkswagen,Golf,2002,Mechanical,248235.0,Diesel,1950
+202,Opel,Astra III,2005,Mechanical,232000.0,Diesel,1950
+203,Audi,A4,2005,Mechanical,,Diesel,1950
+204,Chevrolet,Epica,2006,Mechanical,205800.0,Gasoline,1950
+205,Volkswagen,Passat B6,2007,Automatic,342711.0,Diesel,1950
+206,Volkswagen,Passat,2002,Mechanical,,Diesel,1950
+207,Audi,A4,2001,Mechanical,400000.0,Diesel,1950
+208,Dodge,Caliber,2007,Mechanical,,Diesel,1950
+209,Skoda,Roomster,2007,Mechanical,249803.0,Gasoline,1999
+210,Chrysler,Sebring,2010,Automatic,,Petrol / Gas,1999
+211,Opel,Zafira,2005,Mechanical,300000.0,Diesel,1999
+212,Volvo,Kitas,1971,Mechanical,,Gasoline,2000
+213,Kia,Ceed I,2011,Mechanical,320000.0,Diesel,2000
+214,Volkswagen,Passat,2005,Mechanical,320000.0,Gasoline,2000
+215,Volvo,S60,2005,Mechanical,,Diesel,2000
+216,Mercedes-Benz,E 270,2003,Mechanical,,Diesel,2000
+217,Volkswagen,Transporter,1990,Mechanical,,Diesel,2000
+218,Mazda,Xedos 9,1999,Mechanical,155000.0,Gasoline,2000
+219,Peugeot,407,2004,Automatic,340000.0,Diesel,2000
+220,Mitsubishi,Diamante,2002,Automatic,148258.0,Petrol / Gas,2000
+221,Toyota,Auris I,2008,Mechanical,327000.0,Diesel,2000
+222,Audi,A6 C5,2004,Automatic,325000.0,Diesel,2000
+223,Opel,Astra,2006,Mechanical,243000.0,Diesel,2000
+224,Opel,Astra,2007,Automatic,,Petrol / Gas,2050
+225,Ford,Transit,1996,Mechanical,,Diesel,2100
+226,Volkswagen,Passat B6,2008,Automatic,,Diesel,2100
+227,Mazda,6,2008,Mechanical,270000.0,Diesel,2100
+228,Volvo,S70,1998,Automatic,202400.0,Petrol / Gas,2100
+229,Audi,A6 C6,2006,Automatic,,Diesel,2100
+230,Volvo,S60 I,2005,Mechanical,285937.0,Diesel,2100
+231,Opel,Astra,2008,Mechanical,263430.0,Diesel,2150
+232,Volvo,V50,2005,Mechanical,244000.0,Gasoline,2150
+233,Audi,A3,2001,Mechanical,275000.0,Diesel,2150
+234,Volkswagen,Golf III,1996,Mechanical,238900.0,Diesel,2150
+235,Opel,Vectra C,2005,Mechanical,312863.0,Diesel,2199
+236,Audi,A6,2004,Automatic,296140.0,Diesel,2200
+237,BMW,530,2001,Automatic,,Diesel,2200
+238,Volkswagen,Passat B5 FL,2003,Automatic,242070.0,Diesel,2200
+239,Skoda,Superb I,2007,Mechanical,,Diesel,2200
+240,Ford,C-MAX,2008,Mechanical,,Diesel,2200
+241,Honda,Accord,2004,Mechanical,220000.0,Diesel,2200
+242,Opel,Astra III,2006,Automatic,,Gasoline,2200
+243,Audi,A6 C4,1995,Mechanical,310000.0,Diesel,2230
+244,Volkswagen,Passat,2007,Automatic,,Diesel,2250
+245,Volkswagen,Touran,2005,Mechanical,269161.0,Petrol / Gas,2250
+246,Skoda,Octavia,2008,Mechanical,230000.0,Diesel,2250
+247,BMW,320 E46,2004,Mechanical,317265.0,Diesel,2290
+248,Mercedes-Benz,C 220 W203,2005,Mechanical,324000.0,Diesel,2299
+249,Volkswagen,Passat B6,2006,Automatic,341200.0,Diesel,2299
+250,Seat,Altea XL,2007,Mechanical,280000.0,Diesel,2300
+251,Volkswagen,Sharan,2018,Mechanical,253358.0,Diesel,2300
+252,Volvo,V50,2006,Mechanical,232089.0,Diesel,2300
+253,Volvo,V70,2005,Mechanical,245000.0,Diesel,2400
+254,Mercedes-Benz,C 200 W203,2004,Mechanical,351296.0,Diesel,2400
+255,BMW,320,2006,Mechanical,318900.0,Gasoline,2450
+256,Audi,A4 B6,2002,Mechanical,260000.0,Diesel,2450
+257,Volkswagen,Passat,2006,Mechanical,,Diesel,2450
+258,BMW,530 E60,2004,Automatic,,Diesel,2450
+259,Ford,Mondeo Mk4,2008,Mechanical,298000.0,Diesel,2500
+260,Audi,A6 C6,2005,Automatic,270000.0,Gasoline,2500
+261,Mercedes-Benz,C 220 W203,2004,Automatic,383830.0,Diesel,2500
+262,Honda,Accord VII,2004,Mechanical,188000.0,Gasoline,2500
+263,Mercedes-Benz,ML 270,2004,Automatic,361.0,Diesel,2500
+264,Renault,Trafic,2006,Mechanical,,Diesel,2500
+265,Toyota,Auris,2007,Mechanical,233212.0,Diesel,2500
+266,Toyota,Avensis,2007,Mechanical,,Diesel,2500
+267,Ford,Club Wagon,1989,Mechanical,114340.0,Diesel,2500
+268,Ford,Fiesta Mk7,2009,Mechanical,185000.0,Diesel,2500
+269,Volkswagen,LT,2000,Mechanical,600000.0,Diesel,2500
+270,Renault,Scenic I,1999,Mechanical,,Petrol / Gas,2500
+271,Audi,A4,2008,Mechanical,248000.0,Diesel,2550
+272,Mercedes-Benz,E 220 W211,2007,Automatic,370663.0,Diesel,2550
+273,Volvo,V70,2006,Automatic,305000.0,Diesel,2550
+274,Honda,Accord,2008,Mechanical,,Diesel,2550
+275,Opel,Insignia,2010,Mechanical,214559.0,Diesel,2600
+276,Volkswagen,Touran,2005,Automatic,273000.0,Diesel,2600
+277,Volvo,V70,2006,Automatic,314000.0,Diesel,2600
+278,MINI,Cooper,2004,Mechanical,190828.0,Gasoline,2600
+279,Toyota,Avensis,2004,Mechanical,340000.0,Petrol / Gas,2600
+280,Volkswagen,Touran I,2010,Mechanical,328000.0,Diesel,2600
+281,Citroen,C3,2010,Mechanical,265000.0,Diesel,2650
+282,Toyota,Yaris II,2006,Mechanical,228645.0,Gasoline,2650
+283,Mercedes-Benz,250,1988,Mechanical,,Diesel,2650
+284,BMW,530 E60,2004,Mechanical,448000.0,Diesel,2650
+285,Audi,A4 B7,2007,Mechanical,221000.0,Diesel,2650
+286,Peugeot,308,2009,Mechanical,230000.0,Gasoline,2700
+287,BMW,318 E90,2006,Mechanical,280000.0,Petrol / Gas,2700
+288,Opel,Zafira B,2008,Mechanical,224823.0,Diesel,2700
+289,Opel,Combo C,2008,Mechanical,156825.0,Gasoline,2750
+290,Volkswagen,Phaeton,2003,Automatic,205000.0,Petrol / Gas,2750
+291,Audi,A6,2007,Automatic,330000.0,Gasoline,2750
+292,Toyota,Corolla Verso,2004,Mechanical,,Diesel,2750
+293,BMW,320,2003,Automatic,,Diesel,2799
+294,Volkswagen,Sharan,2001,Automatic,300000.0,Gasoline,2800
+295,Mitsubishi,Grandis,2006,Mechanical,,Diesel,2850
+296,Peugeot,508,2011,Automatic,,Diesel,2850
+297,Ford,Transit,2007,Mechanical,,Diesel,2850
+298,Ford,Fiesta,2009,Mechanical,202780.0,Diesel,2850
+299,BMW,330,2004,Automatic,270000.0,Diesel,2950
+300,Volvo,S60,2007,Mechanical,282000.0,Diesel,2950
+301,Mercedes-Benz,E 220,2008,Automatic,,Diesel,3000
+302,Opel,Insignia,2010,Mechanical,283000.0,Diesel,3000
+303,Volkswagen,Touran,2007,Automatic,,Diesel,3000
+304,Toyota,Prius,2008,Automatic,,Petrol / Gas,3000
+305,BMW,116 E87,2004,Mechanical,191000.0,Gasoline,3000
+306,Toyota,Auris I,2008,Mechanical,263000.0,Diesel,3000
+307,Toyota,Yaris,2007,Automatic,188000.0,Gasoline,3000
+308,Nissan,X-Trail,2004,Mechanical,,Diesel,3000
+309,Audi,A4 B7,2005,Mechanical,386945.0,Diesel,3000
+310,Volkswagen,Passat B6,2006,Mechanical,304000.0,Diesel,3100
+311,BMW,530 E60,2004,Automatic,310000.0,Diesel,3100
+312,Audi,A4 B7,2005,Automatic,,Diesel,3100
+313,Skoda,Fabia II,2009,Mechanical,190000.0,Diesel,3100
+314,Volkswagen,Touran I,2008,Automatic,280368.0,Diesel,3200
+315,Kia,Sorento I,2007,Mechanical,,Diesel,3200
+316,Chevrolet,Cruze,2009,Mechanical,287000.0,Diesel,3200
+317,BMW,X5 E53,2003,Automatic,400000.0,Diesel,3200
+318,Audi,A4 B7,2007,Mechanical,389613.0,Diesel,3200
+319,Honda,Civic,2009,Mechanical,240000.0,Diesel,3200
+320,Volkswagen,Golf V,2007,Mechanical,280000.0,Diesel,3270
+321,Opel,Insignia,2012,Automatic,,Diesel,3299
+322,Volkswagen,Golf,2008,Mechanical,235000.0,Gasoline,3299
+323,Audi,A4,2006,Mechanical,181883.0,Diesel,3300
+324,BMW,X5 E53,2003,Automatic,,Diesel,3300
+325,Audi,A6 C6,2005,Mechanical,271797.0,Diesel,3300
+326,Mercedes-Benz,308,2003,Mechanical,35000.0,Diesel,3300
+327,Honda,Accord VII,2005,Automatic,319000.0,Gasoline,3300
+328,Ford,S-Max,2007,Mechanical,280000.0,Petrol / Gas,3300
+329,Volkswagen,Passat B6,2006,Mechanical,263000.0,Diesel,3300
+330,BMW,525,2005,Automatic,331549.0,Diesel,3300
+331,Volkswagen,Sharan,2005,Mechanical,,Diesel,3350
+332,BMW,318 E90,2007,Mechanical,270000.0,Diesel,3350
+333,Honda,Accord,2009,Automatic,264000.0,Petrol / Gas,3350
+334,Volkswagen,Sharan,2004,Mechanical,306000.0,Diesel,3350
+335,BMW,118,2007,Mechanical,260000.0,Diesel,3400
+336,Opel,Astra,2006,Mechanical,172000.0,Gasoline,3400
+337,Skoda,Octavia II,2010,Automatic,,Diesel,3450
+338,Renault,Megane,2010,Mechanical,322783.0,Diesel,3450
+339,Opel,Zafira B,2009,Mechanical,243128.0,Diesel,3500
+340,Volkswagen,Transporter T3,1982,Mechanical,4000000.0,Diesel,3500
+341,BMW,330 E46,2001,Automatic,380000.0,Diesel,3500
+342,Mitsubishi,Pajero,1997,Mechanical,,Diesel,3500
+343,Volkswagen,Golf,2009,Mechanical,,Diesel,3550
+344,Citroen,C5 III,2009,Mechanical,353000.0,Petrol / Gas,3550
+345,Volkswagen,Phaeton,2006,Automatic,316600.0,Diesel,3550
+346,Volkswagen,Passat B6,2010,Mechanical,328000.0,Petrol / Gas,3600
+347,Mercedes-Benz,E 220 W212,2009,Automatic,379000.0,Diesel,3600
+348,BMW,320 E46,2005,Mechanical,,Diesel,3600
+349,Audi,100 C3,1990,Mechanical,287866.0,Petrol / Gas,3600
+350,BMW,320,2008,Mechanical,290008.0,Diesel,3600
+351,Audi,A4 B7,2007,Automatic,357471.0,Diesel,3600
+352,Volvo,V70 III,2008,Automatic,,Diesel,3650
+353,Mazda,CX-7,2008,Mechanical,,Petrol / Gas,3700
+354,BMW,120 E87,2007,Mechanical,221000.0,Diesel,3700
+355,Mazda,CX-7,2008,Mechanical,332069.0,Gasoline,3700
+356,Ford,Transit,2000,Mechanical,322299.0,Diesel,3750
+357,BMW,530,2004,Automatic,350000.0,Diesel,3800
+358,Peugeot,208,2012,Mechanical,114500.0,Gasoline,3800
+359,Lexus,GS 300,1998,Automatic,352000.0,Petrol / Gas,3800
+360,Audi,A4,2008,Automatic,,Diesel,3800
+361,Audi,A3 8L,1998,Mechanical,197000.0,Gasoline,3850
+362,Ford,Galaxy,2007,Mechanical,206000.0,Diesel,3900
+363,Ford,S-Max,2009,Mechanical,247000.0,Diesel,3999
+364,BMW,318 E90,2005,Mechanical,309452.0,Gasoline,4000
+365,Audi,A6 C6,2006,Mechanical,286000.0,Diesel,4000
+366,BMW,318 E90,2012,Automatic,328500.0,Diesel,4000
+367,Chrysler,300C,2005,Automatic,,Petrol / Gas,4000
+368,Audi,A4,2009,Automatic,400000.0,Diesel,4100
+369,Volkswagen,Golf V,2008,Mechanical,233649.0,Gasoline,4100
+370,Volvo,XC90 I,2005,Automatic,240000.0,Petrol / Gas,4150
+371,BMW,X5,2002,Automatic,286200.0,Diesel,4200
+372,Opel,Astra IV,2012,Mechanical,315000.0,Diesel,4200
+373,Mercedes-Benz,E 280 W211,2004,Automatic,350000.0,Diesel,4250
+374,Mercedes-Benz,ML 320,2007,Automatic,320000.0,Diesel,4295
+375,Ford,Transit,2007,Mechanical,,Diesel,4300
+376,Toyota,Avensis,2009,Mechanical,293557.0,Diesel,4400
+377,Opel,Meriva,2011,Mechanical,146000.0,Gasoline,4400
+378,Skoda,Roomster,2012,Mechanical,137451.0,Gasoline,4450
+379,Toyota,Prius III (2003 - 2009),2009,Automatic,191692.0,Gasoline/Electric,4500
+380,Opel,Astra,2011,Mechanical,166000.0,Diesel,4500
+381,Land,Rover Range Rover Sport,2007,Automatic,220000.0,Diesel,4500
+382,BMW,320 E90,2007,Mechanical,374311.0,Diesel,4600
+383,Audi,A4 B8,2009,Automatic,225000.0,Gasoline,4650
+384,Audi,A6 C6,2009,Automatic,,Diesel,4650
+385,Subaru,Legacy,2010,Automatic,304258.0,Gasoline,4650
+386,Toyota,RAV4,2010,Mechanical,84500.0,Petrol / Gas,4699
+387,Volkswagen,Passat,2011,Mechanical,395000.0,Diesel,4700
+388,BMW,320 E90,2009,Mechanical,270000.0,Diesel,4800
+389,Audi,A4 B8,2010,Mechanical,,Gasoline,4800
+390,BMW,530,2007,Automatic,,Diesel,4800
+391,Chrysler,Grand Voyager,2008,Automatic,192300.0,Diesel,4850
+392,Hyundai,Santa Fe II,2008,Mechanical,233718.0,Diesel,4890
+393,Renault,Clio,2012,Mechanical,274500.0,Gasoline,4950
+394,Volkswagen,Golf VI,2010,Automatic,338148.0,Diesel,5000
+395,Opel,Insignia,2010,Automatic,252901.0,Diesel,5000
+396,Seat,Alhambra,2007,Mechanical,220000.0,Diesel,5000
+397,Volvo,S60 II,2013,Mechanical,190.0,Diesel,5050
+398,Toyota,Verso,2010,Mechanical,279000.0,Diesel,5100
+399,Renault,Scenic,2013,Mechanical,258000.0,Diesel,5100
+400,Peugeot,5008,2011,Mechanical,284850.0,Diesel,5150
+401,Skoda,Yeti,2012,Mechanical,172200.0,Gasoline,5200
+402,BMW,520 E60,2008,Automatic,232448.0,Diesel,5200
+403,Mercedes-Benz,C 180 W204,2011,Automatic,370000.0,Gasoline,5300
+404,Ford,Transit,2007,Mechanical,346833.0,Diesel,5300
+405,Audi,A6,2009,Automatic,301000.0,Diesel,5400
+406,Volvo,S80,2007,Automatic,178.0,Diesel,5400
+407,Mercedes-Benz,S 320,2008,Automatic,,Diesel,5500
+408,Volvo,XC90 I,2006,Automatic,304585.0,Diesel,5500
+409,Volkswagen,Passat,2011,Mechanical,266377.0,Diesel,5500
+410,BMW,530 E60,2007,Mechanical,308000.0,Diesel,5500
+411,BMW,123 E87,2009,Automatic,204905.0,Diesel,5500
+412,Mercedes-Benz,200,2014,Automatic,255000.0,Petrol / Gas,5600
+413,Ford,Galaxy,2007,Mechanical,145884.0,Diesel,5650
+414,BMW,120,2009,Mechanical,251500.0,Gasoline,5800
+415,Nissan,Juke,2013,Mechanical,115000.0,Diesel,5800
+416,Honda,CR-V III,2007,Mechanical,194000.0,Diesel,5999
+417,Audi,A3 8P,2009,Mechanical,379000.0,Diesel,6000
+418,Mercedes-Benz,420,2007,Automatic,,Diesel,6000
+419,Toyota,Avensis,2012,Mechanical,197000.0,Diesel,6000
+420,Toyota,Urban Cruiser,2010,Mechanical,180000.0,Diesel,6000
+421,BMW,535,2008,Automatic,,Diesel,6100
+422,Toyota,Prius,2009,Automatic,269000.0,Gasoline/Electric,6200
+423,BMW,730 E65/66,2005,Automatic,473000.0,Diesel,6250
+424,Kia,Sorento I,2008,Mechanical,249000.0,Diesel,6300
+425,Lexus,RX 300,2004,Automatic,175000.0,Gasoline,6400
+426,Mercedes-Benz,C 200,2011,Mechanical,3225.0,Diesel,6400
+427,Mercedes-Benz,Viano,2008,Automatic,292861.0,Diesel,6450
+428,Mercedes-Benz,ML 420 W164,2007,Automatic,370445.0,Diesel,6690
+429,BMW,750,2009,Automatic,265456.0,Gasoline,6700
+430,Volkswagen,Touran,2011,Automatic,252000.0,Diesel,6700
+431,Volvo,XC60,2010,Automatic,239000.0,Gasoline,6800
+432,Chevrolet,Orlando,2014,Automatic,,Diesel,6950
+433,Seat,Ibiza,2017,Mechanical,100500.0,Gasoline,7000
+434,Volvo,XC60,2009,Automatic,230000.0,Diesel,7000
+435,Mercedes-Benz,ML 320 W164,2006,Automatic,420000.0,Diesel,7000
+436,BMW,X3,2007,Automatic,300164.0,Diesel,7000
+437,Volvo,XC90,2006,Automatic,374212.0,Diesel,7000
+438,Volkswagen,Sharan II,2010,Mechanical,231000.0,Diesel,7200
+439,Audi,Q7,2006,Automatic,417312.0,Diesel,7350
+440,Mercedes-Benz,E 220 W212,2009,Automatic,223000.0,Diesel,7600
+441,Volvo,V60,2010,Automatic,231523.0,Diesel,7800
+442,Opel,Astra,2016,Mechanical,254000.0,Diesel,7950
+443,Mercedes-Benz,C 350 W204,2012,Automatic,231425.0,Diesel,7999
+444,Audi,A4 B8,2012,Automatic,256449.0,Diesel,8000
+445,BMW,530,2011,Automatic,4.0,Diesel,8300
+446,BMW,318 F30,2013,Mechanical,278000.0,Diesel,8400
+447,BMW,530 F10,2010,Automatic,470000.0,Diesel,8500
+448,Volvo,XC70,2010,Automatic,275327.0,Petrol / Gas,8500
+449,Toyota,4-Runner,2003,Automatic,300000.0,Petrol / Gas,8500
+450,Volkswagen,Jetta,2017,Mechanical,60000.0,Gasoline,8600
+451,BMW,520,2010,Mechanical,214000.0,Diesel,8800
+452,Toyota,Prius,2010,Automatic,206620.0,Gasoline/Electric,8877
+453,Skoda,Octavia,2018,Mechanical,326890.0,Gasoline,8999
+454,Mercedes-Benz,ML 350,2011,Automatic,288000.0,Petrol / Gas,9000
+455,Skoda,Octavia,2014,Mechanical,155000.0,Diesel,9000
+456,Volkswagen,Passat,2014,Automatic,220000.0,Diesel,9300
+457,BMW,X5 E70,2007,Automatic,240000.0,Diesel,9450
+458,MINI,Clubman,2016,Mechanical,83200.0,Gasoline,9500
+459,Toyota,Corolla,2014,Mechanical,,Gasoline,9500
+460,Mercedes-Benz,B 200,2015,Automatic,330000.0,Petrol / Gas,9600
+461,BMW,X5 E70,2010,Automatic,400000.0,Diesel,10200
+462,BMW,530 F10,2010,Automatic,202000.0,Diesel,10500
+463,Audi,A6 C7,2011,Mechanical,219715.0,Diesel,10999
+464,BMW,318 Gran Turismo,2014,Automatic,283000.0,Diesel,11300
+465,BMW,550 F10,2013,Automatic,370000.0,Gasoline,11500
+466,Audi,A4,2013,Automatic,250000.0,Diesel,11600
+467,BMW,530 Gran Turismo,2009,Automatic,263154.0,Diesel,11900
+468,Volkswagen,Touareg,2014,Automatic,155000.0,Gasoline,12000
+469,Ford,Transit,2015,Mechanical,362000.0,Diesel,12450
+470,Toyota,Yaris,2019,Mechanical,32000.0,Gasoline,12500
+471,Audi,Q7,2009,Automatic,322000.0,Diesel,12850
+472,Chevrolet,Volt,2015,Automatic,103820.0,Gasoline/Electric,13500
+473,BMW,535,2012,Automatic,240300.0,Diesel,13700
+474,Audi,A6 C7,2013,Automatic,174430.0,Petrol / Gas,14000
+475,Mercedes-Benz,Sprinter,2014,Automatic,275000.0,Diesel,14500
+476,Audi,A6,2015,Automatic,130457.0,Gasoline,14500
+477,Audi,Q5,2013,Automatic,160000.0,Diesel,17500
+478,BMW,X6,2012,Automatic,,Diesel,18950
+479,Audi,S3,2015,Automatic,112000.0,Gasoline,19500
+480,Mercedes-Benz,Sprinter,2008,Mechanical,360342.0,Diesel,20000
+481,Audi,Q7,2012,Automatic,149500.0,Diesel,20500
+482,Chevrolet,SSR,2004,Automatic,44000.0,Gasoline,25399
+483,BMW,530,2019,Automatic,65000.0,Gasoline/Electric,37900
+484,Audi,A3 8L,2000,Mechanical,,Gasoline,100
+485,Ford,Transit,2001,Mechanical,5000000.0,Diesel,111
+486,Renault,Clio,1998,Mechanical,,Gasoline,240
+487,Peugeot,206,2003,Mechanical,145000.0,Gasoline,250
+488,Peugeot,206,2004,Mechanical,,Diesel,300
+489,Lancia,Zeta,1999,Mechanical,,Gasoline,320
+490,Volkswagen,Passat,2000,Mechanical,,Diesel,350
+491,Volkswagen,Passat,2019,Mechanical,,Diesel,350
+492,Audi,A3,2016,Mechanical,1000000.0,Petrol / Gas,350
+493,BMW,320,2000,Mechanical,,Diesel,350
+494,Opel,Vectra B,1998,Mechanical,395628.0,Diesel,380
+495,Volkswagen,Passat B5 FL,2004,Automatic,,Diesel,400
+496,Opel,Astra,1999,Mechanical,290000.0,Diesel,400
+497,Renault,Megane,2002,Mechanical,,Gasoline,450
+498,Renault,Megane,2001,Mechanical,,Diesel,450
+499,Volkswagen,Passat B5 FL,2003,Mechanical,314291.0,Diesel,450
+500,Audi,A4 B5,2000,Mechanical,332817.0,Diesel,450
+501,Audi,80 B4,1992,Mechanical,256000.0,Petrol / Gas,450
+502,Audi,A3 8L,1997,Mechanical,277000.0,Petrol / Gas,460
+503,Ford,Focus Mk1,2000,Automatic,148690.0,Gasoline,490
+504,Volkswagen,Sharan,2001,Mechanical,,Diesel,490
+505,Opel,Astra II,1999,Mechanical,316844.0,Diesel,490
+506,Audi,80 B4,1992,Mechanical,,Petrol / Gas,499
+507,Audi,A3 8L,2000,Mechanical,302046.0,Diesel,500
+508,BMW,525 E39,2001,Mechanical,300000.0,Diesel,500
+509,Saab,9-5,2002,Automatic,288308.0,Gasoline,500
+510,Volkswagen,Golf IV,2001,Mechanical,347000.0,Diesel,500
+511,Opel,Zafira,2003,Mechanical,327130.0,Diesel,570
+512,Citroen,Xsara Picasso,2006,Mechanical,,Diesel,580
+513,Opel,Astra,1998,Mechanical,400000.0,Diesel,590
+514,Ford,Focus Mk1,2004,Automatic,171000.0,Gasoline,600
+515,Moskvich,2140,1988,Mechanical,87000.0,Gasoline,600
+516,Citroen,Jumper,2016,Mechanical,,Diesel,600
+517,Citroen,Xsara Picasso,2001,Mechanical,240000.0,Gasoline,600
+518,Renault,Megane,1998,Automatic,159766.0,Gasoline,644
+519,Renault,Scenic II,2005,Mechanical,290000.0,Diesel,650
+520,Opel,Vectra,2004,Mechanical,,Diesel,650
+521,Audi,100,1993,Mechanical,,Diesel,650
+522,Opel,Astra,2002,Mechanical,,Diesel,650
+523,Chrysler,Voyager,2006,Automatic,,Diesel,650
+524,Subaru,Legacy,1999,Automatic,195000.0,Petrol / Gas,670
+525,Volkswagen,Golf V,2003,Mechanical,230000.0,Gasoline,699
+526,Opel,Zafira,2006,Mechanical,,Diesel,699
+527,Renault,Scenic,2005,Mechanical,237047.0,Diesel,700
+528,Mazda,323,1999,Mechanical,276964.0,Gasoline,700
+529,Ford,Galaxy,2001,Mechanical,,Petrol / Gas,700
+530,BMW,530 E39,1999,Mechanical,340000.0,Diesel,700
+531,Peugeot,607,2003,Automatic,418051.0,Diesel,700
+532,Volkswagen,Golf II,1991,Mechanical,272000.0,Gasoline,700
+533,Mitsubishi,Space Star,2005,Mechanical,,Diesel,750
+534,Peugeot,307,2003,Mechanical,233000.0,Gasoline,750
+535,Renault,Grand Scenic,2006,Mechanical,,Diesel,750
+536,Mercedes-Benz,E 200,1997,Mechanical,,Petrol / Gas,750
+537,Nissan,Almera Tino,2003,Mechanical,346046.0,Diesel,750
+538,Volvo,S40 II,2004,Mechanical,320000.0,Petrol / Gas,750
+539,Volkswagen,Passat,2001,Mechanical,275000.0,Diesel,790
+540,Citroen,Xsara,2003,Mechanical,,Diesel,799
+541,Opel,Astra,2004,Mechanical,,Diesel,800
+542,Seat,Alhambra,2002,Mechanical,,Diesel,800
+543,Opel,Zafira,2004,Mechanical,,Diesel,800
+544,Seat,Alhambra,2002,Mechanical,,Diesel,800
+545,Seat,Toledo II,2001,Mechanical,384308.0,Diesel,800
+546,Audi,A2,2000,Mechanical,,Gasoline,800
+547,Volvo,S70,1999,Mechanical,,Diesel,800
+548,Volkswagen,Golf IV,2002,Mechanical,,Gasoline,800
+549,Renault,Scenic I,2000,Mechanical,,Diesel,800
+550,Opel,Zafira,2000,Mechanical,,Diesel,800
+551,Citroen,C4 Picasso I,2007,Mechanical,292780.0,Diesel,800
+552,Citroen,C4,2008,Mechanical,,Gasoline,850
+553,Volvo,S80 I,1999,Mechanical,320000.0,Diesel,850
+554,Opel,Corsa,1997,Mechanical,,Gasoline,850
+555,Audi,A4,1999,Mechanical,,Diesel,850
+556,Mercedes-Benz,CLK 200 W208,1999,Mechanical,250000.0,Gasoline,900
+557,Volvo,V40,1998,Mechanical,300000.0,Diesel,900
+558,Opel,Astra,1999,Mechanical,,Petrol / Gas,900
+559,Volkswagen,Polo,2001,Mechanical,,Gasoline,900
+560,Honda,Accord,1995,Mechanical,254683.0,Gasoline,925
+561,Audi,A4,1997,Mechanical,300000.0,Petrol / Gas,930
+562,Toyota,Corolla,2000,Mechanical,177986.0,Gasoline,950
+563,Toyota,Avensis,2005,Mechanical,300000.0,Diesel,950
+564,Audi,A6,1996,Mechanical,224899.0,Gasoline,999
+565,Saab,9-5,2002,Mechanical,287500.0,Diesel,1000
+566,Volkswagen,Sharan I,1997,Mechanical,,Petrol / Gas,1000
+567,Volkswagen,Touran,2005,Automatic,357.0,Diesel,1000
+568,Volkswagen,Sharan,1997,Mechanical,,Diesel,1050
+569,Opel,Zafira A,2003,Mechanical,295000.0,Diesel,1099
+570,BMW,523 E39,1998,Mechanical,320000.0,Petrol / Gas,1100
+571,Audi,A6,2002,Mechanical,34763.0,Diesel,1100
+572,Kia,Sorento,2004,Mechanical,,Diesel,1100
+573,BMW,525 E39,1997,Mechanical,374700.0,Diesel,1100
+574,Nissan,Almera,2005,Mechanical,191901.0,Gasoline,1100
+575,Opel,Zafira,2001,Mechanical,390000.0,Diesel,1150
+576,Opel,Zafira,2003,Mechanical,293697.0,Diesel,1200
+577,Renault,Scenic,2003,Mechanical,390010.0,Gasoline,1200
+578,Opel,Vectra,2008,Mechanical,325958.0,Diesel,1200
+579,Volkswagen,Polo IV,2005,Mechanical,218035.0,Gasoline,1200
+580,Nissan,Almera Tino,2003,Mechanical,252914.0,Diesel,1200
+581,Ford,Focus,2006,Mechanical,224600.0,Diesel,1200
+582,Hyundai,Terracan,2004,Automatic,,Diesel,1250
+583,Audi,100,1991,Mechanical,222000.0,Gasoline,1250
+584,Chrysler,PT Cruiser,2002,Mechanical,357000.0,Diesel,1250
+585,Volvo,V70,2003,Mechanical,,Diesel,1300
+586,Volkswagen,Touran,2005,Mechanical,350000.0,Diesel,1350
+587,Volkswagen,Passat,2002,Mechanical,,Diesel,1350
+588,Mercedes-Benz,A 200 W169,2005,Mechanical,301000.0,Diesel,1350
+589,Peugeot,206 CC,2003,Mechanical,172000.0,Gasoline,1350
+590,Volkswagen,Passat B5 FL,2003,Automatic,,Diesel,1395
+591,BMW,320,2003,Mechanical,,Diesel,1400
+592,Volkswagen,Golf,2000,Mechanical,,Diesel,1400
+593,Volvo,S60,2004,Mechanical,290000.0,Diesel,1400
+594,Opel,Zafira B,2006,Mechanical,295000.0,Diesel,1400
+595,Audi,A6,2000,Automatic,361211.0,Diesel,1450
+596,Opel,Zafira,2002,Mechanical,289310.0,Diesel,1450
+597,Fiat,Barchetta,1999,Mechanical,,Gasoline,1500
+598,Volkswagen,Golf V,2005,Mechanical,281282.0,Diesel,1500
+599,Opel,Astra,2007,Mechanical,315000.0,Diesel,1500
+600,Mercedes-Benz,E 270 W211,2003,Automatic,410000.0,Diesel,1500
+601,Audi,A4,2003,Automatic,,Diesel,1500
+602,Volkswagen,Passat B5 FL,2001,Mechanical,325577.0,Diesel,1500
+603,Smart,City,2005,Mechanical,32000.0,Gasoline,1500
+604,Ford,Focus Mk2,2005,Mechanical,190500.0,Diesel,1550
+605,Chevrolet,Lacetti,2008,Mechanical,221000.0,Petrol / Gas,1650
+606,Volvo,V70,2002,Mechanical,318440.0,Diesel,1650
+607,Opel,Corsa,2009,Mechanical,,Diesel,1650
+608,Opel,Corsa,2007,Mechanical,180000.0,Gasoline,1650
+609,Peugeot,307,2006,Mechanical,,Diesel,1650
+610,Volkswagen,Passat B5 FL,2002,Mechanical,,Diesel,1690
+611,Ssangyong,Kyron,2006,Mechanical,,Diesel,1700
+612,Volkswagen,Passat B6,2009,Mechanical,240000.0,Diesel,1700
+613,Fiat,Punto,2007,Mechanical,278000.0,Diesel,1700
+614,Volvo,S80 I,2000,Automatic,347030.0,Petrol / Gas,1700
+615,Opel,Astra II,2008,Mechanical,265000.0,Diesel,1700
+616,Chevrolet,Epica,2008,Mechanical,,Diesel,1700
+617,Aixam,A721,2006,Automatic,,Diesel,1750
+618,Opel,Meriva,2007,Mechanical,200000.0,Gasoline,1750
+619,Mitsubishi,Colt,2005,Mechanical,167000.0,Gasoline,1780
+620,Ssangyong,Kyron,2006,Automatic,,Diesel,1800
+621,Opel,Astra,2005,Mechanical,,Diesel,1800
+622,BMW,328 E46,1999,Mechanical,,Petrol / Gas,1800
+623,Opel,Astra III,2009,Mechanical,300000.0,Diesel,1850
+624,Audi,A4,2005,Automatic,,Diesel,1850
+625,Audi,A4 B5,2001,Mechanical,322640.0,Diesel,1850
+626,Mazda,2,2005,Automatic,84621.0,Diesel,1850
+627,Volvo,S60,2004,Mechanical,329874.0,Diesel,1900
+628,Ford,Mondeo Mk4,2007,Mechanical,290000.0,Diesel,1900
+629,Toyota,Yaris,2007,Mechanical,280000.0,Diesel,1950
+630,Hyundai,Sonata,2007,Mechanical,235800.0,Diesel,1950
+631,Opel,Corsa,2009,Mechanical,,Gasoline,1950
+632,Honda,Civic,1986,Mechanical,235665.0,Gasoline,1950
+633,Toyota,Corolla Verso,2006,Mechanical,218000.0,Diesel,1950
+634,Renault,Modus,2007,Mechanical,179300.0,Gasoline,1999
+635,Mercedes-Benz,CLK 270,2003,Automatic,260000.0,Diesel,1999
+636,Renault,Master,2002,Mechanical,,Diesel,1999
+637,Opel,Astra,2005,Mechanical,257638.0,Diesel,2000
+638,Ssangyong,Rodius,2008,Mechanical,192000.0,Diesel,2000
+639,Mercedes-Benz,E 320 W211,2005,Automatic,,Diesel,2100
+640,Volkswagen,Passat B6,2007,Mechanical,390000.0,Diesel,2100
+641,Opel,Meriva,2012,Mechanical,225553.0,Diesel,2100
+642,Honda,Civic V,1995,Mechanical,312000.0,Petrol / Gas,2100
+643,Hyundai,Santa Fe,2006,Mechanical,,Gasoline,2100
+644,Opel,Vectra C,2006,Mechanical,294000.0,Diesel,2150
+645,Mercedes-Benz,E 220 W211,2002,Automatic,312000.0,Diesel,2150
+646,Volkswagen,Touran I,2006,Automatic,,Diesel,2199
+647,Audi,A4 B6,2002,Mechanical,,Diesel,2200
+648,Opel,Astra,2010,Mechanical,152000.0,Gasoline,2220
+649,Ford,Mondeo Mk4,2008,Automatic,,Diesel,2250
+650,BMW,320,2002,Mechanical,310000.0,Diesel,2250
+651,Peugeot,308,2008,Mechanical,,Gasoline,2300
+652,BMW,520 E39,2002,Mechanical,,Diesel,2300
+653,Opel,Corsa,2010,Mechanical,,Gasoline,2350
+654,Volkswagen,Touareg I,2006,Automatic,370000.0,Diesel,2350
+655,Ford,Fiesta,2008,Mechanical,166000.0,Diesel,2350
+656,Volkswagen,Golf Plus,2007,Mechanical,,Diesel,2400
+657,Audi,A3,2004,Mechanical,259734.0,Diesel,2450
+658,Peugeot,407,2008,Automatic,244515.0,Diesel,2450
+659,Citroen,Xsara Picasso,2007,Mechanical,173000.0,Diesel,2450
+660,Honda,Jazz III,2008,Mechanical,,Gasoline,2499
+661,Mercedes-Benz,E 220 W211,2005,Mechanical,,Diesel,2500
+662,Mercedes-Benz,C 220 W203,2005,Automatic,,Diesel,2500
+663,Mercedes-Benz,C 220,2006,Mechanical,,Diesel,2500
+664,Volvo,V50,2010,Mechanical,320000.0,Diesel,2500
+665,Volvo,V70,2006,Automatic,370000.0,Gasoline,2500
+666,Toyota,Avensis II,2003,Mechanical,290000.0,Diesel,2500
+667,Mercedes-Benz,ML 270,2001,Mechanical,351030.0,Diesel,2600
+668,Audi,A3,2004,Mechanical,260496.0,Gasoline,2600
+669,Volkswagen,Golf,2005,Mechanical,243084.0,Gasoline,2650
+670,Audi,A4,2007,Automatic,,Diesel,2650
+671,Opel,Vectra C,2004,Mechanical,323183.0,Diesel,2700
+672,Skoda,Octavia II,2009,Mechanical,311000.0,Diesel,2700
+673,Volvo,XC70,2002,Automatic,424300.0,Diesel,2750
+674,Audi,A6 C6,2005,Mechanical,328000.0,Diesel,2800
+675,Opel,Corsa,2008,Mechanical,156000.0,Diesel,2850
+676,BMW,320 E46,2004,Mechanical,202000.0,Gasoline,2850
+677,Citroen,C5,2008,Mechanical,281400.0,Diesel,2850
+678,BMW,525,2002,Mechanical,,Diesel,2850
+679,Nissan,Primastar,2007,Mechanical,310600.0,Diesel,2900
+680,Audi,A4,2004,Automatic,,Diesel,2950
+681,Toyota,Auris,2007,Mechanical,235000.0,Diesel,2950
+682,Volkswagen,Golf VI,2009,Mechanical,237000.0,Diesel,3000
+683,Nissan,Primastar,2004,Mechanical,223651.0,Diesel,3050
+684,Audi,A4,2002,Automatic,185258.0,Gasoline,3150
+685,Opel,Zafira,2006,Mechanical,216000.0,Diesel,3150
+686,Ford,Focus,2009,Mechanical,163000.0,Diesel,3150
+687,Opel,Vectra,2006,Mechanical,232000.0,Diesel,3150
+688,Opel,Astra,2010,Mechanical,177000.0,Diesel,3150
+689,Mercedes-Benz,C 220,2006,Mechanical,255000.0,Diesel,3150
+690,Volkswagen,Caravelle,2000,Mechanical,500000.0,Diesel,3150
+691,Volvo,S40 II,2004,Automatic,256897.0,Gasoline,3200
+692,Toyota,Corolla Verso,2008,Mechanical,320000.0,Gasoline,3200
+693,Audi,A6,2006,Automatic,370000.0,Diesel,3200
+694,BMW,320 E46,2004,Mechanical,326000.0,Diesel,3250
+695,Volkswagen,Passat,2007,Mechanical,312000.0,Diesel,3250
+696,BMW,318 E90,2007,Mechanical,309000.0,Diesel,3300
+697,Seat,Ibiza IV,2010,Mechanical,204800.0,Diesel,3300
+698,Opel,Vectra,2007,Mechanical,159000.0,Gasoline,3350
+699,Seat,Leon,2007,Mechanical,198000.0,Gasoline,3350
+700,Peugeot,308,2008,Automatic,114190.0,Gasoline,3450
+701,BMW,530,2004,Automatic,,Diesel,3500
+702,BMW,X3 E83,2006,Mechanical,276466.0,Diesel,3500
+703,Audi,A6,2004,Automatic,,Diesel,3500
+704,Toyota,Avensis Verso,2003,Mechanical,259100.0,Gasoline,3500
+705,BMW,525,2005,Automatic,,Diesel,3500
+706,Skoda,Roomster,2012,Mechanical,186000.0,Diesel,3590
+707,Seat,Exeo,2011,Automatic,182000.0,Diesel,3600
+708,BMW,X5 E53,2001,Automatic,282000.0,Petrol / Gas,3600
+709,Volkswagen,Jetta,2008,Mechanical,205924.0,Gasoline,3650
+710,Volkswagen,Passat,2007,Automatic,,Diesel,3650
+711,BMW,525 E60,2007,Automatic,350000.0,Diesel,3650
+712,Honda,Accord,2008,Mechanical,275.0,Diesel,3750
+713,Skoda,Octavia,2007,Mechanical,237841.0,Diesel,3799
+714,BMW,330,2005,Mechanical,370000.0,Diesel,3800
+715,Audi,A3,2005,Mechanical,199997.0,Gasoline,3850
+716,Audi,A3,2009,Mechanical,236020.0,Gasoline,3850
+717,Opel,Insignia,2009,Automatic,204000.0,Diesel,3950
+718,Audi,A6,2008,Automatic,220117.0,Diesel,3999
+719,Land,Rover Discovery,2005,Mechanical,,Diesel,4100
+720,Volkswagen,Passat B6,2009,Automatic,320400.0,Diesel,4100
+721,Ford,Fiesta,2010,Mechanical,159000.0,Diesel,4200
+722,Hyundai,H-1,2008,Mechanical,170000.0,Diesel,4250
+723,Mercedes-Benz,180,2009,Automatic,231536.0,Diesel,4300
+724,Volvo,XC90,2004,Automatic,,Petrol / Gas,4400
+725,Volkswagen,Golf VI,2012,Mechanical,290000.0,Diesel,4400
+726,Opel,Insignia,2009,Mechanical,198000.0,Diesel,4450
+727,Opel,Meriva,2011,Mechanical,149000.0,Gasoline,4450
+728,Volvo,XC90,2005,Mechanical,300000.0,Diesel,4500
+729,BMW,116,2010,Mechanical,211000.0,Gasoline,4500
+730,Mazda,3,2010,Mechanical,149000.0,Gasoline,4500
+731,Mercedes-Benz,E 350,2009,Automatic,,Diesel,4500
+732,Volkswagen,Touran,2007,Automatic,245074.0,Diesel,4500
+733,Ford,Focus,2013,Mechanical,115300.0,Diesel,4900
+734,Opel,Insignia,2008,Automatic,242372.0,Diesel,4900
+735,BMW,530 E60,2007,Automatic,335485.0,Diesel,5000
+736,BMW,320,2007,Automatic,370000.0,Diesel,5200
+737,BMW,530,2005,Automatic,,Diesel,5350
+738,Toyota,Avensis,2011,Mechanical,260000.0,Diesel,5350
+739,Audi,A6 Allroad,2008,Automatic,393500.0,Diesel,5500
+740,Mercedes-Benz,S 500 W140,1996,Automatic,270000.0,Gasoline,5800
+741,Volkswagen,Touran II,2011,Automatic,255600.0,Diesel,6050
+742,Audi,A6 Allroad,2010,Automatic,212000.0,Diesel,6400
+743,Citroen,C-Crosser,2011,Mechanical,285000.0,Diesel,6500
+744,Opel,Vivaro,2010,Mechanical,380000.0,Diesel,6500
+745,Audi,A5,2008,Automatic,358000.0,Diesel,6500
+746,Audi,Q5,2009,Automatic,288000.0,Diesel,7000
+747,Renault,Master,2015,Mechanical,620000.0,Diesel,7300
+748,Land,Rover Range Rover Sport,2006,Automatic,300650.0,Diesel,7400
+749,Ford,Transit Connect,2019,Mechanical,195000.0,Diesel,7500
+750,Peugeot,508,2016,Automatic,270000.0,Diesel,7950
+751,Opel,Vivaro,2012,Mechanical,235452.0,Diesel,8250
+752,Kia,Ceed,2018,Mechanical,150000.0,Diesel,8500
+753,Mercedes-Benz,C 350 W204,2012,Automatic,320000.0,Diesel,9300
+754,Mazda,CX-5,2012,Automatic,157000.0,Diesel,9800
+755,BMW,525,2014,Automatic,270000.0,Diesel,9950
+756,BMW,525,2010,Automatic,350000.0,Diesel,10850
+757,Mercedes-Benz,E 350 W212,2010,Automatic,264500.0,Diesel,12000
+758,Lexus,RX 400h,2006,Automatic,175000.0,Gasoline/Electric,12000
+759,BMW,535,2010,Automatic,356000.0,Diesel,12500
+760,Volkswagen,Passat,2015,Automatic,242000.0,Diesel,12600
+761,Lexus,RX 450h,2012,Automatic,320000.0,Petrol / Gas,13500
+762,BMW,530 Gran Turismo,2010,Automatic,297000.0,Diesel,14000
+763,BMW,X6,2008,Automatic,252421.0,Diesel,14600
+764,Volkswagen,Caddy,2019,Automatic,,Diesel,15500
+765,Mercedes-Benz,Viano,2011,Automatic,208000.0,Diesel,18191
+766,Subaru,Forester,2019,Automatic,49000.0,Gasoline,21500
+767,Seat,Alhambra,2001,Mechanical,420000.0,Diesel,100
+768,Renault,Espace,1993,Mechanical,,Petrol / Gas,200
+769,Volkswagen,Sharan,1999,Mechanical,,Diesel,250
+770,Mercedes-Benz,A 160,1999,Automatic,,Gasoline,260
+771,Opel,Kadett E,1989,Mechanical,,Gasoline,260
+772,Volkswagen,Polo,2000,Mechanical,,Diesel,280
+773,Audi,A4 B5,1999,Mechanical,,Gasoline,300
+774,Opel,Astra,2000,Mechanical,,Diesel,330
+775,Ford,Focus,2008,Mechanical,,Gasoline,350
+776,Audi,A6,1998,Mechanical,,Diesel,350
+777,Volkswagen,Sharan,2015,Mechanical,,Diesel,350
+778,Ford,Mondeo,2002,Mechanical,,Diesel,350
+779,Peugeot,307 I,2004,Mechanical,,Diesel,360
+780,Volvo,V70,2003,Mechanical,,Petrol / Gas,370
+781,Ford,Sierra,1987,Mechanical,,Petrol / Gas,370
+782,Volkswagen,Sharan,1998,Mechanical,,Diesel,370
+783,Renault,Scenic,1996,Mechanical,267000.0,Gasoline,380
+784,Volkswagen,Passat B5 FL,2003,Mechanical,,Diesel,400
+785,Toyota,Yaris Verso,1999,Mechanical,314928.0,Gasoline,400
+786,Opel,Astra,2000,Mechanical,378008.0,Diesel,430
+787,Opel,Astra,2000,Mechanical,,Petrol / Gas,430
+788,Opel,Zafira,2002,Mechanical,,Diesel,430
+789,Ford,Focus,2004,Automatic,,Petrol / Gas,450
+790,Volvo,S80,1999,Automatic,,Gasoline,450
+791,Volkswagen,Sharan,2000,Mechanical,,Diesel,450
+792,Toyota,Yaris,2021,Mechanical,,Gasoline,460
+793,Opel,Zafira A,2000,Automatic,350000.0,Gasoline,500
+794,Skoda,Fabia I,2002,Mechanical,,Diesel,550
+795,BMW,320,2010,Mechanical,,Diesel,550
+796,Volkswagen,Passat,1997,Mechanical,300000.0,Diesel,550
+797,Peugeot,307,2003,Mechanical,223000.0,Gasoline,550
+798,Mazda,Xedos 9,1995,Mechanical,,Petrol / Gas,550
+799,Kia,Carnival,2008,Mechanical,350000.0,Diesel,550
+800,Peugeot,206,2005,Mechanical,,Gasoline,590
+801,Volvo,S80,2000,Mechanical,,Diesel,599
+802,Fiat,Doblo,2008,Mechanical,192165.0,Diesel,599
+803,Audi,A6,1999,Mechanical,,Diesel,600
+804,Audi,A4 B5,1997,Mechanical,356097.0,Diesel,600
+805,Volkswagen,Sharan,2004,Mechanical,,Diesel,600
+806,Opel,Zafira A,2001,Mechanical,290000.0,Diesel,649
+807,Peugeot,206,2001,Mechanical,,Diesel,650
+808,Citroen,C5,2001,Mechanical,,Diesel,650
+809,Citroen,C5,2002,Mechanical,250000.0,Diesel,650
+810,Volvo,V40 I,2000,Mechanical,275.0,Gasoline,650
+811,Volkswagen,Golf III,1997,Mechanical,,Diesel,650
+812,Renault,Grand Scenic II,2005,Mechanical,298000.0,Diesel,660
+813,Audi,100,1994,Mechanical,,Gasoline,680
+814,Opel,Zafira,2000,Mechanical,257000.0,Gasoline,680
+815,Alfa,Romeo 147,2007,Mechanical,,Diesel,680
+816,Citroen,C8,2002,Mechanical,410399.0,Diesel,700
+817,Audi,A4,1998,Mechanical,,Diesel,700
+818,Mazda,3,2005,Mechanical,,Diesel,720
+819,Ford,Mondeo Mk3,2005,Mechanical,,Gasoline,730
+820,Opel,Signum,2003,Mechanical,,Diesel,750
+821,Mitsubishi,Space Star,2004,Mechanical,,Diesel,750
+822,Volvo,S80,2000,Mechanical,,Diesel,750
+823,Audi,A4,1998,Automatic,,Diesel,750
+824,Toyota,Yaris,2004,Mechanical,,Diesel,750
+825,Toyota,Aygo,2006,Mechanical,,Gasoline,750
+826,Toyota,Corolla,2003,Mechanical,,Diesel,750
+827,Volvo,S60,2001,Mechanical,380000.0,Diesel,750
+828,Opel,Astra,2004,Mechanical,380000.0,Diesel,750
+829,Volkswagen,Golf,2018,Mechanical,,Diesel,770
+830,Nissan,Micra,2004,Mechanical,268888.0,Diesel,770
+831,Ford,Fiesta,2005,Mechanical,,Gasoline,780
+832,Volkswagen,Golf,2000,Mechanical,,Gasoline,790
+833,Opel,Signum,2005,Mechanical,,Diesel,790
+834,Opel,Astra,2004,Mechanical,,Diesel,800
+835,Audi,80 B3,1990,Mechanical,,Diesel,830
+836,Opel,Signum,2003,Automatic,,Gasoline,850
+837,Volkswagen,Passat,1998,Mechanical,,Diesel,850
+838,Volkswagen,Bora,2000,Mechanical,2464846.0,Diesel,850
+839,Peugeot,206 CC,2001,Mechanical,231000.0,Gasoline,850
+840,Peugeot,206 CC,2002,Mechanical,178000.0,Gasoline,850
+841,Mitsubishi,Carisma,2000,Mechanical,240000.0,Gasoline,890
+842,Audi,A4,2005,Mechanical,,Gasoline,900
+843,Ford,Galaxy,1999,Mechanical,270000.0,Petrol / Gas,900
+844,Volkswagen,Passat B5,1997,Mechanical,386134.0,Diesel,900
+845,Renault,Master,2000,Mechanical,,Diesel,950
+846,Opel,Meriva,2005,Mechanical,,Diesel,950
+847,Skoda,Fabia,2005,Mechanical,,Gasoline,950
+848,Skoda,Octavia,2005,Mechanical,,Diesel,950
+849,Toyota,Corolla Seria E12,2002,Mechanical,420000.0,Diesel,950
+850,Volvo,V40 I,2002,Mechanical,,Diesel,950
+851,Skoda,Octavia,2001,Mechanical,325825.0,Diesel,950
+852,Opel,Meriva I,2005,Mechanical,194800.0,Diesel,950
+853,Dacia,Sandero,2008,Mechanical,118000.0,Gasoline,999
+854,Volvo,V70,2004,Mechanical,399000.0,Diesel,999
+855,Opel,Vectra C,2004,Mechanical,298000.0,Diesel,999
+856,Renault,Laguna,2003,Mechanical,,Diesel,1000
+857,Volkswagen,Passat B5,1998,Mechanical,333222.0,Diesel,1000
+858,Skoda,Fabia,2000,Mechanical,247000.0,Gasoline,1000
+859,Toyota,Yaris I,2003,Mechanical,290000.0,Diesel,1000
+860,Mercedes-Benz,A 170,2000,Mechanical,,Diesel,1000
+861,Citroen,Xsara Picasso,2003,Mechanical,,Diesel,1030
+862,Skoda,Octavia I,1998,Mechanical,,Petrol / Gas,1030
+863,Renault,Megane I,2000,Mechanical,,Diesel,1030
+864,Audi,A4,1997,Mechanical,,Diesel,1050
+865,Opel,Tigra,2007,Mechanical,202000.0,Gasoline,1099
+866,Renault,Laguna,2003,Mechanical,,Diesel,1100
+867,Skoda,Octavia,2004,Mechanical,,Diesel,1100
+868,Renault,Megane,2007,Mechanical,348848.0,Diesel,1100
+869,Volkswagen,Bora,2001,Mechanical,,Diesel,1150
+870,Citroen,C5,2006,Mechanical,,Diesel,1150
+871,Opel,Meriva,2004,Mechanical,205000.0,Gasoline,1150
+872,Audi,A6,1996,Mechanical,,Diesel,1150
+873,Opel,Vectra,2003,Mechanical,,Diesel,1150
+874,Ford,Galaxy,2001,Mechanical,,Diesel,1150
+875,Opel,Signum,2003,Mechanical,,Diesel,1190
+876,Volkswagen,Passat,2003,Mechanical,300000.0,Gasoline,1200
+877,Opel,Vectra,2005,Mechanical,,Diesel,1200
+878,Mitsubishi,Galant,2000,Mechanical,,Gasoline,1200
+879,Mercedes-Benz,A 170 W168,2003,Mechanical,162000.0,Diesel,1200
+880,Opel,Meriva,2004,Mechanical,165604.0,Gasoline,1200
+881,Citroen,C5 II,2004,Mechanical,,Diesel,1230
+882,Volkswagen,Passat,2002,Mechanical,,Diesel,1230
+883,Volkswagen,Polo,2003,Mechanical,327009.0,Diesel,1250
+884,Volkswagen,Passat,2003,Automatic,,Gasoline,1250
+885,Volkswagen,Passat,2007,Mechanical,345252.0,Diesel,1250
+886,Ford,Connect Tourneo,2007,Mechanical,385453.0,Diesel,1250
+887,Volkswagen,Passat,2005,Mechanical,,Diesel,1250
+888,Skoda,Octavia,2000,Mechanical,200000.0,Diesel,1300
+889,Volkswagen,Golf,1998,Mechanical,240000.0,Gasoline,1300
+890,Renault,Scenic RX4,2001,Mechanical,250471.0,Diesel,1300
+891,Volkswagen,Touran,2008,Mechanical,,Diesel,1300
+892,Audi,A3,2004,Mechanical,,Diesel,1300
+893,Renault,Megane,2007,Mechanical,,Diesel,1300
+894,Opel,Vectra C,2004,Mechanical,,Diesel,1300
+895,Opel,Astra,2006,Mechanical,,Diesel,1320
+896,Mercedes-Benz,C 180 W202,1994,Mechanical,,Gasoline,1350
+897,Opel,Adam,2013,Mechanical,70000.0,Gasoline,1350
+898,Volkswagen,Golf Plus,2008,Automatic,265000.0,Diesel,1350
+899,Volkswagen,Golf,2003,Mechanical,,Diesel,1399
+900,Toyota,Avensis,2006,Mechanical,270000.0,Diesel,1400
+901,BMW,530 E39,1999,Mechanical,430000.0,Diesel,1400
+902,Volvo,S60 I,2004,Mechanical,324578.0,Diesel,1400
+903,Volkswagen,Passat,2001,Mechanical,366180.0,Diesel,1400
+904,Seat,Leon,2009,Mechanical,,Diesel,1400
+905,Nissan,Almera Tino,2001,Mechanical,,Diesel,1430
+906,Suzuki,Liana,2003,Mechanical,,Gasoline,1430
+907,Volkswagen,Beetle,1999,Mechanical,,Diesel,1430
+908,Mazda,5,2007,Mechanical,,Diesel,1450
+909,Toyota,Corolla Seria E12,2003,Mechanical,337043.0,Diesel,1450
+910,Ford,Transit,2008,Mechanical,342515.0,Diesel,1450
+911,Seat,Alhambra,2003,Mechanical,,Petrol / Gas,1500
+912,Volkswagen,Golf,1998,Automatic,,Gasoline,1500
+913,Volvo,S60,2007,Mechanical,355000.0,Diesel,1500
+914,Saab,9-3,2005,Mechanical,,Diesel,1550
+915,Peugeot,206 CC,2002,Mechanical,215258.0,Gasoline,1550
+916,Hyundai,Sonata,2008,Mechanical,204600.0,Gasoline,1599
+917,Hyundai,Matrix,2006,Mechanical,,Gasoline,1630
+918,Chrysler,Voyager III,2001,Mechanical,,Diesel,1630
+919,Opel,Astra III,2007,Mechanical,291000.0,Gasoline,1650
+920,BMW,116 E87,2007,Mechanical,240000.0,Gasoline,1650
+921,Nissan,Qashqai I,2008,Mechanical,,Diesel,1699
+922,Peugeot,207,2009,Mechanical,187000.0,Gasoline,1699
+923,Volvo,V50,2004,Mechanical,310000.0,Diesel,1700
+924,Volvo,V70 II,2000,Mechanical,,Diesel,1730
+925,Audi,A6 C5,1999,Mechanical,,Diesel,1730
+926,Volkswagen,Passat,2009,Mechanical,,Diesel,1750
+927,Mazda,5,2006,Mechanical,220000.0,Diesel,1800
+928,Volkswagen,Golf V,2003,Mechanical,,Diesel,1830
+929,Volkswagen,Passat,2007,Automatic,300000.0,Diesel,1850
+930,Citroen,C5,2009,Mechanical,298600.0,Gasoline,1899
+931,Mazda,6,2004,Mechanical,223000.0,Gasoline,1950
+932,Peugeot,407,2007,Automatic,240000.0,Diesel,1950
+933,Volkswagen,Transporter,2002,Mechanical,385212.0,Diesel,1950
+934,Peugeot,407,2007,Mechanical,300000.0,Diesel,1999
+935,Toyota,Avensis,2001,Automatic,,Gasoline,2000
+936,Opel,Astra III,2004,Mechanical,,Diesel,2030
+937,Renault,Grand Scenic,2007,Mechanical,252000.0,Diesel,2100
+938,Ford,Galaxy,2005,Automatic,284000.0,Diesel,2150
+939,Opel,Vectra C,2006,Mechanical,294000.0,Diesel,2150
+940,Ford,Galaxy,2004,Mechanical,289565.0,Diesel,2200
+941,Opel,Astra,2005,Mechanical,287000.0,Diesel,2250
+942,BMW,118,2010,Mechanical,182000.0,Gasoline,2299
+943,Citroen,C5 III,2008,Mechanical,326030.0,Diesel,2300
+944,Toyota,Corolla Verso,2007,Mechanical,255000.0,Diesel,2400
+945,Opel,Astra III,2006,Mechanical,190000.0,Gasoline,2400
+946,Opel,Zafira B,2006,Mechanical,,Diesel,2430
+947,Volkswagen,Sharan,2003,Mechanical,222000.0,Diesel,2499
+948,Mercedes-Benz,B 200,2005,Mechanical,300000.0,Gasoline,2500
+949,Audi,A3,2004,Mechanical,,Diesel,2500
+950,Opel,Astra III,2007,Mechanical,273000.0,Gasoline,2500
+951,Honda,Civic,2006,Mechanical,300000.0,Diesel,2550
+952,Skoda,Fabia,2016,Mechanical,178000.0,Diesel,2599
+953,Skoda,Octavia,2006,Mechanical,295000.0,Diesel,2599
+954,BMW,120,2008,Mechanical,268500.0,Diesel,2599
+955,Honda,Civic,2005,Mechanical,280000.0,Diesel,2600
+956,Volkswagen,Golf,2005,Automatic,290000.0,Diesel,2600
+957,Opel,Insignia,2010,Mechanical,,Diesel,2650
+958,BMW,530,2001,Automatic,397176.0,Diesel,2650
+959,Kia,Sorento,2003,Automatic,192000.0,Diesel,2650
+960,BMW,120 E87,2004,Mechanical,,Gasoline,2730
+961,Opel,Zafira B,2007,Mechanical,284000.0,Gasoline,2750
+962,Toyota,RAV4,2003,Mechanical,301000.0,Diesel,2850
+963,Mercedes-Benz,C 200,2005,Automatic,250000.0,Gasoline,2850
+964,BMW,320 E46,2004,Mechanical,202000.0,Gasoline,2850
+965,Subaru,Justy,2010,Mechanical,118000.0,Gasoline,2900
+966,Volkswagen,Passat,2009,Mechanical,278000.0,Diesel,2900
+967,Skoda,Fabia II,2008,Mechanical,157300.0,Gasoline,2990
+968,Skoda,Fabia I,2007,Automatic,194930.0,Gasoline,2990
+969,Ford,S-Max,2011,Automatic,322600.0,Diesel,2999
+970,Toyota,RAV4,2004,Mechanical,191000.0,Diesel,3000
+971,Audi,A4 B7,2007,Automatic,230000.0,Diesel,3000
+972,Volkswagen,Golf,2008,Mechanical,281000.0,Diesel,3350
+973,Volkswagen,Passat,2006,Mechanical,268000.0,Diesel,3350
+974,Alfa,Romeo 159,2006,Mechanical,,Diesel,3399
+975,Volkswagen,Touran,2007,Mechanical,300000.0,Diesel,3400
+976,Kia,Sorento,2005,Automatic,,Diesel,3450
+977,BMW,X3 E83,2006,Mechanical,,Diesel,3500
+978,Jaguar,X-Type,1997,Automatic,254212.0,Petrol / Gas,3500
+979,BMW,118 E87,2008,Mechanical,266000.0,Diesel,3500
+980,BMW,116,2007,Mechanical,192000.0,Gasoline,3600
+981,Land,Rover Freelander,2007,Mechanical,289000.0,Diesel,3699
+982,Opel,Antara,2007,Mechanical,295112.0,Diesel,3700
+983,Ford,Transit,2006,Mechanical,205852.0,Diesel,3750
+984,Mitsubishi,Lancer,2009,Mechanical,267000.0,Gasoline,3999
+985,Opel,Meriva,2010,Automatic,255000.0,Diesel,4000
+986,Opel,Vivaro,2007,Mechanical,310800.0,Diesel,4050
+987,Toyota,Avensis III,2009,Mechanical,311567.0,Diesel,4090
+988,Volkswagen,Touareg,2005,Automatic,233042.0,Diesel,4100
+989,BMW,525,2005,Automatic,293000.0,Diesel,4450
+990,Subaru,Forester,2008,Automatic,99000.0,Petrol / Gas,4550
+991,Toyota,Avensis,2011,Mechanical,,Diesel,4600
+992,Audi,A4,2007,Mechanical,243000.0,Diesel,4750
+993,BMW,X3,2004,Automatic,260000.0,Diesel,4750
+994,Volkswagen,Multivan,1997,Mechanical,,Gasoline,4850
+995,Toyota,RAV4,2006,Mechanical,191000.0,Diesel,4900
+996,Volkswagen,Caddy,2006,Automatic,302000.0,Diesel,4950
+997,Volvo,V50,2011,Mechanical,219000.0,Diesel,4990
+998,BMW,520,2012,Mechanical,120000.0,Gasoline,4999
+999,Kia,Carens IV,2013,Mechanical,52000.0,Diesel,5000
+1000,BMW,730 E65/66,2003,Automatic,426900.0,Diesel,5100
+1001,Volkswagen,Sharan,2006,Mechanical,,Diesel,5150
+1002,Hyundai,Santa Fe,2007,Mechanical,236000.0,Diesel,5150
+1003,Audi,A3,2009,Mechanical,207000.0,Diesel,5300
+1004,Skoda,Octavia,2007,Mechanical,263000.0,Diesel,5300
+1005,Volvo,S60,2010,Mechanical,,Diesel,5400
+1006,Volkswagen,Transporter,2004,Mechanical,285422.0,Diesel,5400
+1007,Audi,A6 C6,2008,Automatic,265841.0,Diesel,5450
+1008,Volkswagen,Touran,2010,Automatic,190000.0,Gasoline,5500
+1009,BMW,535,2008,Automatic,300000.0,Diesel,5600
+1010,Audi,A6 Allroad,2007,Automatic,,Gasoline,5600
+1011,Volkswagen,Caddy,2013,Automatic,,Diesel,5800
+1012,Opel,Vivaro,2007,Mechanical,265852.0,Diesel,5850
+1013,Opel,Vivaro,2008,Mechanical,,Diesel,6100
+1014,Volkswagen,CC,2009,Automatic,192000.0,Gasoline,6150
+1015,BMW,530,2008,Mechanical,265000.0,Diesel,6200
+1016,BMW,530,2010,Automatic,301000.0,Diesel,6200
+1017,Mercedes-Benz,SLK 200,2005,Automatic,201000.0,Gasoline,6300
+1018,Volkswagen,Caddy,2011,Mechanical,,Diesel,6350
+1019,Audi,A6,2008,Automatic,244000.0,Diesel,6450
+1020,Mercedes-Benz,ML 320 W164,2006,Automatic,320000.0,Diesel,6500
+1021,Opel,Combo,2017,Mechanical,338000.0,Diesel,6500
+1022,Volkswagen,Polo,2011,Automatic,214340.0,Gasoline,6850
+1023,BMW,X5,2006,Automatic,223000.0,Diesel,6850
+1024,Land,Rover Freelander,2010,Mechanical,317995.0,Diesel,6950
+1025,Chrysler,Town & Country,2014,Automatic,135000.0,Gasoline,7300
+1026,Audi,A3,2012,Mechanical,240000.0,Diesel,7500
+1027,Volkswagen,Touran,2015,Automatic,,Diesel,7600
+1028,Chrysler,Town & Country,2012,Automatic,,Petrol / Gas,7600
+1029,Mazda,6,2014,Mechanical,312000.0,Gasoline,7700
+1030,BMW,X3,2008,Automatic,288000.0,Diesel,7950
+1031,Toyota,Avensis,2012,Mechanical,229266.0,Diesel,7999
+1032,Opel,Insignia,2014,Mechanical,217145.0,Diesel,7999
+1033,Renault,Megane,2016,Mechanical,32300.0,Gasoline,7999
+1034,Mercedes-Benz,ML 280 W164,2008,Automatic,270000.0,Diesel,8150
+1035,Nissan,Juke,2015,Mechanical,132207.0,Diesel,8200
+1036,BMW,116 F20,2012,Mechanical,194000.0,Diesel,8200
+1037,Mitsubishi,L200,2008,Mechanical,,Diesel,8250
+1038,Skoda,Octavia,2016,Mechanical,,Diesel,8400
+1039,Lexus,LS 600h,2008,Automatic,,Gasoline/Electric,8500
+1040,BMW,X3,2014,Automatic,252076.0,Gasoline,8700
+1041,Renault,Trafic,2016,Mechanical,211000.0,Diesel,8800
+1042,Volkswagen,Touran,2011,Automatic,305505.0,Diesel,8950
+1043,Opel,Vivaro,2008,Mechanical,328759.0,Diesel,8950
+1044,BMW,523,2010,Automatic,323687.0,Gasoline,8950
+1045,Volkswagen,Passat CC,2014,Mechanical,239969.0,Diesel,9400
+1046,Mitsubishi,Outlander,2010,Mechanical,244894.0,Diesel,9450
+1047,Mercedes-Benz,B 200,2014,Automatic,255000.0,Diesel,9900
+1048,Volvo,XC60,2009,Automatic,257113.0,Diesel,10450
+1049,BMW,X5,2009,Automatic,200000.0,Diesel,10800
+1050,Volkswagen,Passat,2013,Automatic,117000.0,Diesel,10900
+1051,Volkswagen,Multivan,2004,Mechanical,,Diesel,11000
+1052,Audi,A6,2012,Automatic,,Diesel,11700
+1053,Audi,A5,2012,Automatic,84500.0,Gasoline,11990
+1054,Volkswagen,Tiguan,2012,Automatic,158600.0,Gasoline,11990
+1055,Mitsubishi,Pajero,2011,Automatic,319901.0,Diesel,12550
+1056,Audi,A5,2013,Automatic,107676.0,Gasoline,12600
+1057,Volkswagen,Golf,2018,Automatic,163000.0,Diesel,13500
+1058,Volvo,XC90,2012,Automatic,294114.0,Diesel,13950
+1059,Audi,A5,2015,Automatic,343989.0,Diesel,14200
+1060,BMW,X3,2014,Automatic,134000.0,Gasoline,14400
+1061,Volkswagen,Touareg,2011,Automatic,260353.0,Diesel,14999
+1062,Land,Rover Range Rover Sport I,2013,Automatic,,Diesel,15000
+1063,Volvo,S60,2016,Automatic,98800.0,Gasoline,15400
+1064,Volkswagen,Transporter,2013,Mechanical,247106.0,Diesel,15950
+1065,Volvo,XC60,2016,Mechanical,214611.0,Diesel,16200
+1066,Volvo,XC60,2016,Automatic,238506.0,Diesel,16650
+1067,Volvo,XC60,2016,Automatic,246221.0,Diesel,16650
+1068,Volkswagen,Passat,2018,Automatic,131353.0,Gasoline,16990
+1069,Kia,Sportage,2017,Automatic,191891.0,Diesel,17200
+1070,BMW,530 Gran Turismo,2014,Automatic,227610.0,Diesel,17550
+1071,BMW,X3,2017,Automatic,116100.0,Gasoline,17900
+1072,Ford,Ranger,2016,Mechanical,206259.0,Diesel,17950
+1073,Audi,A4,2017,Automatic,124156.0,Diesel,17990
+1074,Audi,Q3,2018,Automatic,110000.0,Gasoline,17999
+1075,Volkswagen,Tiguan,2017,Automatic,159760.0,Diesel,19250
+1076,Volkswagen,Tiguan,2018,Automatic,101724.0,Diesel,19500
+1077,Skoda,Superb,2018,Automatic,113033.0,Diesel,20900
+1078,Toyota,C-HR,2017,Automatic,50000.0,Gasoline,20900
+1079,Ford,Mustang,2017,Automatic,53000.0,Gasoline,21900
+1080,Audi,Q3,2019,Automatic,149628.0,Diesel,25500
+1081,Audi,Q5,2018,Automatic,161150.0,Diesel,26900
+1082,Audi,Q5,2017,Automatic,185217.0,Gasoline,26900
+1083,Infiniti,QX60,2016,Automatic,108000.0,Petrol / Gas,27000
+1084,Volvo,XC60,2019,Automatic,84755.0,Diesel,29950
+1085,BMW,i3,2019,Automatic,,42 kWh,31750
+1086,Volkswagen,ID.3,2022,Automatic,,58 kWh,32900
+1087,Volkswagen,ID.3,2022,Automatic,,58 kWh,33900
+1088,Audi,A6,2020,Automatic,122129.0,Diesel/Electric,36500
+1089,Volkswagen,ID.4,2020,Automatic,,77 kWh,36900
+1090,Audi,A6,2019,Automatic,118898.0,Diesel/Electric,36900
+1091,Volkswagen,Arteon,2021,Automatic,36554.0,Diesel,37000
+1092,Audi,A6,2018,Automatic,90739.0,Diesel/Electric,37900
+1093,Audi,Q3,2022,Automatic,17212.0,Diesel,38500
+1094,Audi,Q5,2019,Automatic,43132.0,Gasoline,38900
+1095,Audi,A6,2018,Automatic,62127.0,Diesel/Electric,39500
+1096,Audi,A6,2018,Automatic,75250.0,Diesel/Electric,41500
+1097,Audi,A6,2018,Automatic,91200.0,Diesel/Electric,44990
+1098,Audi,A6,2021,Automatic,30700.0,Gasoline/Electric,45000
+1099,Tesla,Model 3,2021,Automatic,,82 kWh,45900
+1100,Audi,e-tron,,230 kW,,2020 y,45900
+1101,Audi,A7,2018,Automatic,80623.0,Diesel/Electric,47500
+1102,Audi,A7,2018,Automatic,75081.0,Diesel/Electric,49500
+1103,Volkswagen,ID.5,2022,Automatic,,77 kWh,49900
+1104,Volkswagen,ID.5,2022,Automatic,,77 kWh,49900
+1105,Audi,A6,2022,Automatic,16572.0,Gasoline/Electric,49900
+1106,Audi,A6,2021,Automatic,17130.0,Gasoline/Electric,49900
+1107,Audi,A6 Allroad,2020,Automatic,65709.0,Diesel/Electric,52900
+1108,Audi,Q7,2020,Automatic,44000.0,Gasoline,58000
+1109,Porsche,Cayenne,2018,Automatic,86350.0,Gasoline,60990
+1110,Audi,A6,2022,Automatic,18000.0,Gasoline/Electric,66900
+1111,Audi,e-tron Sportback,2022,Automatic,,95 kWh,77900
+1112,Audi,e-tron GT,2021,Automatic,,93 kWh,96990
+1113,Ford,Galaxy Mk2,2001,Mechanical,,Diesel,100
+1114,Volkswagen,Touran I,2008,Mechanical,300000.0,Diesel,100
+1115,Audi,A4,2001,Mechanical,372822.0,Diesel,100
+1116,Volkswagen,Passat B4,1995,Mechanical,,Gasoline,100
+1117,Opel,Zafira A,2004,Mechanical,245369.0,Diesel,100
+1118,Renault,Espace II,1994,Mechanical,,Gasoline,150
+1119,Opel,Corsa,1994,Mechanical,,Gasoline,180
+1120,Lada,111,1980,Mechanical,,Gasoline,180
+1121,Volkswagen,Golf III,1996,Mechanical,300000.0,Diesel,199
+1122,Volkswagen,Polo,2000,Mechanical,,Gasoline,200
+1123,Volvo,V70 II,2002,Mechanical,,Diesel,200
+1124,Mercedes-Benz,A 160,1999,Automatic,,Gasoline,210
+1125,Ford,Focus Mk1,1999,Mechanical,194643.0,Gasoline,220
+1126,Seat,Arosa,1999,Mechanical,,Gasoline,220
+1127,Volkswagen,Polo IV FL,2005,Mechanical,209178.0,Gasoline,222
+1128,Renault,Scenic,2002,Mechanical,,Diesel,250
+1129,Peugeot,206,2001,Mechanical,195000.0,Diesel,250
+1130,Ford,Focus,2000,Mechanical,,Diesel,250
+1131,Ford,Focus Mk1,2000,Mechanical,,Diesel,250
+1132,Opel,Vectra,1999,Automatic,,Diesel,250
+1133,Audi,A3,1998,Mechanical,260000.0,Gasoline,250
+1134,Peugeot,307 I,2003,Mechanical,,Diesel,250
+1135,Mazda,Premacy,2003,Mechanical,,Gasoline,260
+1136,Renault,Espace,1995,Mechanical,,Petrol / Gas,270
+1137,Ford,Fiesta,2002,Mechanical,,Gasoline,270
+1138,Renault,Espace,1997,Mechanical,,Diesel,270
+1139,Renault,Scenic,2001,Mechanical,,Diesel,270
+1140,Rover,45,2001,Mechanical,,Diesel,280
+1141,Volkswagen,Passat,1996,Automatic,,Diesel,290
+1142,Volkswagen,Polo,1999,Mechanical,,Gasoline,299
+1143,Opel,Astra,2003,Mechanical,,Diesel,299
+1144,Toyota,Yaris,2001,Mechanical,220000.0,Gasoline,299
+1145,Citroen,C3,2007,Mechanical,102000.0,Gasoline,299
+1146,Volkswagen,Golf,1992,Mechanical,,Gasoline,299
+1147,Mercedes-Benz,A 170,2004,Mechanical,,Diesel,299
+1148,Ford,Fiesta Mk6,2007,Mechanical,,Diesel,300
+1149,Peugeot,Partner,2006,Mechanical,,Diesel,300
+1150,Opel,Zafira,2000,Mechanical,,Diesel,300
+1151,Ford,Mondeo,2003,Mechanical,,Gasoline,300
+1152,Audi,A6,1996,Mechanical,,Gasoline,300
+1153,Honda,Civic,2007,Mechanical,197000.0,Gasoline,300
+1154,Mercedes-Benz,C 220 W203,2002,Automatic,,Diesel,300
+1155,Renault,Clio,2006,Mechanical,210000.0,Gasoline,300
+1156,Moskvich,412,1976,Mechanical,,Gasoline,300
+1157,Audi,A3,1998,Mechanical,,Diesel,300
+1158,Mitsubishi,Carisma,1995,Mechanical,,Gasoline,300
+1159,Peugeot,605,1997,Mechanical,,Diesel,320
+1160,Citroen,C3,2004,Mechanical,100000.0,Gasoline,320
+1161,Mercedes-Benz,A 160,1998,Mechanical,139000.0,Gasoline,320
+1162,Volkswagen,Polo,1999,Mechanical,,Gasoline,320
+1163,Opel,Astra,1998,Mechanical,,Diesel,320
+1164,Renault,Megane,2000,Mechanical,,Diesel,321
+1165,Audi,A3,2000,Mechanical,,Diesel,325
+1166,Audi,80 B2,1985,Mechanical,,Diesel,330
+1167,Renault,Laguna I,1994,Mechanical,,Gasoline,330
+1168,Peugeot,406,2000,Mechanical,,Diesel,330
+1169,Opel,Meriva,2005,Mechanical,,Diesel,330
+1170,Opel,Zafira,2001,Mechanical,,Diesel,333
+1171,Volkswagen,Sharan,1997,Mechanical,,Diesel,333
+1172,Opel,Meriva I,2004,Mechanical,,Diesel,333
+1173,Opel,Zafira,2002,Mechanical,,Gasoline,350
+1174,Ford,Focus,2002,Mechanical,,Diesel,350
+1175,Nissan,Primera P12,2002,Mechanical,,Diesel,350
+1176,Opel,Vectra,2001,Mechanical,,Diesel,350
+1177,Audi,A4,1995,Mechanical,,Gasoline,350
+1178,Audi,80,1987,Mechanical,,Gasoline,350
+1179,Moskvich,2140,1985,Mechanical,,Petrol / Gas,350
+1180,Opel,Zafira A,2003,Mechanical,,Diesel,350
+1181,Peugeot,206,2001,Mechanical,,Gasoline,350
+1182,Audi,A4,1997,Mechanical,,Gasoline,350
+1183,Citroen,ZX,1996,Mechanical,50.0,Gasoline,350
+1184,Rover,75,2005,Mechanical,,Petrol / Gas,350
+1185,Renault,Clio,1993,Mechanical,,Gasoline,350
+1186,Hyundai,Accent,2005,Mechanical,,Gasoline,350
+1187,Audi,A4,1996,Mechanical,,Gasoline,350
+1188,Chrysler,Neon,2002,Automatic,,Gasoline,350
+1189,Skoda,Fabia,2003,Mechanical,,Diesel,350
+1190,Volkswagen,Polo,2003,Mechanical,,Diesel,350
+1191,Opel,Zafira,2000,Mechanical,342096.0,Diesel,350
+1192,Opel,Astra,2003,Mechanical,,Diesel,350
+1193,Volkswagen,Passat,2000,Mechanical,,Diesel,350
+1194,Citroen,C3,2003,Mechanical,,Diesel,350
+1195,Audi,A4,1996,Mechanical,257000.0,Gasoline,350
+1196,Audi,80,1992,Mechanical,,Diesel,350
+1197,Ford,Galaxy Mk2,2003,Mechanical,,Diesel,350
+1198,Ford,Focus Mk1,2003,Mechanical,,Diesel,350
+1199,Opel,Agila,2001,Mechanical,,Gasoline,350
+1200,Opel,Astra,2003,Mechanical,,Diesel,359
+1201,Saab,9-3,1999,Mechanical,,Diesel,360
+1202,Audi,80,1992,Mechanical,,Diesel,370
+1203,Audi,A4,1996,Mechanical,,Diesel,370
+1204,Audi,80,1986,Mechanical,,Petrol / Gas,370
+1205,Opel,Astra,2002,Mechanical,,Diesel,370
+1206,Audi,80,1989,Mechanical,,Petrol / Gas,370
+1207,Opel,Astra,2003,Mechanical,,Diesel,370
+1208,Mitsubishi,Carisma,2001,Mechanical,,Gasoline,370
+1209,Saab,900,1998,Mechanical,270000.0,Gasoline,375
+1210,Volkswagen,Touran,2003,Mechanical,400000.0,Diesel,375
+1211,Peugeot,206,2000,Mechanical,102000.0,Diesel,380
+1212,Audi,80,1994,Mechanical,,Diesel,380
+1213,Mazda,6,2006,Mechanical,,Diesel,380
+1214,Renault,Laguna,1998,Mechanical,,Gasoline,380
+1215,Citroen,Berlingo,2006,Mechanical,182123.0,Petrol / Gas,380
+1216,Ford,Focus Mk1,1999,Mechanical,,Diesel,380
+1217,Renault,Clio,2000,Mechanical,179000.0,Gasoline,380
+1218,Volvo,V40,2001,Mechanical,,Diesel,390
+1219,Skoda,Fabia,2006,Mechanical,,Gasoline,390
+1220,Ford,Galaxy,2003,Mechanical,,Diesel,399
+1221,Opel,Astra,2000,Mechanical,,Gasoline,399
+1222,Nissan,Almera,2002,Mechanical,,Gasoline,400
+1223,Ford,Mondeo,2002,Mechanical,,Petrol / Gas,400
+1224,Audi,A4 B5,1996,Mechanical,,Gasoline,400
+1225,Volkswagen,Passat B4,1996,Mechanical,430000.0,Diesel,400
+1226,Volkswagen,Golf,1991,Mechanical,,Gasoline,400
+1227,Kia,Carens,2002,Mechanical,,Petrol / Gas,400
+1228,Audi,A4 B5,2000,Mechanical,,Petrol / Gas,400
+1229,Seat,Ibiza III,2005,Mechanical,,Diesel,400
+1230,Opel,Zafira,2000,Mechanical,,Petrol / Gas,400
+1231,Peugeot,406,1998,Mechanical,,Diesel,400
+1232,Opel,Vectra,1998,Mechanical,,Diesel,400
+1233,Citroen,C5,2004,Mechanical,,Diesel,400
+1234,Volkswagen,Passat,1998,Mechanical,,Diesel,400
+1235,Ford,Cougar,1999,Mechanical,190000.0,Gasoline,400
+1236,Ford,Galaxy,2001,Mechanical,,Diesel,400
+1237,Peugeot,407,2004,Mechanical,320000.0,Diesel,400
+1238,Audi,80 B3,1991,Mechanical,,Diesel,400
+1239,Volkswagen,Polo,2003,Mechanical,,Gasoline,400
+1240,Audi,A4 B5,1997,Mechanical,,Diesel,400
+1241,Opel,Vectra C,2003,Mechanical,350000.0,Diesel,400
+1242,Peugeot,206,2001,Mechanical,272000.0,Diesel,400
+1243,Peugeot,406,2001,Mechanical,290000.0,Diesel,400
+1244,Opel,Omega,1994,Automatic,,Gasoline,400
+1245,Renault,Scenic,1999,Mechanical,,Diesel,400
+1246,Renault,Scenic,2000,Mechanical,,Petrol / Gas,400
+1247,Volkswagen,Golf III,1997,Mechanical,,Diesel,400
+1248,Volvo,V70 II,2001,Mechanical,460000.0,Diesel,400
+1249,Mercedes-Benz,A 160,2000,Mechanical,,Gasoline,400
+1250,Opel,Astra,2002,Mechanical,333000.0,Diesel,400
+1251,Volkswagen,Polo III,2000,Mechanical,,Diesel,400
+1252,Peugeot,406,1996,Mechanical,,Gasoline,400
+1253,Volkswagen,Golf IV,2001,Automatic,,Diesel,400
+1254,Peugeot,406,2002,Mechanical,,Diesel,400
+1255,Opel,Meriva I,2005,Mechanical,205000.0,Diesel,400
+1256,Audi,A6,1997,Mechanical,,Diesel,400
+1257,Audi,A6,2001,Mechanical,285980.0,Diesel,420
+1258,Ford,Galaxy,1999,Mechanical,,Diesel,420
+1259,Saab,9-3 II,2004,Mechanical,,Diesel,420
+1260,Audi,A4,1997,Mechanical,,Gasoline,420
+1261,Renault,Laguna II,2003,Mechanical,,Diesel,430
+1262,Opel,Vectra B,1997,Mechanical,,Gasoline,430
+1263,Volkswagen,Golf,1999,Mechanical,300031.0,Diesel,430
+1264,Peugeot,307,2002,Mechanical,323000.0,Diesel,430
+1265,Volvo,S80,2001,Mechanical,,Gasoline,430
+1266,Audi,A4 B5,1998,Automatic,240000.0,Gasoline,430
+1267,Mazda,2,2002,Mechanical,,Petrol / Gas,430
+1268,Mazda,3,2002,Mechanical,,Gasoline,430
+1269,Opel,Astra,1995,Mechanical,,Gasoline,440
+1270,Volkswagen,Golf,1995,Mechanical,,Diesel,440
+1271,Volkswagen,Passat B5 FL,2004,Automatic,,Diesel,442
+1272,Peugeot,607,2003,Mechanical,,Diesel,444
+1273,Peugeot,205,1986,Mechanical,,Diesel,450
+1274,Volvo,850,1996,Mechanical,225000.0,Diesel,450
+1275,Opel,Corsa B,2000,Mechanical,126000.0,Gasoline,450
+1276,Mazda,2 I,2007,Mechanical,107000.0,Gasoline,450
+1277,Opel,Vectra,2002,Mechanical,,Diesel,450
+1278,Volkswagen,Sharan,1999,Mechanical,,Diesel,450
+1279,Audi,A3,1998,Mechanical,,Diesel,450
+1280,Mercedes-Benz,Vaneo,2004,Mechanical,,Diesel,450
+1281,Renault,Kangoo I,2003,Mechanical,325412.0,Diesel,450
+1282,Mazda,626,1985,Mechanical,,Gasoline,450
+1283,Opel,Vectra,2003,Mechanical,,Diesel,450
+1284,Audi,100,1984,Mechanical,400000.0,Gasoline,450
+1285,Chevrolet,Lacetti,2008,Mechanical,220000.0,Diesel,450
+1286,Ford,Sierra,1986,Mechanical,,Gasoline,450
+1287,Opel,Zafira,2004,Mechanical,220000.0,Diesel,450
+1288,Volkswagen,Passat,1993,Mechanical,,Diesel,450
+1289,Nissan,Almera Tino,2003,Mechanical,,Gasoline,450
+1290,BMW,525,1999,Mechanical,,Diesel,450
+1291,Opel,Vectra B,2001,Mechanical,,Diesel,450
+1292,Citroen,C8,2004,Mechanical,,Diesel,450
+1293,Audi,A6,1999,Mechanical,,Gasoline,450
+1294,Peugeot,307,2006,Mechanical,,Gasoline,450
+1295,Volvo,S80,1999,Mechanical,,Diesel,450
+1296,Volkswagen,Sharan I,1997,Mechanical,299883.0,Diesel,450
+1297,Renault,Scenic,2004,Mechanical,,Diesel,450
+1298,Opel,Zafira,2003,Mechanical,,Diesel,450
+1299,Audi,A4 B5,1996,Mechanical,309500.0,Gasoline,450
+1300,Volkswagen,Golf,2000,Mechanical,,Diesel,450
+1301,Volkswagen,Golf,1986,Mechanical,356741.0,Diesel,450
+1302,Renault,Megane,1996,Mechanical,282550.0,Gasoline,450
+1303,Audi,A6,2001,Mechanical,402000.0,Diesel,450
+1304,Opel,Meriva I,2004,Automatic,,Gasoline,450
+1305,Volvo,S60,2002,Mechanical,300.0,Petrol / Gas,450
+1306,Audi,80 B4,1992,Mechanical,450000.0,Diesel,450
+1307,Renault,Scenic,1999,Automatic,175900.0,Petrol / Gas,450
+1308,BMW,320,2001,Mechanical,,Diesel,450
+1309,Volkswagen,Golf,1999,Mechanical,,Gasoline,450
+1310,Opel,Zafira,2000,Mechanical,270000.0,Diesel,450
+1311,Lada,21013,1986,Mechanical,,Gasoline,450
+1312,Lada,Niva,1979,Mechanical,,Gasoline,459
+1313,Rover,75,2002,Mechanical,326703.0,Diesel,460
+1314,Ford,Focus,2006,Mechanical,,Diesel,460
+1315,Toyota,Yaris,2004,Mechanical,,Diesel,460
+1316,Mercedes-Benz,C 250 W202,1997,Automatic,317000.0,Diesel,470
+1317,Nissan,Primera,2003,Mechanical,,Diesel,470
+1318,Skoda,Fabia,2004,Mechanical,,Gasoline,470
+1319,Mitsubishi,Space Star,2003,Mechanical,386000.0,Diesel,470
+1320,Audi,A4 B5,1999,Mechanical,300000.0,Diesel,470
+1321,Chrysler,Town & Country,2007,Automatic,,Petrol / Gas,480
+1322,Volkswagen,Golf,1999,Mechanical,245000.0,Gasoline,480
+1323,Ford,Mondeo,2002,Mechanical,250000.0,Petrol / Gas,480
+1324,Audi,A3 8L,2000,Mechanical,262210.0,Diesel,480
+1325,Peugeot,307,2002,Mechanical,,Gasoline,480
+1326,Peugeot,406,1998,Mechanical,,Diesel,480
+1327,Ford,Focus,2002,Mechanical,,Diesel,480
+1328,Audi,80 B4,1992,Mechanical,299000.0,Petrol / Gas,480
+1329,Mercedes-Benz,A 140,1999,Mechanical,,Gasoline,485
+1330,Daewoo,Matiz,2002,Mechanical,,Gasoline,490
+1331,Ford,Galaxy,1996,Mechanical,,Diesel,490
+1332,Volkswagen,Passat,1999,Mechanical,,Diesel,490
+1333,Opel,Astra,1992,Mechanical,,Diesel,490
+1334,Volkswagen,Golf,1990,Mechanical,,Diesel,490
+1335,Audi,80 B3,1989,Automatic,209000.0,Gasoline,499
+1336,Skoda,Octavia I,2002,Mechanical,,Diesel,499
+1337,Mazda,Premacy,2005,Mechanical,,Diesel,499
+1338,Volkswagen,Golf,1999,Mechanical,,Diesel,499
+1339,Audi,A3,2001,Mechanical,,Diesel,499
+1340,Renault,Laguna I,1996,Mechanical,398000.0,Gasoline,499
+1341,Renault,Clio III,2006,Mechanical,,Gasoline,499
+1342,Volkswagen,Fox,2007,Mechanical,173499.0,Gasoline,499
+1343,Chevrolet,Kalos,2006,Mechanical,,Gasoline,500
+1344,Volkswagen,Passat,1998,Mechanical,,Diesel,500
+1345,Volvo,V70,1998,Mechanical,460.0,Diesel,500
+1346,Volkswagen,Golf,1999,Mechanical,,Diesel,500
+1347,Hyundai,Atos,2005,Mechanical,,Gasoline,500
+1348,Hyundai,i10,2005,Mechanical,192000.0,Gasoline,500
+1349,Peugeot,206,2006,Mechanical,,Diesel,500
+1350,Opel,Vectra B,1998,Mechanical,371000.0,Diesel,500
+1351,Nissan,Primera,1996,Mechanical,,Gasoline,500
+1352,Volkswagen,Passat,1998,Mechanical,,Petrol / Gas,500
+1353,Citroen,C5,2003,Mechanical,,Petrol / Gas,500
+1354,Volkswagen,Golf,1999,Mechanical,245000.0,Diesel,500
+1355,Audi,80,1992,Mechanical,,Gasoline,500
+1356,Audi,80,1992,Mechanical,,Gasoline,500
+1357,Seat,Ibiza,2022,Mechanical,,Gasoline,500
+1358,Renault,Scenic,2004,Mechanical,,Diesel,500
+1359,Citroen,C3,2006,Mechanical,221060.0,Gasoline,500
+1360,Lada,2105,1982,Mechanical,54000.0,Gasoline,500
+1361,Opel,Signum,2003,Mechanical,,Diesel,500
+1362,Mitsubishi,Colt CJ0,1998,Mechanical,140000.0,Gasoline,500
+1363,Audi,A4 B5,1995,Mechanical,,Gasoline,500
+1364,Audi,80,1985,Mechanical,,Gasoline,500
+1365,Opel,Zafira,2000,Mechanical,300000.0,Diesel,500
+1366,Opel,Astra,2005,Mechanical,340000.0,Diesel,500
+1367,Peugeot,307,2002,Mechanical,,Diesel,500
+1368,Opel,Astra,1999,Mechanical,320000.0,Diesel,500
+1369,Volkswagen,Passat,2004,Mechanical,,Diesel,500
+1370,Volkswagen,Passat,2001,Mechanical,480543.0,Diesel,500
+1371,Mercedes-Benz,E 220 W210,1997,Mechanical,450000.0,Diesel,500
+1372,Volkswagen,Bora,2003,Mechanical,,Gasoline,500
+1373,Audi,A6,2002,Automatic,,Diesel,500
+1374,BMW,320 E46,2005,Mechanical,330000.0,Diesel,500
+1375,Chrysler,Town & Country,2007,Automatic,,Petrol / Gas,500
+1376,Audi,A6,1997,Mechanical,,Gasoline,500
+1377,Volkswagen,Passat,1999,Mechanical,,Diesel,500
+1378,Volvo,V70 II,2000,Mechanical,,Diesel,500
+1379,Audi,A3 8L,1998,Mechanical,274000.0,Diesel,500
+1380,Mercedes-Benz,A 160,1999,Automatic,,Gasoline,500
+1381,Peugeot,106,1998,Mechanical,,Gasoline,500
+1382,Audi,A4 B6,2003,Mechanical,,Diesel,500
+1383,Toyota,Previa,2005,Mechanical,,Diesel,500
+1384,Kia,Pride,1996,Mechanical,170000.0,Gasoline,500
+1385,Fiat,Punto,2005,Mechanical,186075.0,Gasoline,500
+1386,Honda,Civic VI,1999,Automatic,,Gasoline,500
+1387,Volkswagen,Passat B5,1998,Mechanical,,Diesel,500
+1388,Volkswagen,Golf,1990,Mechanical,,Gasoline,500
+1389,Citroen,Xsara II,2004,Automatic,218000.0,Diesel,500
+1390,Toyota,Corolla Verso,2005,Mechanical,,Diesel,500
+1391,Toyota,Corolla Verso,2004,Mechanical,300000.0,Diesel,500
+1392,Ford,Focus C-Max,2004,Mechanical,255770.0,Diesel,500
+1393,Volkswagen,Passat B4,1995,Mechanical,400000.0,Diesel,500
+1394,Ford,Aspire,1995,Mechanical,,Gasoline,500
+1395,Subaru,Legacy,2000,Automatic,,Petrol / Gas,500
+1396,Chrysler,Voyager,2002,Mechanical,,Diesel,500
+1397,Mazda,5,2007,Mechanical,,Diesel,500
+1398,Volkswagen,Golf,2006,Mechanical,,Diesel,500
+1399,Renault,Megane II,2003,Mechanical,350000.0,Diesel,500
+1400,Volkswagen,Passat B5,1997,Mechanical,550000.0,Diesel,500
+1401,Volkswagen,Golf IV,2000,Mechanical,,Diesel,500
+1402,Opel,Zafira A,1999,Mechanical,,Gasoline,500
+1403,Audi,A4,2003,Mechanical,,Diesel,500
+1404,Ford,Focus,2001,Mechanical,204320.0,Diesel,500
+1405,Opel,Vectra B,2000,Mechanical,,Gasoline,500
+1406,Audi,A6,2002,Mechanical,,Diesel,500
+1407,Audi,A4,2000,Automatic,,Diesel,500
+1408,Opel,Zafira,2002,Mechanical,,Diesel,500
+1409,Volkswagen,Golf II,1987,Mechanical,90000.0,Gasoline,500
+1410,Volvo,S80,2001,Automatic,240000.0,Gasoline,500
+1411,Peugeot,306,2000,Mechanical,302000.0,Diesel,500
+1412,Mazda,5,2006,Mechanical,180000.0,Diesel,500
+1413,Audi,A6 C5,1998,Mechanical,,Petrol / Gas,500
+1414,Volvo,V50,2005,Mechanical,354000.0,Diesel,500
+1415,Audi,A6,2001,Mechanical,,Diesel,500
+1416,Ford,Focus,2000,Mechanical,,Gasoline,500
+1417,BMW,330 E46,2001,Automatic,,Gasoline,500
+1418,BMW,520 E39,1997,Mechanical,,Gasoline,500
+1419,Opel,Astra,2001,Mechanical,,Gasoline,520
+1420,Saab,9-5,2000,Mechanical,,Gasoline,520
+1421,Opel,Zafira,2003,Mechanical,,Diesel,520
+1422,Volkswagen,Passat,1998,Mechanical,,Diesel,520
+1423,Opel,Astra,2001,Mechanical,,Diesel,520
+1424,Audi,A3,1999,Mechanical,,Gasoline,529
+1425,Volkswagen,Golf III,1996,Mechanical,,Gasoline,530
+1426,Mazda,Premacy,2004,Mechanical,,Diesel,530
+1427,Ford,Focus Mk1,1999,Mechanical,,Gasoline,530
+1428,Seat,Cordoba I FL,1999,Mechanical,,Diesel,530
+1429,Mazda,6 I,2003,Mechanical,,Diesel,530
+1430,Volkswagen,Polo,1997,Mechanical,,Diesel,530
+1431,Chrysler,PT Cruiser,2001,Mechanical,150000.0,Gasoline,530
+1432,Mitsubishi,Galant,1999,Mechanical,,Gasoline,530
+1433,Audi,A3,1997,Mechanical,,Gasoline,540
+1434,Audi,A4,1999,Mechanical,,Gasoline,550
+1435,Volkswagen,Passat B5,1998,Mechanical,,Diesel,550
+1436,Mercedes-Benz,C 180 W203,2003,Automatic,250000.0,Gasoline,550
+1437,Skoda,Fabia,2005,Mechanical,,Gasoline,550
+1438,Opel,Meriva,2006,Mechanical,,Diesel,550
+1439,Mazda,5 I,2006,Mechanical,179000.0,Gasoline,550
+1440,Opel,Astra II,2001,Mechanical,,Diesel,550
+1441,Volkswagen,Golf,1999,Mechanical,,Diesel,550
+1442,Citroen,Xsara Picasso,2001,Mechanical,305173.0,Diesel,550
+1443,Mercedes-Benz,CLK 200,1998,Mechanical,,Petrol / Gas,550
+1444,Volkswagen,Golf III,1996,Mechanical,,Diesel,550
+1445,Nissan,Almera Tino,2002,Mechanical,,Diesel,550
+1446,Fiat,Stilo,2001,Mechanical,,Diesel,550
+1447,Opel,Astra,1998,Mechanical,,Gasoline,550
+1448,Volkswagen,Passat,1998,Mechanical,,Diesel,550
+1449,Saab,9-5,2005,Automatic,220000.0,Petrol / Gas,550
+1450,Nissan,Almera Tino,2002,Mechanical,268000.0,Diesel,550
+1451,Mazda,6 I,2007,Mechanical,215000.0,Diesel,550
+1452,Peugeot,206,2001,Mechanical,3050000.0,Diesel,550
+1453,Citroen,Xsara Picasso,2001,Mechanical,,Diesel,550
+1454,Toyota,Corolla,1989,Mechanical,,Gasoline,550
+1455,Opel,Sintra,2000,Mechanical,,Gasoline,550
+1456,Mazda,Premacy,2000,Mechanical,,Diesel,550
+1457,Fiat,Bravo I,2001,Mechanical,154847.0,Gasoline,550
+1458,Volkswagen,Sharan,2003,Mechanical,,Diesel,550
+1459,Volkswagen,Bora,1999,Mechanical,299000.0,Gasoline,550
+1460,Volkswagen,Polo III,1999,Mechanical,130000.0,Diesel,550
+1461,Volkswagen,Golf,1999,Mechanical,,Diesel,550
+1462,Seat,Ibiza,2004,Mechanical,157000.0,Gasoline,550
+1463,Fiat,Doblo,2004,Mechanical,,Diesel,550
+1464,Fiat,Stilo,2003,Mechanical,299500.0,Diesel,550
+1465,Ford,Galaxy,1998,Mechanical,,Diesel,550
+1466,Mercedes-Benz,E 220 W210,1996,Automatic,300000.0,Diesel,550
+1467,Audi,80,1986,Mechanical,150000.0,Gasoline,550
+1468,Peugeot,406,1997,Mechanical,225352.0,Gasoline,550
+1469,Ford,Focus Mk1,2001,Mechanical,378241.0,Diesel,550
+1470,Volkswagen,Golf,1999,Mechanical,,Diesel,550
+1471,Opel,Signum,2003,Mechanical,286697.0,Diesel,550
+1472,Volkswagen,Passat,2005,Mechanical,317000.0,Diesel,550
+1473,Audi,A6,1999,Mechanical,,Gasoline,550
+1474,Audi,A6 C5,2000,Automatic,300000.0,Diesel,554
+1475,Mazda,3,2004,Mechanical,,Gasoline,555
+1476,Daihatsu,Cuore,2005,Mechanical,,Gasoline,555
+1477,Renault,Espace,2005,Mechanical,,Diesel,559
+1478,Peugeot,307,2004,Mechanical,250000.0,Diesel,560
+1479,Volkswagen,Bora,2000,Mechanical,,Gasoline,570
+1480,Opel,Astra I,1999,Automatic,,Gasoline,580
+1481,Skoda,Octavia I,1999,Mechanical,,Diesel,580
+1482,Toyota,Yaris,2000,Mechanical,290412.0,Gasoline,580
+1483,Audi,100,1993,Mechanical,,Diesel,580
+1484,Volvo,S60,2003,Mechanical,,Diesel,580
+1485,Toyota,Corolla,2003,Mechanical,251189.0,Diesel,580
+1486,Opel,Vectra B,1999,Mechanical,,Diesel,580
+1487,Mercedes-Benz,A 170,2000,Automatic,,Diesel,580
+1488,Chrysler,PT Cruiser,2001,Mechanical,,Petrol / Gas,580
+1489,Opel,Astra,1991,Mechanical,,Gasoline,590
+1490,Kia,Picanto I,2006,Mechanical,245000.0,Gasoline,590
+1491,Honda,Accord,2004,Mechanical,,Diesel,590
+1492,Opel,Astra,1997,Mechanical,215000.0,Gasoline,590
+1493,Opel,Vectra,2003,Mechanical,,Diesel,596
+1494,Volkswagen,Passat B5 FL,2001,Mechanical,,Diesel,599
+1495,Mazda,5,2006,Mechanical,,Diesel,599
+1496,Opel,Zafira B,2005,Mechanical,438478.0,Diesel,599
+1497,Skoda,Octavia I,2009,Mechanical,,Diesel,599
+1498,Renault,Master,2001,Mechanical,,Diesel,599
+1499,Renault,Megane I,2000,Mechanical,,Gasoline,599
+1500,Volkswagen,Golf,1999,Mechanical,344000.0,Diesel,599
+1501,Hyundai,Elantra,2005,Mechanical,,Diesel,599
+1502,Opel,Signum,2003,Mechanical,410000.0,Diesel,599
+1503,Ford,Focus,2002,Mechanical,308000.0,Diesel,599
+1504,MINI,Cooper,2003,Mechanical,,Gasoline,600
+1505,Opel,Zafira,2000,Mechanical,326000.0,Diesel,600
+1506,Seat,Toledo,2001,Mechanical,378207.0,Diesel,600
+1507,Ford,Mondeo Mk1,1995,Mechanical,144000.0,Gasoline,600
+1508,Volvo,V70 I,1997,Automatic,398112.0,Diesel,600
+1509,Peugeot,206,2005,Mechanical,229000.0,Diesel,600
+1510,Volkswagen,Passat,1995,Mechanical,,Diesel,600
+1511,Mazda,626,1991,Mechanical,,Gasoline,600
+1512,Land,Rover Freelander,1999,Mechanical,,Diesel,600
+1513,Toyota,Corolla,2005,Mechanical,,Diesel,600
+1514,Volvo,S80 I,2001,Automatic,,Diesel,600
+1515,Audi,A4,1996,Mechanical,310000.0,Gasoline,600
+1516,Saab,9-3,2004,Mechanical,313514.0,Petrol / Gas,600
+1517,BMW,530,1999,Mechanical,,Diesel,600
+1518,Volkswagen,Sharan,2001,Mechanical,,Diesel,600
+1519,Ford,Fiesta,2004,Mechanical,,Diesel,600
+1520,Opel,Astra,2005,Mechanical,,Diesel,600
+1521,Lancia,Kappa,2000,Mechanical,300000.0,Diesel,600
+1522,Volkswagen,Polo,2003,Mechanical,,Diesel,600
+1523,Volkswagen,Passat,1995,Mechanical,,Gasoline,600
+1524,Volkswagen,Passat,1998,Mechanical,,Petrol / Gas,600
+1525,Opel,Astra,1999,Mechanical,239000.0,Diesel,600
+1526,Volkswagen,Touran,2005,Mechanical,,Diesel,600
+1527,Mitsubishi,Colt,2007,Mechanical,,Gasoline,600
+1528,Mercedes-Benz,C 180 W203,2002,Mechanical,,Gasoline,600
+1529,Audi,A4,1996,Automatic,,Gasoline,600
+1530,Volkswagen,Passat,2003,Automatic,315222.0,Diesel,600
+1531,Audi,A4 B6,2001,Mechanical,370000.0,Diesel,600
+1532,Chevrolet,Nubira,2003,Mechanical,120123.0,Gasoline,600
+1533,Opel,Omega,2002,Mechanical,375835.0,Diesel,600
+1534,Skoda,Fabia,2005,Mechanical,170000.0,Gasoline,600
+1535,Volvo,S60 I,2001,Mechanical,316502.0,Diesel,600
+1536,Ford,Focus,2000,Automatic,190000.0,Gasoline,600
+1537,Nissan,Almera,2000,Automatic,,Gasoline,600
+1538,Ford,Scorpio,1999,Mechanical,333333.0,Gasoline,600
+1539,Opel,Signum,2003,Mechanical,412024.0,Diesel,600
+1540,Audi,A6 C4,1996,Mechanical,500000.0,Diesel,600
+1541,Ford,Galaxy,2004,Mechanical,,Diesel,600
+1542,Volkswagen,Passat,1998,Mechanical,339000.0,Diesel,600
+1543,Volkswagen,Sharan,1998,Mechanical,458050.0,Diesel,600
+1544,Audi,A3,1999,Mechanical,46500.0,Diesel,600
+1545,Skoda,Octavia,1999,Mechanical,,Diesel,600
+1546,Fiat,Stilo,2005,Mechanical,310000.0,Diesel,600
+1547,Opel,Vectra,2003,Mechanical,379000.0,Diesel,600
+1548,Audi,A3 8L,2001,Mechanical,460000.0,Diesel,600
+1549,Volkswagen,Jetta,1987,Mechanical,,Gasoline,600
+1550,Mazda,626,2001,Mechanical,232000.0,Diesel,600
+1551,Audi,A6 C5,1998,Mechanical,,Diesel,600
+1552,Mercedes-Benz,C 240,2001,Mechanical,,Gasoline,600
+1553,Opel,Zafira,2002,Mechanical,300000.0,Diesel,600
+1554,Ford,Mondeo,2003,Mechanical,,Gasoline,600
+1555,Audi,100 C4,1992,Mechanical,,Diesel,600
+1556,Peugeot,306,1994,Mechanical,,Gasoline,600
+1557,Mitsubishi,Colt,2007,Mechanical,200000.0,Gasoline,610
+1558,Skoda,Fabia,2006,Mechanical,189000.0,Gasoline,610
+1559,Opel,Vectra,2003,Mechanical,270000.0,Diesel,610
+1560,Audi,A4 B5,1996,Mechanical,490000.0,Diesel,615
+1561,Audi,A3 8L,2000,Mechanical,,Gasoline,620
+1562,Toyota,Corolla,2002,Mechanical,288000.0,Diesel,620
+1563,Audi,A6,1995,Mechanical,,Petrol / Gas,620
+1564,Audi,80 B3,1990,Mechanical,,Gasoline,630
+1565,Lada,2101,1975,Mechanical,,Gasoline,630
+1566,Mercedes-Benz,A 170,2000,Mechanical,170000.0,Diesel,640
+1567,Audi,100,1993,Mechanical,400056.0,Diesel,644
+1568,Peugeot,307,2004,Mechanical,,Gasoline,649
+1569,Mercedes-Benz,200,1986,Mechanical,,Diesel,650
+1570,Alfa,Romeo 147,2004,Mechanical,216000.0,Gasoline,650
+1571,Opel,Vectra,2006,Mechanical,,Diesel,650
+1572,Opel,Astra,2002,Mechanical,236000.0,Diesel,650
+1573,Suzuki,Ignis,2005,Mechanical,,Diesel,650
+1574,Renault,Megane I,1998,Automatic,159582.0,Gasoline,650
+1575,Ford,Focus,2001,Mechanical,170000.0,Gasoline,650
+1576,Opel,Corsa,2005,Mechanical,379852.0,Diesel,650
+1577,Volkswagen,Passat,2001,Mechanical,,Diesel,650
+1578,Renault,Kangoo II,2006,Mechanical,,Diesel,650
+1579,Opel,Meriva,2006,Mechanical,,Diesel,650
+1580,Renault,Clio,1992,Mechanical,,Gasoline,650
+1581,Opel,Zafira,2001,Mechanical,293300.0,Diesel,650
+1582,Opel,Astra,2001,Automatic,,Gasoline,650
+1583,Mitsubishi,Space Star,2004,Mechanical,,Diesel,650
+1584,Audi,100 C3,1988,Mechanical,,Gasoline,650
+1585,Seat,Alhambra,2001,Automatic,,Diesel,650
+1586,Citroen,C5,2001,Mechanical,,Diesel,650
+1587,Audi,A4,1996,Mechanical,,Diesel,650
+1588,Ford,Transit,2004,Mechanical,,Diesel,650
+1589,Nissan,Almera N16,2003,Mechanical,310000.0,Diesel,650
+1590,BMW,530 E39,2002,Automatic,,Diesel,650
+1591,Volkswagen,Golf,1997,Mechanical,,Petrol / Gas,650
+1592,Volkswagen,Bora,2001,Mechanical,,Petrol / Gas,650
+1593,Volkswagen,Golf,1998,Mechanical,244444.0,Petrol / Gas,650
+1594,Volvo,S40,2000,Mechanical,,Gasoline,650
+1595,Ford,Sierra,1987,Mechanical,53000.0,Gasoline,650
+1596,Volkswagen,Polo,2000,Mechanical,160000.0,Gasoline,650
+1597,Nissan,Primera,2002,Mechanical,270000.0,Diesel,650
+1598,Opel,Vectra C,2004,Mechanical,396000.0,Diesel,650
+1599,Audi,A4,2002,Mechanical,,Diesel,650
+1600,Ford,Transit Connect,2005,Mechanical,187000.0,Diesel,650
+1601,Peugeot,807,2005,Mechanical,258000.0,Diesel,650
+1602,Opel,Vectra,1998,Mechanical,240000.0,Gasoline,650
+1603,Audi,A6,1995,Mechanical,199587.0,Petrol / Gas,650
+1604,Ford,Focus C-Max,2004,Mechanical,,Diesel,650
+1605,Volkswagen,Beetle,2002,Mechanical,,Diesel,650
+1606,Volkswagen,Passat,2003,Automatic,,Diesel,650
+1607,Renault,Laguna,2002,Mechanical,,Gasoline,650
+1608,Rover,75,2008,Mechanical,245000.0,Diesel,650
+1609,Peugeot,807,2004,Mechanical,,Diesel,650
+1610,Audi,A6,2004,Automatic,388000.0,Diesel,650
+1611,Volvo,S70,1997,Mechanical,3860507.0,Diesel,650
+1612,Citroen,C3 Pluriel,2006,Mechanical,206123.0,Diesel,650
+1613,Seat,Ibiza,2004,Mechanical,,Diesel,650
+1614,Citroen,Nemo,2008,Mechanical,,Diesel,650
+1615,Opel,Omega B FL,2002,Mechanical,350000.0,Diesel,650
+1616,Chrysler,Voyager,1996,Automatic,,Gasoline,650
+1617,Renault,Scenic,2001,Mechanical,330000.0,Petrol / Gas,650
+1618,Volkswagen,Sharan,2002,Mechanical,264031.0,Gasoline,650
+1619,Opel,Astra II,2001,Mechanical,188500.0,Diesel,650
+1620,Opel,Frontera,1999,Mechanical,,Diesel,650
+1621,Mitsubishi,Space Star,2000,Mechanical,118000.0,Gasoline,650
+1622,Chrysler,Voyager,1999,Automatic,,Petrol / Gas,650
+1623,Audi,A6,2000,Automatic,,Diesel,650
+1624,Audi,A4 B5,2000,Automatic,,Diesel,650
+1625,Renault,Scenic,2000,Automatic,,Petrol / Gas,650
+1626,Opel,Zafira A,2000,Mechanical,320000.0,Diesel,650
+1627,Opel,Vectra,2003,Mechanical,,Diesel,650
+1628,Mitsubishi,Eclipse,2004,Automatic,,Gasoline,650
+1629,Audi,80 B4,1994,Mechanical,484562.0,Petrol / Gas,650
+1630,Volkswagen,Passat,1999,Mechanical,324514.0,Diesel,650
+1631,Volkswagen,Golf IV,2000,Mechanical,350000.0,Diesel,650
+1632,Audi,A4 B6,2001,Mechanical,,Diesel,650
+1633,Audi,80 B4,1993,Mechanical,,Petrol / Gas,650
+1634,Chrysler,Grand Voyager,2003,Mechanical,360000.0,Diesel,650
+1635,Citroen,C4,2006,Mechanical,329473.0,Diesel,650
+1636,Opel,Corsa C,2006,Mechanical,329161.0,Diesel,650
+1637,Audi,A6,2003,Automatic,,Diesel,650
+1638,Moskvich,412,1989,Mechanical,,Gasoline,650
+1639,Audi,A3,2000,Automatic,278000.0,Gasoline,650
+1640,Peugeot,807,2005,Mechanical,,Diesel,650
+1641,Mazda,626,1998,Mechanical,261547.0,Diesel,650
+1642,Opel,Meriva,2004,Mechanical,264000.0,Diesel,650
+1643,Audi,A6,2002,Mechanical,280000.0,Diesel,650
+1644,Citroen,C5 I,2002,Mechanical,312800.0,Petrol / Gas,650
+1645,Volkswagen,Lupo,2002,Automatic,,Diesel,650
+1646,Renault,Scenic,2000,Mechanical,,Diesel,650
+1647,Renault,Scenic,2001,Mechanical,,Diesel,650
+1648,Volkswagen,Golf,1999,Mechanical,,Diesel,650
+1649,Volkswagen,Golf,1987,Automatic,212211.0,Gasoline,650
+1650,Volvo,S80,2004,Automatic,22222.0,Gasoline,650
+1651,Renault,Scenic,2006,Automatic,153000.0,Gasoline,650
+1652,Volkswagen,Golf,2000,Mechanical,,Diesel,650
+1653,Audi,80 B3,1991,Mechanical,297000.0,Diesel,650
+1654,Volvo,C70,1999,Automatic,292000.0,Petrol / Gas,655
+1655,Opel,Vectra C,2003,Mechanical,312000.0,Diesel,660
+1656,Citroen,Jumper,2002,Mechanical,,Diesel,660
+1657,Ford,Focus,2006,Mechanical,,Diesel,670
+1658,Audi,A4,1998,Mechanical,343679.0,Diesel,675
+1659,Mazda,2,2005,Mechanical,170000.0,Gasoline,680
+1660,Peugeot,Boxer,2006,Mechanical,,Diesel,680
+1661,Ford,Focus Mk1,1999,Mechanical,186740.0,Gasoline,680
+1662,Volkswagen,Passat,1998,Mechanical,460200.0,Diesel,680
+1663,Volkswagen,Golf V,2004,Mechanical,,Diesel,680
+1664,Renault,Megane,1998,Automatic,156746.0,Gasoline,690
+1665,Opel,Zafira,2004,Mechanical,,Diesel,690
+1666,Volkswagen,Passat,1998,Mechanical,288654.0,Gasoline,690
+1667,Volkswagen,Passat,1996,Mechanical,,Gasoline,695
+1668,Smart,Forfour,2004,Mechanical,,Gasoline,699
+1669,Volkswagen,Passat,1998,Mechanical,,Diesel,699
+1670,Chrysler,Voyager,2001,Mechanical,426000.0,Diesel,699
+1671,Fiat,Idea,2004,Mechanical,265000.0,Gasoline,699
+1672,Nissan,Micra,2005,Mechanical,282000.0,Gasoline,699
+1673,Mercedes-Benz,E 250,1989,Mechanical,401222.0,Diesel,699
+1674,BMW,525,2001,Automatic,,Diesel,699
+1675,Opel,Astra,2006,Mechanical,220000.0,Diesel,699
+1676,Mercedes-Benz,C 200 W202,1995,Mechanical,,Diesel,699
+1677,Mercedes-Benz,A 140,1998,Mechanical,148000.0,Gasoline,699
+1678,Audi,80,1991,Mechanical,217100.0,Gasoline,699
+1679,Opel,Astra,2006,Mechanical,325000.0,Gasoline,699
+1680,Opel,Zafira,2001,Mechanical,320000.0,Petrol / Gas,699
+1681,Fiat,Stilo,2004,Mechanical,180200.0,Gasoline,699
+1682,Peugeot,407,2007,Mechanical,325785.0,Petrol / Gas,699
+1683,Volkswagen,Passat B5,2000,Mechanical,301158.0,Gasoline,699
+1684,Opel,Signum,2003,Automatic,2234691.0,Diesel,699
+1685,Ford,Focus,2002,Mechanical,236000.0,Diesel,700
+1686,Opel,Zafira,2003,Mechanical,,Diesel,700
+1687,Mercedes-Benz,260,2003,Automatic,,Gasoline,700
+1688,Mercedes-Benz,A 170,2000,Mechanical,,Diesel,700
+1689,Opel,Vectra,2005,Mechanical,,Diesel,700
+1690,Opel,Corsa,1997,Mechanical,223000.0,Gasoline,700
+1691,Toyota,Avensis I,1999,Mechanical,,Gasoline,700
+1692,Opel,Vectra C,2002,Mechanical,225000.0,Gasoline,700
+1693,Volkswagen,Bora,1999,Mechanical,,Diesel,700
+1694,Toyota,Corolla Verso,2002,Mechanical,,Petrol / Gas,700
+1695,Audi,80,1994,Mechanical,,Gasoline,700
+1696,Daewoo,Nexia,1996,Mechanical,,Gasoline,700
+1697,Peugeot,607,2004,Mechanical,,Diesel,700
+1698,Seat,Alhambra,1999,Mechanical,,Diesel,700
+1699,Opel,Astra,1999,Mechanical,,Diesel,700
+1700,Ford,Focus,1999,Mechanical,181992.0,Gasoline,700
+1701,Volkswagen,Passat,1999,Automatic,,Diesel,700
+1702,Opel,Movano,2002,Mechanical,,Diesel,700
+1703,Volkswagen,Golf II,1990,Mechanical,,Diesel,700
+1704,Audi,A4 B5,1996,Mechanical,341000.0,Gasoline,700
+1705,Fiat,Grande Punto,2006,Mechanical,288635.0,Gasoline,700
+1706,Volkswagen,Polo IV FL,2005,Mechanical,257201.0,Diesel,700
+1707,Hyundai,i30,2007,Mechanical,,Diesel,700
+1708,Mitsubishi,Outlander,2003,Mechanical,,Petrol / Gas,700
+1709,Opel,Vectra C,2005,Mechanical,,Diesel,700
+1710,Audi,A4,1998,Mechanical,400000.0,Diesel,700
+1711,Opel,Meriva,2005,Mechanical,,Diesel,700
+1712,Peugeot,407,2008,Automatic,,Diesel,700
+1713,Volkswagen,Passat,2001,Mechanical,,Diesel,700
+1714,Citroen,Jumper,2005,Mechanical,,Diesel,700
+1715,Honda,Civic VII,2001,Mechanical,135555.0,Diesel,700
+1716,Renault,Scenic,2003,Automatic,246000.0,Petrol / Gas,700
+1717,Volkswagen,Polo,2003,Mechanical,440000.0,Diesel,700
+1718,Toyota,Yaris I,2004,Mechanical,154729.0,Gasoline,700
+1719,Opel,Zafira,1998,Mechanical,282300.0,Diesel,700
+1720,Saab,9-3,2003,Automatic,258858.0,Gasoline,700
+1721,Audi,A4,1996,Mechanical,38812.0,Diesel,700
+1722,Volkswagen,Passat,2000,Mechanical,3333333.0,Diesel,700
+1723,Audi,A4 B5,1999,Automatic,,Gasoline,700
+1724,Volkswagen,Passat,1995,Mechanical,,Diesel,700
+1725,Audi,A6 C5,1999,Mechanical,322600.0,Diesel,700
+1726,Skoda,Octavia I,1999,Mechanical,,Gasoline,700
+1727,Volkswagen,Passat,1993,Mechanical,,Diesel,700
+1728,Saab,9-5,2002,Mechanical,320000.0,Diesel,700
+1729,Peugeot,Partner,2002,Mechanical,324000.0,Diesel,700
+1730,Opel,Zafira,2002,Mechanical,250000.0,Diesel,700
+1731,Volkswagen,Golf,1998,Mechanical,,Petrol / Gas,700
+1732,Volvo,S40,2000,Automatic,235000.0,Gasoline,700
+1733,Mazda,626,1989,Mechanical,145000.0,Gasoline,700
+1734,Mazda,6,2007,Mechanical,,Diesel,700
+1735,Mercedes-Benz,Vaneo,2003,Mechanical,,Petrol / Gas,700
+1736,Citroen,C5,2003,Mechanical,445000.0,Diesel,700
+1737,Volkswagen,Passat B4,1996,Mechanical,383000.0,Diesel,700
+1738,Volvo,S60 I,2001,Mechanical,,Diesel,700
+1739,Citroen,Berlingo,2005,Mechanical,190000.0,Petrol / Gas,700
+1740,Peugeot,607,2007,Mechanical,380000.0,Diesel,700
+1741,Opel,Meriva,2004,Mechanical,,Petrol / Gas,700
+1742,Volkswagen,Touran,2005,Mechanical,,Diesel,720
+1743,Volkswagen,Passat,1994,Mechanical,,Diesel,720
+1744,Peugeot,307 II,2007,Mechanical,461000.0,Diesel,720
+1745,Peugeot,1007,2008,Mechanical,106748.0,Gasoline,725
+1746,Volkswagen,Golf IV,1999,Mechanical,,Diesel,730
+1747,Citroen,C5 I,2003,Automatic,,Diesel,730
+1748,Ford,Galaxy Mk2,2000,Mechanical,339636.0,Petrol / Gas,730
+1749,Mitsubishi,Pajero,1993,Mechanical,,Diesel,730
+1750,Audi,100,1995,Mechanical,,Diesel,730
+1751,Seat,Leon,2001,Mechanical,287313.0,Diesel,730
+1752,Nissan,Primera,2004,Mechanical,,Gasoline,730
+1753,Audi,A3,1998,Mechanical,,Diesel,730
+1754,Volkswagen,Passat B4,1994,Mechanical,330000.0,Diesel,730
+1755,Audi,A6 C5,1999,Mechanical,,Diesel,732
+1756,Opel,Vectra,2000,Mechanical,,Diesel,745
+1757,Opel,Signum,2003,Mechanical,300000.0,Diesel,750
+1758,Volkswagen,Polo,2000,Mechanical,,Diesel,750
+1759,Ford,Mondeo,2003,Mechanical,,Diesel,750
+1760,Mercedes-Benz,E 200,1987,Mechanical,,Diesel,750
+1761,Nissan,Terrano,1998,Mechanical,,Diesel,750
+1762,Volkswagen,Passat,2001,Mechanical,380000.0,Diesel,750
+1763,Volkswagen,Polo IV FL,2008,Mechanical,,Gasoline,750
+1764,Opel,Zafira B,2006,Mechanical,,Diesel,750
+1765,Toyota,Yaris I,2003,Mechanical,326672.0,Diesel,750
+1766,Renault,Grand Scenic,2008,Mechanical,,Diesel,750
+1767,Audi,A3,2003,Mechanical,235000.0,Gasoline,750
+1768,Mercedes-Benz,C 180,1995,Mechanical,140000.0,Gasoline,750
+1769,Opel,Zafira,2000,Automatic,,Gasoline,750
+1770,Renault,Laguna,2001,Mechanical,,Gasoline,750
+1771,Renault,Laguna,2001,Mechanical,,Gasoline,750
+1772,Volkswagen,Beetle,2003,Mechanical,198570.0,Gasoline,750
+1773,Kia,Besta,1998,Mechanical,,Diesel,750
+1774,Volkswagen,Jetta,2007,Mechanical,,Petrol / Gas,750
+1775,Audi,80,1993,Mechanical,,Gasoline,750
+1776,Volkswagen,Golf IV,1999,Mechanical,388549.0,Diesel,750
+1777,Ford,Galaxy,2000,Mechanical,,Diesel,750
+1778,Toyota,Avensis,2002,Mechanical,326754.0,Gasoline,750
+1779,Smart,Forfour,2004,Mechanical,,Gasoline,750
+1780,Ford,Transit,1989,Mechanical,,Gasoline,750
+1781,Volkswagen,Caravelle,1995,Mechanical,,Diesel,750
+1782,Renault,Scenic,2001,Mechanical,,Diesel,750
+1783,Volvo,S60,2002,Mechanical,,Diesel,750
+1784,Opel,Vectra,2002,Mechanical,365000.0,Diesel,750
+1785,Mercedes-Benz,Kitas,1992,Mechanical,,Diesel,750
+1786,Volkswagen,Golf,1990,Mechanical,,Diesel,750
+1787,Honda,Accord VIII,2008,Mechanical,,Diesel,750
+1788,Honda,Civic VII,2002,Mechanical,,Gasoline,750
+1789,Mercedes-Benz,A 170 W168,2001,Mechanical,2742156.0,Diesel,750
+1790,Volkswagen,Sharan,2003,Mechanical,371000.0,Diesel,750
+1791,Volkswagen,Sharan,2003,Automatic,,Diesel,750
+1792,Audi,A4,2001,Automatic,160285.0,Gasoline,750
+1793,Audi,A3,1999,Mechanical,,Diesel,750
+1794,Volkswagen,Lupo,1999,Mechanical,224.0,Gasoline,750
+1795,Volkswagen,Passat,1997,Mechanical,395000.0,Diesel,750
+1796,BMW,318 E46,2001,Mechanical,,Gasoline,750
+1797,Volkswagen,Golf Plus,2005,Automatic,270000.0,Gasoline,750
+1798,BMW,525 E39,2000,Automatic,329171.0,Diesel,750
+1799,Audi,A6,1999,Mechanical,,Diesel,750
+1800,Honda,Stream,2004,Mechanical,,Gasoline,750
+1801,Volkswagen,Golf,2001,Mechanical,,Diesel,750
+1802,Audi,A4,1998,Mechanical,,Diesel,750
+1803,Audi,A6 C5,2004,Mechanical,,Diesel,750
+1804,Ford,Escort Mk4,1986,Mechanical,,Gasoline,750
+1805,Smart,Fortwo,2001,Mechanical,139530.0,Diesel,750
+1806,Opel,Vectra,2002,Mechanical,408000.0,Diesel,750
+1807,Peugeot,307,2002,Mechanical,307155.0,Diesel,750
+1808,Citroen,C2,2006,Automatic,174122.0,Gasoline,750
+1809,Ford,Mondeo,2005,Mechanical,,Diesel,750
+1810,Opel,Astra II,1999,Mechanical,303000.0,Gasoline,750
+1811,Volkswagen,Passat B5,1997,Mechanical,317572.0,Diesel,750
+1812,Volkswagen,Passat,1999,Mechanical,280000.0,Gasoline,750
+1813,Opel,Astra I,2000,Mechanical,300000.0,Diesel,750
+1814,Volkswagen,Polo,2004,Mechanical,,Diesel,750
+1815,Volvo,V50,2008,Mechanical,,Diesel,750
+1816,BMW,530 E39,1999,Mechanical,340201.0,Diesel,750
+1817,Volkswagen,Lupo,1999,Mechanical,250000.0,Gasoline,750
+1818,Daihatsu,Cuore,2003,Mechanical,148000.0,Gasoline,750
+1819,Toyota,Avensis II,2006,Mechanical,300000.0,Diesel,750
+1820,Volvo,V70 II,2001,Mechanical,111111.0,Diesel,750
+1821,Volvo,740,1984,Automatic,150000.0,Gasoline,750
+1822,Audi,A3,1998,Mechanical,,Gasoline,750
+1823,Peugeot,406,2002,Mechanical,,Gasoline,750
+1824,Daewoo,Tacuma,2001,Mechanical,,Gasoline,750
+1825,Nissan,Primera,1992,Mechanical,,Petrol / Gas,750
+1826,Subaru,Forester II,2007,Automatic,180000.0,Petrol / Gas,750
+1827,Peugeot,307,2001,Mechanical,,Diesel,750
+1828,Peugeot,205,1989,Mechanical,247326.0,Gasoline,750
+1829,Citroen,Jumper,2004,Mechanical,202000.0,Diesel,750
+1830,Nissan,Almera Tino,2004,Mechanical,140000.0,Gasoline,760
+1831,Audi,80,1988,Mechanical,271900.0,Petrol / Gas,760
+1832,Subaru,Justy,1999,Mechanical,,Gasoline,770
+1833,Opel,Astra,1999,Mechanical,136753.0,Gasoline,770
+1834,Opel,Zafira,2004,Mechanical,,Diesel,770
+1835,Toyota,Corolla,2002,Mechanical,,Diesel,776
+1836,Volkswagen,Passat B6,2006,Mechanical,,Diesel,777
+1837,Volkswagen,Golf,1999,Mechanical,,Diesel,779
+1838,Peugeot,206,1999,Mechanical,,Diesel,780
+1839,Volkswagen,Passat B5 FL,2001,Automatic,,Diesel,780
+1840,Opel,Zafira,2007,Mechanical,,Diesel,780
+1841,Opel,Astra II,1998,Mechanical,,Gasoline,780
+1842,Skoda,Octavia I,2000,Mechanical,337325.0,Diesel,780
+1843,Mercedes-Benz,A 170,2003,Mechanical,,Diesel,780
+1844,Saab,9-5,2006,Automatic,,Diesel,780
+1845,Saab,9-3 II,2003,Mechanical,,Diesel,780
+1846,Mazda,3,2005,Mechanical,,Gasoline,790
+1847,Renault,Megane,2005,Mechanical,,Gasoline,790
+1848,Opel,Vectra C,2008,Mechanical,205000.0,Gasoline,790
+1849,Mercedes-Benz,Vaneo,2002,Mechanical,110152.0,Diesel,790
+1850,Citroen,C5,2001,Mechanical,309000.0,Diesel,790
+1851,Subaru,Legacy,1999,Mechanical,,Petrol / Gas,790
+1852,Opel,Signum,2005,Automatic,,Diesel,798
+1853,Fiat,Cinquecento,1992,Mechanical,113000.0,Gasoline,799
+1854,Volkswagen,Passat,2006,Automatic,375000.0,Gasoline,799
+1855,Hyundai,Getz,2008,Mechanical,122000.0,Gasoline,799
+1856,Opel,Zafira,2003,Mechanical,,Diesel,799
+1857,Alfa,Romeo 147,2005,Mechanical,292555.0,Diesel,799
+1858,Mazda,626,1999,Mechanical,233471.0,Gasoline,799
+1859,Volvo,S60,2006,Mechanical,327000.0,Petrol / Gas,799
+1860,Volkswagen,Golf,2007,Mechanical,,Diesel,799
+1861,Toyota,Corolla,2002,Mechanical,239000.0,Gasoline,799
+1862,Honda,Civic,2004,Automatic,269109.0,Gasoline,799
+1863,Peugeot,607,2002,Mechanical,293000.0,Diesel,799
+1864,Audi,A6,1999,Mechanical,,Diesel,799
+1865,Volkswagen,Golf II,1991,Mechanical,,Diesel,799
+1866,Chevrolet,Matiz,2007,Mechanical,,Gasoline,799
+1867,Smart,Forfour,2005,Mechanical,,Gasoline,799
+1868,Mercedes-Benz,A 140,1998,Mechanical,139000.0,Gasoline,800
+1869,Peugeot,207,2006,Mechanical,331000.0,Gasoline,800
+1870,Mazda,Demio,2003,Mechanical,119000.0,Gasoline,800
+1871,Audi,A6,2002,Mechanical,,Diesel,800
+1872,Peugeot,307 I,2004,Mechanical,,Diesel,800
+1873,Opel,Astra II,1999,Mechanical,290945.0,Diesel,800
+1874,Opel,Astra,2001,Mechanical,,Diesel,800
+1875,Volkswagen,Golf IV,1999,Mechanical,,Gasoline,800
+1876,Opel,Vectra,2006,Automatic,,Diesel,800
+1877,Renault,Megane,2003,Mechanical,198800.0,Gasoline,800
+1878,Chrysler,Pacifica,2005,Automatic,,Petrol / Gas,800
+1879,Toyota,Avensis,2005,Mechanical,,Diesel,800
+1880,Peugeot,407,2006,Mechanical,,Diesel,800
+1881,Audi,A6,2000,Mechanical,300560.0,Diesel,800
+1882,Chevrolet,Lacetti,2008,Mechanical,,Gasoline,800
+1883,Audi,A4,2003,Automatic,382466.0,Diesel,800
+1884,Audi,A6,1998,Mechanical,,Gasoline,800
+1885,Volkswagen,Beetle,2000,Mechanical,,Diesel,800
+1886,Peugeot,Expert,2001,Mechanical,,Diesel,800
+1887,Volkswagen,Golf IV,1999,Mechanical,4200000.0,Diesel,800
+1888,Volvo,V70,2002,Mechanical,,Diesel,800
+1889,Volvo,S60 I,2001,Mechanical,,Petrol / Gas,800
+1890,Volkswagen,Sharan I,2002,Mechanical,,Diesel,800
+1891,BMW,525,1999,Automatic,,Diesel,800
+1892,Opel,Kadett E,1984,Mechanical,40000.0,Gasoline,800
+1893,Volkswagen,Touran,2004,Mechanical,,Diesel,800
+1894,Volvo,V50,2005,Mechanical,,Gasoline,800
+1895,Volkswagen,Beetle,1999,Mechanical,200000.0,Diesel,800
+1896,Volvo,V50,2007,Mechanical,370000.0,Diesel,800
+1897,Suzuki,Liana,2005,Mechanical,231000.0,Diesel,800
+1898,Opel,Signum,2003,Mechanical,400000.0,Diesel,800
+1899,Opel,Astra,2000,Mechanical,198801.0,Gasoline,800
+1900,Opel,Vectra,2005,Mechanical,,Gasoline,800
+1901,Honda,Civic VII,2002,Mechanical,,Gasoline,800
+1902,Honda,CRX,1989,Mechanical,99400.0,Gasoline,800
+1903,Opel,Omega,2004,Mechanical,390000.0,Diesel,800
+1904,Volkswagen,Bora,1999,Mechanical,267817.0,Gasoline,800
+1905,Audi,A6,1997,Mechanical,,Diesel,800
+1906,Audi,A4 B6,2001,Mechanical,433588.0,Diesel,800
+1907,Subaru,OUTBACK II,2000,Automatic,341388.0,Petrol / Gas,800
+1908,Volkswagen,Golf,1999,Mechanical,235989.0,Diesel,800
+1909,Opel,Signum,2003,Automatic,,Diesel,800
+1910,Audi,A3 8L,1998,Mechanical,358000.0,Diesel,800
+1911,Mazda,6,2007,Mechanical,320000.0,Diesel,800
+1912,Nissan,Note I,2006,Mechanical,201214.0,Diesel,800
+1913,Ford,Focus,2003,Mechanical,,Diesel,800
+1914,Audi,A4 B5,1995,Mechanical,,Diesel,800
+1915,Ford,Mondeo,2002,Mechanical,,Diesel,800
+1916,Volkswagen,Passat B6,2006,Mechanical,432000.0,Diesel,800
+1917,Volkswagen,Bora,1999,Mechanical,,Diesel,800
+1918,Peugeot,307,2005,Mechanical,240000.0,Diesel,800
+1919,Honda,CR-V,1999,Mechanical,,Petrol / Gas,800
+1920,Peugeot,407,2007,Automatic,,Diesel,800
+1921,Volkswagen,Caravelle,1994,Mechanical,,Diesel,800
+1922,Toyota,Avensis,2005,Mechanical,,Diesel,800
+1923,Mazda,6,2003,Mechanical,,Diesel,800
+1924,Audi,A3 8L,2000,Mechanical,,Diesel,800
+1925,Opel,Signum,2004,Mechanical,295209.0,Diesel,800
+1926,Peugeot,307 I,2004,Mechanical,339729.0,Gasoline,800
+1927,Opel,Astra,1999,Mechanical,,Diesel,800
+1928,Ford,Focus C-Max,2003,Mechanical,265820.0,Petrol / Gas,800
+1929,Opel,Astra,2004,Automatic,144000.0,Gasoline,800
+1930,Volkswagen,Polo IV,2002,Mechanical,369736.0,Diesel,800
+1931,Ford,Sierra Mk2,1989,Mechanical,,Gasoline,800
+1932,Volkswagen,Golf,2000,Mechanical,236000.0,Gasoline,800
+1933,Opel,Astra II,2003,Mechanical,,Diesel,800
+1934,Peugeot,407,2004,Mechanical,,Diesel,800
+1935,Renault,Scenic,2000,Mechanical,240000.0,Petrol / Gas,800
+1936,Volkswagen,Golf,1999,Mechanical,,Gasoline,820
+1937,Volkswagen,Sharan I,2000,Mechanical,,Diesel,820
+1938,Ford,Galaxy Mk1,2000,Mechanical,,Diesel,820
+1939,Daewoo,Evanda,2003,Mechanical,279270.0,Gasoline,820
+1940,Opel,Astra,2001,Mechanical,,Gasoline,820
+1941,Audi,80 B4,1992,Mechanical,,Gasoline,830
+1942,Mitsubishi,Space Star,2003,Mechanical,,Diesel,830
+1943,Renault,Megane I,2000,Mechanical,,Gasoline,830
+1944,Subaru,Legacy,2005,Automatic,320000.0,Gasoline,840
+1945,Volkswagen,Caddy,2004,Mechanical,,Diesel,840
+1946,Peugeot,306,2001,Mechanical,207695.0,Diesel,850
+1947,Opel,Vectra C,2003,Mechanical,290000.0,Diesel,850
+1948,Audi,A3 8L,1999,Mechanical,233000.0,Gasoline,850
+1949,Chrysler,PT Cruiser,2002,Mechanical,270000.0,Diesel,850
+1950,Skoda,Fabia,2003,Mechanical,170325.0,Gasoline,850
+1951,Saab,9-3 II,2004,Mechanical,580000.0,Diesel,850
+1952,Mercedes-Benz,A 170,2000,Mechanical,,Diesel,850
+1953,Ford,Focus Mk1,2001,Automatic,115000.0,Gasoline,850
+1954,Peugeot,307,2002,Mechanical,220500.0,Gasoline,850
+1955,Toyota,Corolla,2002,Mechanical,306000.0,Diesel,850
+1956,Mercedes-Benz,E 220,2001,Automatic,,Diesel,850
+1957,Mercedes-Benz,C 220,2004,Mechanical,,Diesel,850
+1958,Volvo,S60 I,2002,Mechanical,379000.0,Diesel,850
+1959,Mazda,3,2009,Automatic,,Petrol / Gas,850
+1960,Volkswagen,Golf,1998,Mechanical,,Diesel,850
+1961,Peugeot,307,2003,Mechanical,,Diesel,850
+1962,Opel,Meriva I,2003,Mechanical,177300.0,Gasoline,850
+1963,Volkswagen,Passat,2002,Mechanical,,Diesel,850
+1964,Audi,A4 B6,2002,Mechanical,347028.0,Diesel,850
+1965,Ford,Transit,1991,Mechanical,,Diesel,850
+1966,Volkswagen,Golf,1998,Mechanical,226450.0,Diesel,850
+1967,Renault,Clio,2001,Automatic,79145.0,Gasoline,850
+1968,Skoda,Fabia I,2001,Mechanical,,Gasoline,850
+1969,Volkswagen,Golf,2000,Mechanical,,Diesel,850
+1970,Honda,Accord V,1998,Mechanical,,Gasoline,850
+1971,Volvo,V50,2005,Mechanical,217000.0,Gasoline,850
+1972,Ford,Mondeo,2002,Mechanical,306000.0,Diesel,850
+1973,Volkswagen,Passat,2006,Mechanical,,Diesel,850
+1974,Toyota,Paseo,1997,Mechanical,,Gasoline,850
+1975,Opel,Frontera,1997,Mechanical,,Petrol / Gas,850
+1976,Kia,Sorento,2008,Automatic,,Diesel,850
+1977,Audi,A3,2000,Mechanical,314500.0,Diesel,850
+1978,Fiat,Stilo,2005,Mechanical,,Diesel,850
+1979,Audi,A4 B5,1997,Mechanical,,Petrol / Gas,850
+1980,Opel,Signum,2004,Mechanical,,Diesel,850
+1981,Opel,Astra,2008,Mechanical,204777.0,Diesel,850
+1982,Mercedes-Benz,C 220,2001,Mechanical,360000.0,Diesel,850
+1983,Chrysler,Grand Voyager,2002,Mechanical,,Diesel,850
+1984,Lada,2106,1984,Mechanical,,Gasoline,850
+1985,Mitsubishi,Colt,2005,Mechanical,,Gasoline,850
+1986,Suzuki,Ignis,2005,Mechanical,,Diesel,850
+1987,Nissan,Primera,2003,Mechanical,,Diesel,850
+1988,Mazda,5 I,2006,Automatic,118477.0,Gasoline,850
+1989,Honda,Accord,2004,Mechanical,,Diesel,850
+1990,Volvo,S60,2002,Automatic,350000.0,Diesel,850
+1991,Ford,Galaxy,1998,Mechanical,,Gasoline,850
+1992,Opel,Omega,1998,Automatic,,Petrol / Gas,850
+1993,Volkswagen,Golf,2000,Mechanical,,Gasoline,850
+1994,BMW,320,2000,Automatic,279.0,Diesel,850
+1995,Audi,80 B3,1990,Mechanical,348645.0,Gasoline,850
+1996,Audi,A3 8L,1999,Mechanical,,Diesel,850
+1997,Audi,A4,1997,Mechanical,,Petrol / Gas,850
+1998,Mercedes-Benz,C 220,2022,Mechanical,300000.0,Diesel,850
+1999,Volkswagen,Passat,1996,Mechanical,,Petrol / Gas,850
+2000,Volkswagen,Polo IV,2003,Mechanical,240000.0,Diesel,850
+2001,Opel,Frontera,1997,Mechanical,,Gasoline,850
+2002,Skoda,Octavia I,2001,Mechanical,,Diesel,850
+2003,Opel,Astra,1992,Mechanical,,Gasoline,850
+2004,Opel,Zafira,2002,Mechanical,275000.0,Diesel,850
+2005,Opel,Frontera,1999,Mechanical,,Diesel,850
+2006,Volkswagen,Passat,1992,Mechanical,4125378.0,Diesel,850
+2007,Audi,A3 8L,2000,Mechanical,298955.0,Gasoline,850
+2008,Volkswagen,Passat B5 FL,2003,Mechanical,260000.0,Diesel,850
+2009,Volkswagen,Passat,2005,Mechanical,,Diesel,850
+2010,Opel,Signum,2004,Automatic,374000.0,Diesel,850
+2011,Renault,Espace IV,2004,Mechanical,,Diesel,850
+2012,Audi,A4 B5,1995,Mechanical,,Diesel,850
+2013,Citroen,C5,2003,Mechanical,310000.0,Diesel,850
+2014,Audi,A3 8L,1999,Mechanical,225647.0,Gasoline,850
+2015,Audi,A6 C5,2000,Mechanical,375425.0,Diesel,850
+2016,Mercedes-Benz,A 170,2003,Mechanical,,Diesel,850
+2017,Mercedes-Benz,A 160 W168,1998,Mechanical,68000.0,Diesel,850
+2018,Opel,Omega,1990,Mechanical,196000.0,Gasoline,850
+2019,Opel,Omega,2002,Mechanical,,Diesel,850
+2020,Volkswagen,Passat,1999,Mechanical,,Diesel,850
+2021,Honda,CR-V,2000,Mechanical,,Gasoline,850
+2022,Volkswagen,Passat B5,1998,Mechanical,,Diesel,850
+2023,Volkswagen,Golf IV,2000,Mechanical,,Diesel,850
+2024,Subaru,OUTBACK I,1998,Mechanical,,Petrol / Gas,850
+2025,Seat,Arosa,2002,Mechanical,,Gasoline,850
+2026,BMW,330 E46,2002,Mechanical,,Diesel,850
+2027,Volkswagen,Polo,2000,Mechanical,,Diesel,850
+2028,Volkswagen,Polo,2003,Mechanical,,Diesel,850
+2029,AC,Cobra,1921,Automatic,360000.0,Petrol / Gas,850
+2030,Ford,Galaxy,1997,Mechanical,,Diesel,880
+2031,Peugeot,307,2001,Mechanical,,Diesel,890
+2032,Volkswagen,Passat,2000,Mechanical,,Diesel,890
+2033,Ford,Galaxy,2002,Mechanical,,Diesel,890
+2034,Volkswagen,Golf,2002,Mechanical,,Diesel,890
+2035,Audi,A6,2002,Mechanical,336000.0,Diesel,890
+2036,Audi,A6,2001,Mechanical,,Diesel,890
+2037,BMW,530,2001,Automatic,,Diesel,890
+2038,Audi,A6 C5,1998,Automatic,,Petrol / Gas,890
+2039,Volvo,V70,1998,Mechanical,,Diesel,899
+2040,Ford,Galaxy,1999,Mechanical,,Diesel,899
+2041,Renault,Megane II,2004,Mechanical,,Diesel,899
+2042,Renault,Master II,2000,Mechanical,,Diesel,899
+2043,Volkswagen,Polo,2008,Mechanical,292000.0,Gasoline,899
+2044,Toyota,Corolla,1995,Automatic,250000.0,Gasoline,899
+2045,Renault,Megane,2005,Mechanical,269000.0,Gasoline,899
+2046,Audi,A4 B6,2002,Mechanical,,Diesel,899
+2047,Honda,Civic,2005,Mechanical,289000.0,Gasoline,899
+2048,Citroen,C4,2005,Mechanical,319000.0,Gasoline,899
+2049,Volkswagen,Polo,1997,Mechanical,197000.0,Gasoline,900
+2050,Chrysler,Grand Voyager III,2004,Mechanical,,Diesel,900
+2051,Dodge,Caravan,2006,Automatic,,Petrol / Gas,900
+2052,Volvo,V70,2001,Automatic,285000.0,Gasoline,900
+2053,Peugeot,407,2006,Mechanical,402000.0,Diesel,900
+2054,Mazda,626 V,1999,Mechanical,210000.0,Gasoline,900
+2055,Volkswagen,Touran,2004,Mechanical,350652.0,Diesel,900
+2056,Opel,Vectra,2003,Mechanical,,Diesel,900
+2057,Volkswagen,Passat,2001,Mechanical,,Diesel,900
+2058,Citroen,C5,2002,Automatic,,Diesel,900
+2059,Jaguar,X-Type,2003,Automatic,210000.0,Petrol / Gas,900
+2060,Seat,Ibiza III,2002,Mechanical,250000.0,Diesel,900
+2061,Audi,A4,1997,Mechanical,264400.0,Diesel,900
+2062,Saab,9-3 I,2001,Mechanical,250000.0,Diesel,900
+2063,Volvo,S60,2001,Automatic,315000.0,Gasoline,900
+2064,Volvo,V70,2001,Mechanical,430500.0,Petrol / Gas,900
+2065,Volkswagen,Passat,1998,Mechanical,,Diesel,900
+2066,Volvo,V70 II,2000,Mechanical,402408.0,Diesel,900
+2067,Opel,Signum,2004,Mechanical,447716.0,Diesel,900
+2068,Mazda,Premacy,2003,Mechanical,207000.0,Diesel,900
+2069,Opel,Astra III,2004,Mechanical,245000.0,Gasoline,900
+2070,Volkswagen,Golf,2006,Mechanical,500000.0,Diesel,900
+2071,Opel,Vectra,2005,Mechanical,410445.0,Diesel,900
+2072,BMW,320,1999,Mechanical,,Diesel,900
+2073,Lada,Niva,1993,Mechanical,,Gasoline,900
+2074,Toyota,Previa,2001,Mechanical,343660.0,Diesel,900
+2075,Hyundai,Matrix,2006,Mechanical,117850.0,Gasoline,900
+2076,Mercedes-Benz,E 300 W124,1990,Mechanical,,Diesel,900
+2077,Volvo,V70 II,2001,Mechanical,,Gasoline,900
+2078,Opel,Corsa,2008,Mechanical,247000.0,Diesel,900
+2079,Opel,Astra,2003,Mechanical,205555.0,Gasoline,900
+2080,Volkswagen,Passat,2006,Mechanical,333000.0,Diesel,900
+2081,Mercedes-Benz,E 220,2002,Mechanical,,Diesel,900
+2082,Audi,A4,1996,Mechanical,295621.0,Gasoline,900
+2083,Opel,Astra,2000,Mechanical,310000.0,Diesel,900
+2084,Toyota,Corolla,2000,Mechanical,,Gasoline,900
+2085,Citroen,Xsara Picasso,2005,Mechanical,221000.0,Petrol / Gas,900
+2086,Audi,80,2017,Mechanical,358749.0,Petrol / Gas,900
+2087,Opel,Vectra,2003,Mechanical,,Diesel,900
+2088,Renault,Megane II,2005,Mechanical,178.0,Diesel,900
+2089,Ford,Mondeo Mk2,1998,Mechanical,271500.0,Diesel,900
+2090,BMW,318,1999,Mechanical,243303.0,Petrol / Gas,900
+2091,Audi,A6 C5,1999,Mechanical,,Diesel,900
+2092,Audi,A3,1997,Automatic,183417.0,Gasoline,900
+2093,Volkswagen,Passat B4,1996,Mechanical,406689.0,Petrol / Gas,900
+2094,Peugeot,607,2001,Automatic,300000.0,Diesel,900
+2095,GAZ,M-20 Pobeda,1957,Mechanical,,Gasoline,900
+2096,Citroen,Xsara Picasso,2004,Mechanical,263103.0,Diesel,900
+2097,Audi,A3,1998,Mechanical,300000.0,Diesel,900
+2098,Volkswagen,Passat,2005,Mechanical,,Diesel,900
+2099,Volkswagen,Passat,2006,Mechanical,,Diesel,900
+2100,Ford,Focus,2006,Automatic,198000.0,Diesel,900
+2101,Mazda,3,2005,Mechanical,,Diesel,900
+2102,Audi,80,1994,Mechanical,326214.0,Petrol / Gas,900
+2103,Ford,Mondeo Mk3,2003,Mechanical,,Gasoline,900
+2104,Volkswagen,Sharan,2001,Mechanical,,Gasoline,900
+2105,Peugeot,308,2008,Mechanical,215825.0,Gasoline,900
+2106,Volkswagen,Passat B5,1998,Mechanical,226000.0,Gasoline,900
+2107,Mercedes-Benz,A 190,2003,Mechanical,138000.0,Gasoline,900
+2108,Volkswagen,Passat B5 FL,2003,Mechanical,,Diesel,900
+2109,Volkswagen,Golf,2001,Automatic,207018.0,Gasoline,900
+2110,Audi,A6,1998,Mechanical,,Diesel,920
+2111,Chrysler,Voyager,2002,Mechanical,,Diesel,925
+2112,Renault,Laguna II,2001,Mechanical,,Gasoline,930
+2113,Opel,Corsa C,2001,Mechanical,,Gasoline,930
+2114,Toyota,Avensis Verso,2003,Mechanical,,Diesel,930
+2115,Mercedes-Benz,E 200 W124,1987,Mechanical,,Petrol / Gas,930
+2116,Volkswagen,Passat,2005,Mechanical,,Diesel,930
+2117,Renault,Megane,2002,Mechanical,128000.0,Gasoline,930
+2118,BMW,523,2000,Mechanical,,Petrol / Gas,930
+2119,BMW,523,2000,Mechanical,,Gasoline,930
+2120,Toyota,Corolla,2002,Mechanical,,Diesel,938
+2121,Mercedes-Benz,C 200,2001,Mechanical,340000.0,Gasoline,939
+2122,Renault,Clio,2002,Mechanical,300000.0,Diesel,949
+2123,Ford,C-MAX,2004,Mechanical,,Diesel,949
+2124,Audi,A6,1995,Mechanical,260000.0,Diesel,949
+2125,Citroen,Xsara,2000,Mechanical,,Diesel,950
+2126,Volvo,V70 II,2000,Mechanical,,Diesel,950
+2127,GAZ,21,1964,Mechanical,,Gasoline,950
+2128,Audi,A6,2002,Automatic,,Diesel,950
+2129,Opel,Vectra,2003,Mechanical,,Diesel,950
+2130,Seat,Alhambra,2001,Mechanical,301252.0,Diesel,950
+2131,Audi,A3,1997,Mechanical,225175.0,Gasoline,950
+2132,Opel,Astra I,2002,Mechanical,341750.0,Diesel,950
+2133,Chrysler,300M,2001,Automatic,,Petrol / Gas,950
+2134,Audi,A6,1998,Mechanical,414425.0,Diesel,950
+2135,Volkswagen,Golf,1999,Automatic,331715.0,Petrol / Gas,950
+2136,BMW,320 E46,2004,Mechanical,,Diesel,950
+2137,Audi,A6 C5,1998,Mechanical,390251.0,Diesel,950
+2138,Opel,Astra,1995,Mechanical,,Gasoline,950
+2139,Dodge,Durango,2000,Automatic,,Gasoline,950
+2140,Mercedes-Benz,C 220,2000,Mechanical,,Diesel,950
+2141,Volkswagen,Golf,2000,Mechanical,,Gasoline,950
+2142,Rover,25,2004,Mechanical,,Diesel,950
+2143,Opel,Zafira A,2003,Mechanical,,Diesel,950
+2144,Mazda,2 I,2004,Mechanical,135925.0,Gasoline,950
+2145,Opel,Astra,2003,Mechanical,170000.0,Gasoline,950
+2146,Mazda,6 I,2007,Mechanical,277321.0,Gasoline,950
+2147,Renault,Megane II,2003,Mechanical,,Gasoline,950
+2148,Honda,Civic VI,1999,Automatic,280000.0,Petrol / Gas,950
+2149,Audi,A4,2001,Mechanical,,Diesel,950
+2150,Opel,Meriva,2003,Mechanical,,Gasoline,950
+2151,Opel,Vectra,2002,Mechanical,,Diesel,950
+2152,Volkswagen,Bora,1999,Mechanical,200000.0,Gasoline,950
+2153,Opel,Astra,2006,Mechanical,343700.0,Diesel,950
+2154,Volkswagen,Golf,1998,Mechanical,,Diesel,950
+2155,Skoda,Fabia,2005,Automatic,218000.0,Gasoline,950
+2156,Skoda,Octavia,2000,Mechanical,,Diesel,950
+2157,Renault,Laguna,2006,Mechanical,219000.0,Diesel,950
+2158,Skoda,Octavia,2003,Mechanical,,Gasoline,950
+2159,Citroen,"Jumper 2,2 HDI",2005,Mechanical,183984.0,Diesel,950
+2160,Hyundai,Accent,2002,Mechanical,201000.0,Diesel,950
+2161,Opel,Meriva,2005,Mechanical,,Diesel,950
+2162,Audi,80,1992,Mechanical,295000.0,Petrol / Gas,950
+2163,Rover,75,2002,Mechanical,,Diesel,950
+2164,Volkswagen,Passat,2000,Mechanical,,Diesel,950
+2165,Opel,Meriva,2006,Mechanical,,Diesel,950
+2166,Opel,Vectra,2002,Mechanical,,Diesel,950
+2167,Ford,Mondeo Mk3,2001,Mechanical,347082.0,Diesel,950
+2168,Volvo,V50,2004,Mechanical,208700.0,Gasoline,950
+2169,Citroen,C4 I,2004,Mechanical,212600.0,Gasoline,950
+2170,BMW,316,1995,Mechanical,220000.0,Gasoline,950
+2171,Audi,A4 B6,2001,Automatic,,Diesel,950
+2172,Toyota,Corolla Verso,2003,Mechanical,290000.0,Diesel,950
+2173,Volkswagen,Passat,1998,Mechanical,,Diesel,950
+2174,Volkswagen,Passat B5,1998,Mechanical,506000.0,Diesel,950
+2175,BMW,318,2002,Automatic,,Petrol / Gas,950
+2176,Audi,A4 B5,1996,Mechanical,,Diesel,950
+2177,Ford,Transit Connect,2006,Mechanical,267788.0,Diesel,950
+2178,Fiat,Doblo,2004,Mechanical,230000.0,Diesel,950
+2179,Mazda,3,2006,Mechanical,212000.0,Gasoline,950
+2180,Audi,80,1993,Mechanical,,Petrol / Gas,950
+2181,Citroen,Xsara,2003,Mechanical,221585.0,Gasoline,950
+2182,Audi,A4 B6,2001,Mechanical,358000.0,Diesel,950
+2183,Renault,Laguna,2006,Mechanical,189235.0,Diesel,950
+2184,Mercedes-Benz,220,1998,Mechanical,,Diesel,950
+2185,Volkswagen,Golf IV,2000,Mechanical,,Diesel,950
+2186,Audi,100,1992,Mechanical,470000.0,Diesel,950
+2187,Renault,Scenic I,1999,Mechanical,,Diesel,950
+2188,Subaru,Legacy,2004,Mechanical,,Gasoline,950
+2189,Opel,Omega,2004,Automatic,,Diesel,950
+2190,Honda,Civic,2003,Mechanical,300000.0,Diesel,950
+2191,Citroen,C5,2006,Mechanical,398000.0,Diesel,950
+2192,Audi,A4,1996,Mechanical,270000.0,Gasoline,950
+2193,Chrysler,Voyager III,2004,Mechanical,261000.0,Diesel,950
+2194,Toyota,Corolla Seria E12,2003,Mechanical,289280.0,Diesel,950
+2195,Volkswagen,Passat,1999,Mechanical,350000.0,Diesel,950
+2196,Audi,A4,1996,Mechanical,,Gasoline,950
+2197,Audi,80,1993,Mechanical,335000.0,Petrol / Gas,950
+2198,Seat,Leon I,2002,Mechanical,,Diesel,950
+2199,Volkswagen,Transporter T4,1998,Mechanical,,Gasoline,950
+2200,Mazda,3,2006,Mechanical,296000.0,Diesel,950
+2201,Audi,80,1994,Mechanical,234027.0,Diesel,950
+2202,BMW,530 E39,1998,Mechanical,470000.0,Diesel,950
+2203,Volkswagen,Golf,1989,Mechanical,,Gasoline,970
+2204,Audi,A4,2000,Mechanical,12345.0,Diesel,970
+2205,Volkswagen,Passat,2006,Mechanical,300000.0,Diesel,980
+2206,Honda,Civic,2003,Mechanical,,Diesel,980
+2207,Peugeot,206,1999,Mechanical,98703.0,Gasoline,980
+2208,Peugeot,307,2004,Mechanical,,Diesel,990
+2209,Suzuki,Liana,2009,Mechanical,,Gasoline,990
+2210,Subaru,Legacy IV,2006,Mechanical,290000.0,Gasoline,990
+2211,Volkswagen,Passat B5,2000,Mechanical,300000.0,Diesel,990
+2212,BMW,316,1996,Mechanical,,Petrol / Gas,990
+2213,BMW,525,1996,Mechanical,,Diesel,990
+2214,Volkswagen,Passat,1999,Mechanical,,Diesel,990
+2215,Volvo,S60,2002,Automatic,,Diesel,990
+2216,Rover,75,2002,Mechanical,295000.0,Diesel,990
+2217,Opel,Zafira A,2002,Automatic,281000.0,Diesel,990
+2218,Mercedes-Benz,A 140,2002,Mechanical,122000.0,Gasoline,990
+2219,Mitsubishi,Carisma,2002,Mechanical,182250.0,Diesel,990
+2220,Audi,100,1993,Mechanical,,Gasoline,990
+2221,Toyota,Yaris,2004,Mechanical,244344.0,Gasoline,990
+2222,Audi,A3,1999,Mechanical,274000.0,Gasoline,995
+2223,Audi,A4,2002,Mechanical,,Diesel,999
+2224,Audi,A4,1996,Mechanical,429690.0,Diesel,999
+2225,Volkswagen,Golf,1991,Mechanical,,Gasoline,999
+2226,Volkswagen,Touran,2011,Automatic,319561.0,Diesel,999
+2227,Audi,100 C3,1988,Mechanical,,Gasoline,999
+2228,Volkswagen,Passat,1993,Mechanical,,Petrol / Gas,999
+2229,Volkswagen,Passat B2,1986,Mechanical,,Gasoline,999
+2230,Opel,Vectra,1993,Mechanical,,Gasoline,999
+2231,Opel,Astra,2001,Mechanical,198000.0,Gasoline,999
+2232,Toyota,Avensis Verso,2002,Mechanical,,Diesel,999
+2233,Ford,Galaxy,2001,Mechanical,,Diesel,999
+2234,Kia,Carens,2008,Mechanical,228000.0,Gasoline,999
+2235,Citroen,C4,2006,Mechanical,,Diesel,999
+2236,Mercedes-Benz,ML 320,2000,Automatic,,Petrol / Gas,999
+2237,Renault,Scenic,2000,Automatic,,Diesel,999
+2238,Nissan,Micra,2005,Mechanical,260000.0,Diesel,999
+2239,Volkswagen,Golf III,1998,Mechanical,230000.0,Gasoline,999
+2240,Volkswagen,Transporter,1999,Mechanical,,Petrol / Gas,999
+2241,Opel,Signum,2003,Mechanical,311000.0,Diesel,999
+2242,Volkswagen,Transporter,1995,Mechanical,,Diesel,999
+2243,Opel,Zafira,2005,Automatic,,Diesel,999
+2244,Toyota,Corolla Seria E10,1995,Mechanical,200000.0,Gasoline,999
+2245,Volvo,XC70,2004,Automatic,339000.0,Diesel,999
+2246,BMW,530,2002,Automatic,,Diesel,999
+2247,Volkswagen,Transporter T3,1984,Mechanical,,Diesel,999
+2248,Audi,A6,2003,Mechanical,335000.0,Diesel,999
+2249,Volkswagen,Golf,1999,Mechanical,286000.0,Diesel,999
+2250,Fiat,Scudo,1999,Mechanical,247000.0,Diesel,999
+2251,Volkswagen,Golf V,2006,Mechanical,300000.0,Diesel,999
+2252,Volkswagen,Golf,1998,Mechanical,370000.0,Gasoline,999
+2253,Chevrolet,Matiz,2009,Mechanical,95000.0,Gasoline,999
+2254,Honda,Civic VII,2002,Mechanical,295000.0,Petrol / Gas,999
+2255,Volkswagen,Passat,2001,Mechanical,355000.0,Diesel,999
+2256,Audi,80,1991,Mechanical,215000.0,Gasoline,999
+2257,Peugeot,307 II,2007,Mechanical,364950.0,Diesel,999
+2258,Volkswagen,Passat,2002,Mechanical,,Diesel,999
+2259,Citroen,C3 I,2002,Mechanical,344000.0,Diesel,999
+2260,Volkswagen,Touran,2005,Mechanical,290000.0,Diesel,999
+2261,Opel,Vectra,2004,Mechanical,285875.0,Diesel,999
+2262,Opel,Astra,2001,Mechanical,140000.0,Gasoline,999
+2263,Ford,Focus,2001,Automatic,90000.0,Gasoline,999
+2264,Audi,A6,2006,Mechanical,,Diesel,999
+2265,Mazda,6,2007,Mechanical,279000.0,Gasoline,999
+2266,Skoda,Octavia,2000,Mechanical,365000.0,Diesel,999
+2267,Audi,A6,2000,Mechanical,314000.0,Gasoline,999
+2268,Hyundai,Matrix,2005,Mechanical,173000.0,Gasoline,999
+2269,Mazda,2,2007,Mechanical,188000.0,Gasoline,999
+2270,Mitsubishi,Colt,2005,Mechanical,202000.0,Gasoline,999
+2271,Citroen,C3,2006,Mechanical,169000.0,Gasoline,999
+2272,Audi,A4,1995,Mechanical,322000.0,Gasoline,999
+2273,Audi,80,1993,Mechanical,,Gasoline,999
+2274,Saab,9-5,2003,Mechanical,,Diesel,999
+2275,Volkswagen,Passat,1997,Mechanical,369600.0,Petrol / Gas,999
+2276,Volkswagen,Passat,2001,Mechanical,349000.0,Gasoline,999
+2277,Volkswagen,Touran,2004,Automatic,272890.0,Diesel,999
+2278,Opel,Sintra,2000,Mechanical,,Diesel,999
+2279,Nissan,Almera Tino,2006,Mechanical,208749.0,Diesel,999
+2280,Opel,Zafira,2000,Mechanical,,Diesel,999
+2281,Mercedes-Benz,A 160,2003,Mechanical,,Gasoline,999
+2282,Renault,Twingo,2000,Mechanical,204000.0,Gasoline,999
+2283,Volkswagen,Sharan,1996,Mechanical,263450.0,Diesel,999
+2284,Opel,Zafira A,2004,Mechanical,320000.0,Diesel,1000
+2285,Saab,9-3 II,2005,Mechanical,,Diesel,1000
+2286,BMW,318,2003,Automatic,330000.0,Diesel,1000
+2287,Volkswagen,Passat,2006,Mechanical,,Diesel,1000
+2288,Nissan,Micra,2003,Mechanical,270000.0,Gasoline,1000
+2289,Volkswagen,Golf II,1991,Mechanical,380984.0,Diesel,1000
+2290,Audi,A4 B6,2002,Mechanical,,Diesel,1000
+2291,Rover,214,1997,Mechanical,178500.0,Gasoline,1000
+2292,Ford,Kitas,1940,Mechanical,,Gasoline,1000
+2293,Volkswagen,Jetta A2,1988,Mechanical,355000.0,Diesel,1000
+2294,Volvo,740,1989,Mechanical,,Diesel,1000
+2295,Audi,A6,2000,Mechanical,,Petrol / Gas,1000
+2296,Ford,Focus Mk1,2002,Mechanical,,Diesel,1000
+2297,Opel,Zafira A,2000,Mechanical,,Petrol / Gas,1000
+2298,Volkswagen,Sharan,2002,Automatic,357735.0,Diesel,1000
+2299,BMW,325,2001,Mechanical,,Gasoline,1000
+2300,Renault,Scenic,2003,Mechanical,,Gasoline,1000
+2301,Volkswagen,Golf,2005,Mechanical,,Diesel,1000
+2302,Toyota,Corolla Seria E11,2002,Mechanical,155000.0,Diesel,1000
+2303,Renault,Laguna II,2001,Mechanical,258066.0,Diesel,1000
+2304,Opel,Vectra C,2003,Mechanical,444800.0,Diesel,1000
+2305,Subaru,Forester,1999,Mechanical,,Gasoline,1000
+2306,Mercedes-Benz,C 220,2000,Automatic,,Diesel,1000
+2307,Volkswagen,Golf,2001,Automatic,,Diesel,1000
+2308,ZAZ,968,1982,Mechanical,,Gasoline,1000
+2309,Honda,Stream,2004,Mechanical,250250.0,Petrol / Gas,1000
+2310,BMW,530,1999,Mechanical,185000.0,Diesel,1000
+2311,Fiat,Punto,2007,Mechanical,177000.0,Gasoline,1000
+2312,Volkswagen,Jetta,2007,Mechanical,370000.0,Diesel,1000
+2313,Volkswagen,Touran,2005,Mechanical,,Diesel,1000
+2314,Volkswagen,Passat,1998,Mechanical,416300.0,Diesel,1000
+2315,Ssangyong,Rodius,2007,Automatic,,Diesel,1000
+2316,Peugeot,407,2007,Mechanical,,Diesel,1000
+2317,Mercedes-Benz,A 180,2005,Mechanical,,Diesel,1000
+2318,Honda,CR-V I,2000,Mechanical,,Gasoline,1000
+2319,Mazda,6 I,2007,Mechanical,,Diesel,1000
+2320,Skoda,Octavia,2006,Mechanical,,Diesel,1000
+2321,BMW,320,2001,Mechanical,,Diesel,1000
+2322,Volkswagen,Sharan,1998,Mechanical,,Petrol / Gas,1000
+2323,Ford,Escort,1996,Mechanical,,Gasoline,1000
+2324,Audi,A4,2002,Mechanical,,Diesel,1000
+2325,Volkswagen,Golf,1999,Mechanical,337180.0,Diesel,1000
+2326,Toyota,Corolla Verso,2002,Mechanical,280000.0,Diesel,1000
+2327,Audi,A4 B6,2001,Mechanical,,Diesel,1000
+2328,Volvo,S80,2000,Automatic,,Diesel,1000
+2329,BMW,325 E46,2001,Mechanical,,Gasoline,1000
+2330,Volkswagen,Passat,2007,Mechanical,363000.0,Diesel,1000
+2331,Skoda,Octavia,2005,Automatic,,Diesel,1000
+2332,Audi,100,1994,Mechanical,,Gasoline,1000
+2333,Volkswagen,Golf,1997,Mechanical,,Diesel,1000
+2334,Audi,100,1986,Mechanical,,Gasoline,1000
+2335,Audi,A4 B6,2002,Automatic,,Gasoline,1000
+2336,UAZ,469,1976,Mechanical,61440.0,Gasoline,1000
+2337,Audi,A3,2003,Mechanical,385000.0,Diesel,1000
+2338,Hyundai,Coupe,2000,Mechanical,,Gasoline,1000
+2339,Volvo,V50,2007,Mechanical,300000.0,Diesel,1000
+2340,Mercedes-Benz,100,1990,Mechanical,,Diesel,1000
+2341,Mercedes-Benz,Vaneo,2003,Mechanical,292752.0,Diesel,1000
+2342,Seat,Leon,2001,Mechanical,298936.0,Diesel,1000
+2343,Honda,HR-V,1999,Automatic,,Petrol / Gas,1000
+2344,Ford,Mondeo,2002,Mechanical,218277.0,Diesel,1000
+2345,Volkswagen,Transporter,1995,Mechanical,600000.0,Diesel,1000
+2346,Volvo,V70,2005,Mechanical,,Petrol/Natural gas,1000
+2347,Ford,Transit,2004,Mechanical,,Diesel,1000
+2348,Opel,Meriva,2004,Mechanical,230000.0,Gasoline,1000
+2349,Volkswagen,Polo IV,2003,Mechanical,,Gasoline,1000
+2350,Daihatsu,Sirion,2009,Automatic,17118.0,Gasoline,1000
+2351,Subaru,Legacy IV,2007,Automatic,150000.0,Petrol / Gas,1000
+2352,Renault,Scenic II,2005,Mechanical,148824.0,Diesel,1000
+2353,Subaru,Legacy,2000,Mechanical,,Gasoline,1000
+2354,Saab,900,1996,Mechanical,230000.0,Gasoline,1000
+2355,Toyota,Avensis,2001,Mechanical,,Gasoline,1000
+2356,Opel,Astra III,2006,Mechanical,245000.0,Diesel,1000
+2357,Mercedes-Benz,250,1989,Mechanical,,Diesel,1000
+2358,Mercedes-Benz,Sprinter,2005,Mechanical,,Diesel,1000
+2359,Opel,Vectra,2003,Mechanical,316720.0,Diesel,1000
+2360,Mitsubishi,Space Runner,2001,Mechanical,213500.0,Gasoline,1000
+2361,Audi,A6,2004,Automatic,380000.0,Diesel,1000
+2362,Volkswagen,Multivan,1994,Mechanical,293000.0,Diesel,1000
+2363,Ford,Mondeo,2006,Mechanical,380000.0,Petrol / Gas,1000
+2364,Opel,Meriva,2008,Mechanical,,Diesel,1000
+2365,Opel,Omega B FL,2003,Automatic,253838.0,Diesel,1000
+2366,Audi,A4 B6,2003,Automatic,321351.0,Diesel,1000
+2367,Volkswagen,Passat,2005,Mechanical,345000.0,Diesel,1000
+2368,Audi,A6 C5,2002,Mechanical,,Diesel,1000
+2369,Audi,A4 B5,1997,Mechanical,,Diesel,1000
+2370,Skoda,Octavia I,1998,Mechanical,115300.0,Gasoline,1000
+2371,Land,Rover Freelander,2001,Automatic,300000.0,Diesel,1000
+2372,Audi,A6,1996,Mechanical,,Diesel,1000
+2373,Nissan,X-Trail,2005,Mechanical,290700.0,Diesel,1000
+2374,BMW,316,1999,Mechanical,433222.0,Petrol / Gas,1000
+2375,Audi,A4,1995,Mechanical,240000.0,Diesel,1000
+2376,Skoda,Octavia,2001,Mechanical,,Gasoline,1000
+2377,Chevrolet,Kalos,2007,Mechanical,71000.0,Gasoline,1000
+2378,Peugeot,607,2005,Automatic,,Diesel,1000
+2379,Volkswagen,Passat,1997,Mechanical,269914.0,Gasoline,1000
+2380,Chrysler,300M,2004,Automatic,,Petrol / Gas,1000
+2381,BMW,525,1998,Mechanical,,Diesel,1000
+2382,Audi,80 B2,1986,Mechanical,234700.0,Petrol / Gas,1000
+2383,Audi,A6 C5,2002,Mechanical,300.0,Diesel,1000
+2384,Subaru,Legacy,2004,Automatic,239308.0,Petrol / Gas,1000
+2385,Volkswagen,Polo,2003,Mechanical,,Gasoline,1000
+2386,Opel,Vectra,2002,Mechanical,,Gasoline,1000
+2387,Audi,A3,1999,Mechanical,,Diesel,1000
+2388,Audi,A6 C5,2004,Mechanical,,Diesel,1000
+2389,Opel,Vectra C,2004,Mechanical,260000.0,Diesel,1020
+2390,Ford,Focus Mk1,2003,Mechanical,,Diesel,1030
+2391,Renault,Espace II,1992,Mechanical,,Diesel,1030
+2392,Toyota,Corolla,1998,Automatic,,Gasoline,1030
+2393,Saab,9-5,1999,Mechanical,,Gasoline,1036
+2394,Audi,A4 B5,1998,Mechanical,202691.0,Gasoline,1040
+2395,Honda,Accord VII,2004,Mechanical,,Diesel,1050
+2396,Peugeot,207,2009,Mechanical,197000.0,Gasoline,1050
+2397,Volkswagen,Beetle,1999,Mechanical,,Diesel,1050
+2398,Audi,100 C3,1987,Automatic,371488.0,Petrol / Gas,1050
+2399,Seat,Leon I,2002,Mechanical,,Diesel,1050
+2400,Audi,A6,2000,Automatic,,Diesel,1050
+2401,Peugeot,307,2003,Mechanical,,Diesel,1050
+2402,Toyota,Yaris Verso,2000,Mechanical,273000.0,Gasoline,1050
+2403,Opel,Signum,2003,Mechanical,,Diesel,1050
+2404,Mitsubishi,Space Star,2000,Automatic,,Gasoline,1050
+2405,Opel,Astra,2004,Mechanical,,Diesel,1050
+2406,Fiat,Ducato,2005,Mechanical,,Diesel,1050
+2407,Audi,A3 8L,1999,Automatic,,Gasoline,1050
+2408,Volkswagen,Golf,1998,Mechanical,,Diesel,1050
+2409,Opel,Signum,2004,Mechanical,267600.0,Diesel,1050
+2410,Volkswagen,Passat B5,1998,Mechanical,332290.0,Diesel,1050
+2411,Audi,A6 C5,2002,Automatic,,Petrol / Gas,1050
+2412,BMW,320 E46,1998,Mechanical,,Diesel,1050
+2413,Audi,A6 C5,2003,Automatic,,Diesel,1050
+2414,Volkswagen,Golf,1999,Mechanical,189000.0,Gasoline,1050
+2415,Mercedes-Benz,E 200,1995,Automatic,321000.0,Gasoline,1050
+2416,Volkswagen,Passat B5 FL,2003,Mechanical,300000.0,Diesel,1050
+2417,Opel,Rekord,1986,Mechanical,44000.0,Gasoline,1050
+2418,Audi,A4 B5,1997,Mechanical,364416.0,Diesel,1050
+2419,Volkswagen,Passat,2000,Mechanical,,Gasoline,1050
+2420,Chrysler,PT Cruiser,2002,Mechanical,,Gasoline,1050
+2421,Nissan,Primera,2005,Mechanical,,Gasoline,1050
+2422,Opel,Astra,2004,Mechanical,280000.0,Diesel,1050
+2423,Mercedes-Benz,E 220 W210,1999,Automatic,245000.0,Diesel,1050
+2424,Volkswagen,Golf,1995,Mechanical,430000.0,Diesel,1050
+2425,Volkswagen,Golf IV,2001,Mechanical,,Diesel,1050
+2426,Volvo,S60,2002,Automatic,,Diesel,1050
+2427,Mitsubishi,Lancer,2004,Mechanical,,Gasoline,1050
+2428,Opel,Zafira,2000,Mechanical,257730.0,Diesel,1070
+2429,BMW,320 E46,2005,Mechanical,,Diesel,1070
+2430,Audi,A3 8P,2004,Mechanical,345000.0,Diesel,1075
+2431,Toyota,Corolla Seria E12,2005,Mechanical,,Diesel,1080
+2432,Volkswagen,Golf,2005,Mechanical,,Diesel,1080
+2433,Volkswagen,Sharan,1999,Mechanical,210689.0,Diesel,1090
+2434,Nissan,Primera,2002,Automatic,268000.0,Gasoline,1099
+2435,Mazda,6,2002,Automatic,201000.0,Gasoline,1099
+2436,Nissan,Primera,2005,Mechanical,248000.0,Gasoline,1099
+2437,Toyota,Corolla,2003,Mechanical,232000.0,Gasoline,1099
+2438,Peugeot,407,2007,Mechanical,259000.0,Gasoline,1099
+2439,Nissan,Murano,2004,Automatic,129000.0,Petrol / Gas,1099
+2440,Volkswagen,Passat,2008,Automatic,303000.0,Diesel,1099
+2441,Ford,Focus C-Max,2005,Mechanical,269000.0,Diesel,1099
+2442,Opel,Vectra,2005,Automatic,267000.0,Gasoline,1099
+2443,Volkswagen,Passat,1997,Mechanical,296000.0,Gasoline,1099
+2444,Volkswagen,Golf,1998,Automatic,273000.0,Gasoline,1099
+2445,Jaguar,X-Type,2005,Mechanical,426000.0,Diesel,1099
+2446,Dacia,Logan,2006,Mechanical,206000.0,Gasoline,1099
+2447,Volkswagen,Passat,2009,Automatic,294000.0,Petrol / Gas,1099
+2448,Ford,Focus C-Max,2004,Mechanical,219000.0,Gasoline,1099
+2449,Citroen,C3 Pluriel,2004,Mechanical,206000.0,Gasoline,1099
+2450,Volkswagen,Golf,2004,Mechanical,293000.0,Gasoline,1099
+2451,Renault,Thalia,2007,Mechanical,156000.0,Gasoline,1099
+2452,Ford,Transit,2009,Mechanical,289000.0,Diesel,1099
+2453,Citroen,C4,2005,Mechanical,177000.0,Gasoline,1099
+2454,Volkswagen,Sharan,2002,Mechanical,316780.0,Diesel,1099
+2455,BMW,320,2000,Mechanical,,Diesel,1100
+2456,Opel,Vectra,2003,Mechanical,,Diesel,1100
+2457,Smart,Fortwo II,2010,Automatic,67000.0,Gasoline,1100
+2458,Opel,Zafira A,2001,Mechanical,,Diesel,1100
+2459,Renault,Megane,1998,Automatic,159230.0,Gasoline,1100
+2460,Subaru,Legacy,2006,Automatic,,Petrol / Gas,1100
+2461,Volkswagen,Passat B6,2008,Mechanical,,Diesel,1100
+2462,Seat,Alhambra I,2002,Mechanical,238000.0,Gasoline,1100
+2463,Ford,Focus,2006,Mechanical,,Diesel,1100
+2464,Chrysler,Sebring,2007,Automatic,,Petrol / Gas,1100
+2465,Toyota,Corolla Seria E12,2005,Mechanical,,Diesel,1100
+2466,Ford,Maverick,1997,Mechanical,372150.0,Petrol / Gas,1100
+2467,Volkswagen,Passat B5 FL,2001,Mechanical,400000.0,Diesel,1100
+2468,Opel,Zafira,1999,Mechanical,,Petrol / Gas,1100
+2469,Opel,Vectra,2003,Mechanical,,Diesel,1100
+2470,Audi,A3,2000,Mechanical,366836.0,Diesel,1100
+2471,Citroen,C3,2004,Mechanical,155000.0,Gasoline,1100
+2472,Opel,Insignia,2011,Mechanical,120000.0,Gasoline,1100
+2473,Ford,C-MAX,2004,Mechanical,,Diesel,1100
+2474,BMW,320 E46,2003,Automatic,304000.0,Diesel,1100
+2475,Subaru,Forester,1998,Mechanical,197200.0,Gasoline,1100
+2476,Volkswagen,Passat B5 FL,2004,Mechanical,240778.0,Diesel,1100
+2477,Ford,Fiesta Mk6,2008,Mechanical,218400.0,Diesel,1100
+2478,Opel,Vectra C,2004,Mechanical,375339.0,Diesel,1100
+2479,Volkswagen,Sharan,2000,Mechanical,,Diesel,1100
+2480,Nissan,X-Trail,2005,Mechanical,,Diesel,1100
+2481,Suzuki,Ignis,2001,Mechanical,193840.0,Gasoline,1100
+2482,Honda,Jazz,2002,Mechanical,,Gasoline,1100
+2483,Audi,A6,2002,Automatic,290000.0,Petrol / Gas,1100
+2484,Ford,Mondeo,2007,Mechanical,240000.0,Diesel,1100
+2485,Toyota,Avensis,2004,Mechanical,283000.0,Diesel,1100
+2486,Volkswagen,Sharan,2002,Mechanical,280000.0,Diesel,1100
+2487,Ford,C-MAX,2006,Mechanical,260000.0,Diesel,1100
+2488,Subaru,Legacy,2021,Mechanical,250000.0,Petrol / Gas,1100
+2489,BMW,320,2003,Mechanical,303731.0,Diesel,1100
+2490,Audi,A6,1998,Automatic,,Petrol / Gas,1100
+2491,Volkswagen,Passat,2001,Mechanical,,Diesel,1100
+2492,Opel,Astra,2004,Mechanical,,Diesel,1100
+2493,Saab,9-3 II,2006,Mechanical,356507.0,Gasoline,1100
+2494,Volkswagen,Passat,2007,Mechanical,,Diesel,1100
+2495,Volkswagen,Golf IV,1999,Mechanical,295000.0,Gasoline,1100
+2496,Audi,A4,1998,Mechanical,318800.0,Diesel,1100
+2497,Volkswagen,Passat,1999,Mechanical,444600.0,Diesel,1100
+2498,Audi,A3,1998,Mechanical,300000.0,Petrol/Natural gas,1100
+2499,Mercedes-Benz,E 270,2006,Automatic,391738.0,Diesel,1100
+2500,Volkswagen,Passat B5 FL,2001,Mechanical,385800.0,Diesel,1100
+2501,Audi,A4,1999,Mechanical,,Diesel,1100
+2502,Mercedes-Benz,A 170 W168,2003,Mechanical,224964.0,Diesel,1100
+2503,Peugeot,307,2000,Automatic,180000.0,Gasoline,1100
+2504,Audi,A6,1998,Mechanical,374897.0,Diesel,1100
+2505,Honda,Prelude,1998,Mechanical,200000.0,Gasoline,1100
+2506,Opel,Astra,2002,Mechanical,366084.0,Diesel,1100
+2507,Citroen,Berlingo,2006,Mechanical,235000.0,Gasoline,1100
+2508,Honda,Civic,2002,Mechanical,290629.0,Gasoline,1100
+2509,Opel,Vectra,1994,Mechanical,276000.0,Gasoline,1100
+2510,Volkswagen,Golf,2000,Mechanical,92160.0,Gasoline,1100
+2511,Mercedes-Benz,C 200 W203,2004,Automatic,245400.0,Diesel,1100
+2512,Ford,Transit V (2000-2006),2006,Mechanical,,Diesel,1100
+2513,Volkswagen,Golf Plus,2005,Mechanical,,Diesel,1100
+2514,Volkswagen,Polo IV FL,2006,Mechanical,340000.0,Diesel,1100
+2515,BMW,520,2000,Mechanical,,Gasoline,1100
+2516,Mercedes-Benz,C 180,2000,Mechanical,215575.0,Gasoline,1100
+2517,Volkswagen,Golf,1995,Mechanical,210318.0,Gasoline,1100
+2518,Peugeot,Boxer,2003,Mechanical,333500.0,Diesel,1100
+2519,Audi,A4 B5,1999,Mechanical,279500.0,Gasoline,1100
+2520,Opel,Astra,2005,Mechanical,364000.0,Diesel,1100
+2521,Opel,Meriva,2004,Mechanical,193400.0,Diesel,1100
+2522,Volkswagen,Sharan,1998,Mechanical,342000.0,Diesel,1100
+2523,Citroen,C5,2005,Mechanical,268532.0,Petrol / Gas,1100
+2524,Mercedes-Benz,C 200,2004,Automatic,,Diesel,1100
+2525,Peugeot,206 CC,2002,Mechanical,130000.0,Gasoline,1100
+2526,Opel,Zafira,2003,Mechanical,373687.0,Diesel,1100
+2527,Citroen,C5,2007,Mechanical,210025.0,Diesel,1100
+2528,Opel,Vectra,2003,Mechanical,259000.0,Diesel,1100
+2529,Mercedes-Benz,C 220,2005,Automatic,,Diesel,1100
+2530,Volkswagen,Passat,2007,Mechanical,,Diesel,1100
+2531,Audi,80,1984,Mechanical,,Gasoline,1100
+2532,Volkswagen,Golf,2005,Mechanical,335000.0,Diesel,1100
+2533,Audi,100,1988,Mechanical,192581.0,Gasoline,1100
+2534,Skoda,Superb,2005,Mechanical,,Diesel,1100
+2535,Volkswagen,Golf V,2008,Mechanical,127867.0,Diesel,1100
+2536,Volkswagen,Passat,2005,Automatic,,Diesel,1100
+2537,Volkswagen,Lupo,2000,Mechanical,197000.0,Gasoline,1100
+2538,Audi,A4,2001,Mechanical,,Diesel,1100
+2539,Fiat,Ducato,1997,Mechanical,305258.0,Diesel,1100
+2540,Volkswagen,Golf,2000,Mechanical,305800.0,Diesel,1100
+2541,Audi,A3 8L,2000,Mechanical,,Diesel,1100
+2542,Opel,Astra,2000,Automatic,225000.0,Diesel,1100
+2543,Ford,C-MAX,2006,Mechanical,295000.0,Gasoline,1100
+2544,Nissan,Almera Tino,2004,Mechanical,231000.0,Gasoline,1110
+2545,Citroen,C6,2008,Automatic,264341.0,Diesel,1111
+2546,Mercedes-Benz,E 200 W124,1988,Mechanical,197889.0,Diesel,1111
+2547,Smart,MCC,2001,Automatic,,Gasoline,1111
+2548,Mercedes-Benz,Vito W638,2002,Automatic,,Diesel,1111
+2549,Volkswagen,Phaeton,2004,Automatic,200000.0,Gasoline,1111
+2550,Volvo,XC90 I,2003,Automatic,,Petrol / Gas,1111
+2551,Renault,Scenic II,2005,Mechanical,,Diesel,1130
+2552,Citroen,Xsara,2001,Mechanical,,Diesel,1130
+2553,Renault,Scenic II,2005,Mechanical,250000.0,Diesel,1150
+2554,Volkswagen,Passat,1995,Mechanical,360000.0,Diesel,1150
+2555,Opel,Vectra C,2005,Mechanical,,Diesel,1150
+2556,Ford,S-Max,2006,Mechanical,322000.0,Gasoline,1150
+2557,Renault,Clio,2004,Mechanical,,Diesel,1150
+2558,Volkswagen,Passat,2005,Mechanical,402000.0,Diesel,1150
+2559,Opel,Zafira,2005,Mechanical,,Diesel,1150
+2560,Volkswagen,Golf IV,2003,Mechanical,250000.0,Diesel,1150
+2561,BMW,525,1998,Mechanical,,Diesel,1150
+2562,Kia,Sportage II,2005,Automatic,96300.0,Gasoline,1150
+2563,Mercedes-Benz,E 124,1991,Mechanical,395000.0,Diesel,1150
+2564,Mercedes-Benz,CLK 240,2003,Automatic,,Gasoline,1150
+2565,Suzuki,Grand Vitara,2000,Mechanical,,Diesel,1150
+2566,Volkswagen,Passat,2001,Mechanical,250.0,Gasoline,1150
+2567,Honda,CR-V,2000,Automatic,,Gasoline,1150
+2568,Peugeot,307,2003,Mechanical,236000.0,Gasoline,1150
+2569,Volkswagen,Passat B5,1998,Mechanical,353909.0,Diesel,1150
+2570,Volkswagen,Passat,2001,Mechanical,,Diesel,1150
+2571,Opel,Vectra C,2005,Mechanical,243000.0,Gasoline,1150
+2572,Volkswagen,Passat,2005,Mechanical,174000.0,Gasoline,1150
+2573,Audi,A6,2001,Mechanical,36100.0,Diesel,1150
+2574,Volvo,S60,2001,Mechanical,226085.0,Gasoline,1150
+2575,Opel,Vectra,2004,Mechanical,205144.0,Diesel,1150
+2576,Volkswagen,Jetta,2006,Mechanical,358800.0,Diesel,1150
+2577,Kita,Kitas,1998,Mechanical,328700.0,Diesel,1150
+2578,Opel,Astra,1999,Automatic,166487.0,Petrol / Gas,1150
+2579,Volkswagen,Golf IV,2002,Mechanical,185000.0,Gasoline,1150
+2580,Opel,Astra,2004,Mechanical,311100.0,Diesel,1150
+2581,Audi,A2,2001,Mechanical,,Gasoline,1150
+2582,Renault,Clio,2005,Mechanical,163215.0,Diesel,1150
+2583,Opel,Zafira,2001,Mechanical,,Petrol / Gas,1150
+2584,Citroen,C4,2005,Mechanical,275000.0,Diesel,1150
+2585,Honda,CR-V,2004,Mechanical,,Gasoline,1150
+2586,Seat,Toledo,2002,Mechanical,247000.0,Diesel,1150
+2587,Ford,Focus Mk2,2005,Mechanical,349000.0,Diesel,1150
+2588,Volkswagen,Passat,2009,Automatic,447000.0,Diesel,1150
+2589,BMW,525 E39,1998,Automatic,311000.0,Diesel,1150
+2590,Mercedes-Benz,220,2012,Automatic,,Gasoline,1150
+2591,Citroen,C3 Pluriel,2003,Mechanical,235000.0,Gasoline,1150
+2592,Audi,80,1988,Automatic,,Gasoline,1150
+2593,Skoda,Fabia,2003,Mechanical,,Diesel,1169
+2594,Peugeot,107,2007,Mechanical,237000.0,Diesel,1180
+2595,Skoda,Octavia,2002,Mechanical,250000.0,Diesel,1199
+2596,Toyota,Avensis,2005,Mechanical,,Diesel,1199
+2597,Mercedes-Benz,E 220,2003,Automatic,,Diesel,1199
+2598,Dodge,Caliber,2007,Automatic,148000.0,Gasoline,1199
+2599,Peugeot,407,2005,Mechanical,279000.0,Gasoline,1199
+2600,Opel,Vectra,2004,Mechanical,,Gasoline,1199
+2601,Toyota,Corolla,2002,Mechanical,327000.0,Gasoline,1199
+2602,Audi,A4,2003,Mechanical,437000.0,Diesel,1199
+2603,SEAT,Cordoba,2004,Mechanical,159000.0,Gasoline,1199
+2604,Opel,Zafira,2005,Mechanical,301000.0,Gasoline,1199
+2605,Opel,Astra,2005,Mechanical,349000.0,Gasoline,1199
+2606,Volvo,S60,2002,Automatic,387000.0,Gasoline,1199
+2607,Renault,Thalia,2004,Mechanical,111000.0,Diesel,1199
+2608,Citroen,C4,2007,Mechanical,239000.0,Gasoline,1199
+2609,Audi,A6,2002,Automatic,345000.0,Gasoline,1199
+2610,Kia,Rio,2006,Mechanical,276000.0,Diesel,1199
+2611,Mitsubishi,Colt,2008,Mechanical,308000.0,Gasoline,1199
+2612,Mazda,3,2006,Mechanical,229000.0,Gasoline,1199
+2613,Honda,Civic,2004,Mechanical,254000.0,Gasoline,1199
+2614,Opel,Combo,2003,Mechanical,324000.0,Diesel,1199
+2615,Honda,Civic,2002,Mechanical,282000.0,Gasoline,1199
+2616,Mercedes-Benz,E 230,1997,Automatic,239000.0,Gasoline,1199
+2617,Volvo,V50,2005,Mechanical,181000.0,Gasoline,1199
+2618,Chevrolet,Matiz,2010,Mechanical,149000.0,Gasoline,1199
+2619,Ford,Mondeo,2007,Mechanical,359000.0,Petrol / Gas,1199
+2620,Honda,Accord,2005,Mechanical,287000.0,Gasoline,1199
+2621,Ford,Focus,2006,Mechanical,294000.0,Gasoline,1199
+2622,Renault,Laguna,2007,Mechanical,269000.0,Gasoline,1199
+2623,Citroen,C3,2003,Automatic,148000.0,Gasoline,1199
+2624,Volkswagen,Golf,2008,Mechanical,637000.0,Diesel,1199
+2625,Ford,Transit,2010,Mechanical,277000.0,Diesel,1199
+2626,Ford,Mondeo,2008,Mechanical,657000.0,Diesel,1199
+2627,Suzuki,Grand Vitara,1999,Mechanical,208000.0,Gasoline,1199
+2628,Audi,A6 C5,2003,Mechanical,287445.0,Gasoline,1200
+2629,Audi,A6 C5,2002,Mechanical,287445.0,Petrol / Gas,1200
+2630,Peugeot,407,2008,Automatic,388678.0,Diesel,1200
+2631,Peugeot,207,2008,Mechanical,250000.0,Gasoline,1200
+2632,Ford,C-MAX,2006,Mechanical,250000.0,Diesel,1200
+2633,Ford,Focus Mk2,2008,Mechanical,,Diesel,1200
+2634,Volvo,S60 I,2004,Mechanical,400000.0,Diesel,1200
+2635,Honda,FR-V,2005,Mechanical,,Petrol / Gas,1200
+2636,Peugeot,207,2007,Mechanical,188000.0,Gasoline,1200
+2637,Opel,Astra III,2006,Mechanical,,Diesel,1200
+2638,Audi,A4 B6,2002,Mechanical,,Diesel,1200
+2639,Volkswagen,Passat,1995,Mechanical,,Petrol / Gas,1200
+2640,Toyota,Yaris,2002,Mechanical,143000.0,Gasoline,1200
+2641,MINI,ONE,2004,Mechanical,,Gasoline,1200
+2642,Volkswagen,Golf,1992,Automatic,,Gasoline,1200
+2643,Renault,Laguna,2005,Mechanical,344444.0,Diesel,1200
+2644,Volkswagen,Passat,2001,Mechanical,429258.0,Diesel,1200
+2645,BMW,320 E46,2003,Mechanical,,Gasoline,1200
+2646,BMW,525 E39,2003,Automatic,320750.0,Diesel,1200
+2647,Audi,100,1997,Mechanical,,Gasoline,1200
+2648,BMW,530 E39,2001,Automatic,450000.0,Diesel,1200
+2649,Toyota,Corolla Verso,2005,Mechanical,,Diesel,1200
+2650,Volkswagen,Passat B5,2000,Mechanical,389000.0,Diesel,1200
+2651,Renault,Grand Espace,2004,Automatic,,Diesel,1200
+2652,Volvo,S80,2002,Automatic,480000.0,Gasoline,1200
+2653,Opel,Zafira,2001,Mechanical,,Diesel,1200
+2654,Volkswagen,Golf,2006,Automatic,334544.0,Diesel,1200
+2655,Audi,A3 8P,2003,Mechanical,,Gasoline,1200
+2656,Toyota,Yaris,2008,Mechanical,323191.0,Diesel,1200
+2657,Audi,100,1989,Automatic,249000.0,Petrol / Gas,1200
+2658,Volkswagen,Caravelle,1994,Mechanical,,Diesel,1200
+2659,Opel,Vectra,2004,Mechanical,331199.0,Diesel,1200
+2660,Nissan,Primera,2004,Mechanical,255000.0,Diesel,1200
+2661,Volvo,S60,2003,Mechanical,318000.0,Petrol / Gas,1200
+2662,Toyota,Prius,2001,Automatic,,Gasoline,1200
+2663,Toyota,Avensis,2005,Mechanical,280000.0,Diesel,1200
+2664,BMW,316 E46,2002,Mechanical,200000.0,Gasoline,1200
+2665,Volvo,S60,2003,Mechanical,,Diesel,1200
+2666,Saab,9-3 II,2007,Mechanical,,Diesel,1200
+2667,Volkswagen,Golf IV,2000,Automatic,208723.0,Gasoline,1200
+2668,Volvo,S70,1997,Mechanical,233000.0,Diesel,1200
+2669,Opel,Vectra,2003,Mechanical,331350.0,Diesel,1200
+2670,Toyota,Avensis,2001,Mechanical,256400.0,Diesel,1200
+2671,Nissan,Murano,2006,Automatic,330000.0,Petrol / Gas,1200
+2672,Volkswagen,Passat,1994,Mechanical,,Diesel,1200
+2673,Peugeot,307,2002,Mechanical,210000.0,Gasoline,1200
+2674,Volkswagen,Passat,1999,Mechanical,210000.0,Gasoline,1200
+2675,Volkswagen,Golf IV,2000,Mechanical,,Diesel,1200
+2676,Peugeot,407,2005,Mechanical,301500.0,Diesel,1200
+2677,Audi,100 C3,1985,Mechanical,250000.0,Petrol / Gas,1200
+2678,Peugeot,307,2005,Mechanical,,Diesel,1200
+2679,Volkswagen,Golf IV,1999,Automatic,211921.0,Diesel,1200
+2680,Opel,Zafira A,2005,Mechanical,280.0,Diesel,1200
+2681,Volvo,S60,2002,Mechanical,290000.0,Diesel,1200
+2682,Volvo,S60,2003,Mechanical,,Diesel,1200
+2683,Opel,Signum,2003,Mechanical,180560.0,Gasoline,1200
+2684,Ford,C-MAX,2005,Mechanical,,Petrol / Gas,1200
+2685,Mercedes-Benz,C 180,2003,Automatic,295007.0,Gasoline,1200
+2686,Ssangyong,Rodius,2007,Automatic,218726.0,Diesel,1200
+2687,Audi,A4,2002,Mechanical,,Gasoline,1200
+2688,Ford,Focus,2008,Mechanical,356314.0,Diesel,1200
+2689,Audi,A4,2001,Mechanical,,Diesel,1200
+2690,Audi,80 B4,1995,Mechanical,,Diesel,1200
+2691,Ford,Transit,1998,Mechanical,188000.0,Diesel,1200
+2692,Nissan,Primera,2002,Mechanical,267536.0,Diesel,1200
+2693,BMW,320,2002,Mechanical,340000.0,Diesel,1200
+2694,Toyota,Previa,2004,Mechanical,,Diesel,1200
+2695,Subaru,Legacy III,2000,Mechanical,250000.0,Petrol / Gas,1200
+2696,Nissan,X-Trail,2003,Mechanical,,Diesel,1200
+2697,BMW,320,2000,Mechanical,,Diesel,1200
+2698,Volkswagen,Golf,2006,Mechanical,328436.0,Diesel,1200
+2699,Toyota,Corolla,2003,Mechanical,225000.0,Diesel,1200
+2700,Hyundai,i20,2012,Mechanical,241548.0,Diesel,1200
+2701,Volvo,S60 I,2006,Mechanical,,Petrol / Gas,1200
+2702,Volkswagen,Golf,1999,Mechanical,,Diesel,1200
+2703,Daihatsu,Gran Move,2000,Mechanical,120000.0,Gasoline,1200
+2704,Hyundai,Accent,2009,Mechanical,129043.0,Diesel,1200
+2705,Volkswagen,Lupo,1999,Mechanical,196075.0,Gasoline,1200
+2706,Audi,A6 C5,2003,Mechanical,280000.0,Gasoline,1200
+2707,Toyota,Avensis,2006,Mechanical,250000.0,Diesel,1200
+2708,Volkswagen,Vento,1994,Mechanical,,Diesel,1200
+2709,Audi,A4,1997,Mechanical,378978.0,Diesel,1200
+2710,Renault,Laguna II,2003,Mechanical,,Diesel,1230
+2711,Seat,Toledo II,1999,Mechanical,,Diesel,1230
+2712,Audi,A3 8L,1999,Mechanical,,Diesel,1230
+2713,Volkswagen,Passat,2002,Mechanical,,Diesel,1235
+2714,Renault,Scenic II,2006,Mechanical,228000.0,Gasoline,1240
+2715,Ford,Focus,2006,Mechanical,,Petrol / Gas,1250
+2716,Opel,Signum,2004,Mechanical,309063.0,Diesel,1250
+2717,Citroen,C5,2003,Mechanical,365470.0,Diesel,1250
+2718,Audi,A6,1999,Mechanical,,Petrol / Gas,1250
+2719,Volkswagen,Sharan,2002,Mechanical,,Diesel,1250
+2720,Renault,Modus,2006,Mechanical,,Diesel,1250
+2721,Hyundai,Coupe,2003,Mechanical,140000.0,Gasoline,1250
+2722,Hyundai,Tiburon,2003,Mechanical,144000.0,Gasoline,1250
+2723,Mazda,323,1995,Automatic,161000.0,Gasoline,1250
+2724,Volvo,S60 I,2003,Automatic,,Diesel,1250
+2725,Opel,Vectra,2003,Mechanical,,Diesel,1250
+2726,Subaru,Forester,2009,Mechanical,271000.0,Diesel,1250
+2727,Volkswagen,Golf V,2005,Mechanical,428000.0,Diesel,1250
+2728,Opel,Zafira,2001,Mechanical,168925.0,Gasoline,1250
+2729,Seat,Alhambra I,1998,Mechanical,,Diesel,1250
+2730,Volkswagen,Passat,1995,Automatic,,Gasoline,1250
+2731,Mazda,626,1996,Mechanical,,Gasoline,1250
+2732,Toyota,Avensis,1999,Mechanical,,Gasoline,1250
+2733,Ford,Fusion,2003,Mechanical,,Gasoline,1250
+2734,Opel,Zafira A,2004,Mechanical,,Diesel,1250
+2735,Toyota,Corolla Verso,2003,Mechanical,,Diesel,1250
+2736,Volkswagen,LT,1991,Mechanical,250000.0,Diesel,1250
+2737,Opel,Zafira,2004,Mechanical,285000.0,Diesel,1250
+2738,Seat,Toledo II,2002,Mechanical,,Diesel,1250
+2739,BMW,318,2004,Mechanical,,Gasoline,1250
+2740,Volkswagen,Passat B5 FL,2001,Mechanical,320000.0,Petrol / Gas,1250
+2741,Gonow,kitas,2009,Mechanical,,Diesel,1250
+2742,Ford,Focus,2001,Mechanical,,Gasoline,1250
+2743,Ford,Fiesta,2008,Mechanical,300.0,Diesel,1250
+2744,Volkswagen,Sharan I,2001,Mechanical,,Diesel,1250
+2745,Mercedes-Benz,Vito,2000,Mechanical,,Diesel,1250
+2746,Volkswagen,Golf,2000,Mechanical,200000.0,Gasoline,1250
+2747,Volvo,S60,2002,Mechanical,240640.0,Gasoline,1250
+2748,Ford,Transit,2006,Mechanical,,Diesel,1250
+2749,Ford,Transit,2006,Mechanical,,Diesel,1250
+2750,Volkswagen,Passat,1998,Mechanical,382583.0,Diesel,1250
+2751,Citroen,C1,2007,Mechanical,,Gasoline,1250
+2752,Nissan,Terrano,2000,Mechanical,,Diesel,1250
+2753,Volkswagen,Passat B6,2008,Mechanical,,Diesel,1250
+2754,Audi,A4 B7,2005,Automatic,410000.0,Diesel,1250
+2755,Subaru,Justy,2008,Mechanical,159574.0,Petrol / Gas,1250
+2756,Volkswagen,Passat,2000,Mechanical,,Diesel,1250
+2757,Mazda,6,2010,Mechanical,250000.0,Diesel,1250
+2758,Ford,Galaxy Mk1,1999,Automatic,,Petrol / Gas,1250
+2759,Volkswagen,Transporter,1995,Mechanical,,Diesel,1250
+2760,Audi,100 C3,1986,Mechanical,,Gasoline,1250
+2761,Volkswagen,Golf,2003,Mechanical,223000.0,Diesel,1250
+2762,Ssangyong,MUSSO,2000,Mechanical,,Diesel,1250
+2763,Subaru,Forester,2005,Automatic,,Gasoline,1250
+2764,Volkswagen,Passat,2006,Mechanical,290000.0,Diesel,1250
+2765,Opel,Vectra C,2006,Mechanical,377494.0,Diesel,1250
+2766,Volkswagen,Sharan,1999,Mechanical,350000.0,Diesel,1250
+2767,Fiat,Scudo,2000,Mechanical,358900.0,Diesel,1250
+2768,Honda,Civic VIII,2008,Mechanical,258000.0,Diesel,1250
+2769,Audi,A4,1996,Mechanical,208500.0,Gasoline,1250
+2770,Subaru,Libero,1989,Mechanical,,Gasoline,1250
+2771,Volkswagen,LT,1998,Mechanical,,Diesel,1250
+2772,Toyota,Corolla,2006,Mechanical,260000.0,Diesel,1250
+2773,Volkswagen,Passat,2006,Mechanical,,Diesel,1250
+2774,Volkswagen,Passat B5,1998,Mechanical,36000.0,Diesel,1250
+2775,Volkswagen,Passat,2003,Mechanical,283000.0,Diesel,1250
+2776,BMW,318,2003,Mechanical,237606.0,Gasoline,1250
+2777,Skoda,Octavia,2007,Mechanical,,Diesel,1250
+2778,Honda,CR-V,2004,Mechanical,193121.0,Gasoline,1250
+2779,Renault,Laguna,2002,Mechanical,,Diesel,1270
+2780,Volkswagen,Passat,1993,Mechanical,235000.0,Diesel,1270
+2781,Volkswagen,Passat,2002,Mechanical,267000.0,Gasoline,1270
+2782,Seat,Altea,2008,Mechanical,240000.0,Gasoline,1289
+2783,Fiat,Croma II,2008,Mechanical,321092.0,Diesel,1290
+2784,Volkswagen,Beetle,1999,Mechanical,306000.0,Diesel,1290
+2785,Opel,Zafira,2006,Mechanical,,Diesel,1290
+2786,Renault,Megane,2006,Mechanical,311050.0,Diesel,1290
+2787,Nissan,Primera,2004,Mechanical,260000.0,Diesel,1297
+2788,Volkswagen,Golf,2002,Mechanical,172000.0,Gasoline,1299
+2789,Ford,Fiesta,2004,Mechanical,,Diesel,1299
+2790,Toyota,Corolla Verso,2003,Mechanical,,Petrol / Gas,1299
+2791,Seat,Leon,2007,Mechanical,,Diesel,1299
+2792,Opel,Astra,2004,Mechanical,320000.0,Diesel,1299
+2793,Chevrolet,Lacetti,2008,Mechanical,169000.0,Gasoline,1299
+2794,Volvo,S80,2003,Automatic,363000.0,Gasoline,1299
+2795,Opel,Combo,2006,Mechanical,257000.0,Diesel,1299
+2796,SEAT,Leon,2007,Mechanical,298000.0,Gasoline,1299
+2797,Peugeot,407,2005,Mechanical,159000.0,Petrol / Gas,1299
+2798,Saab,9-5,2005,Automatic,345000.0,Gasoline,1299
+2799,Mazda,2,2007,Mechanical,112000.0,Gasoline,1299
+2800,Renault,Master,2006,Mechanical,219000.0,Diesel,1299
+2801,Hyundai,Elantra,2005,Mechanical,239000.0,Gasoline,1299
+2802,Citroen,C5,2004,Mechanical,212000.0,Gasoline,1299
+2803,Volkswagen,Passat,2005,Mechanical,389000.0,Diesel,1299
+2804,Renault,Megane,2003,Mechanical,228000.0,Gasoline,1299
+2805,Fiat,Punto,2006,Mechanical,145000.0,Gasoline,1299
+2806,Toyota,Yaris,2005,Mechanical,222000.0,Diesel,1299
+2807,Mazda,2,2006,Mechanical,166000.0,Gasoline,1299
+2808,Audi,A3,2001,Mechanical,197000.0,Gasoline,1299
+2809,Mitsubishi,Space Star,2003,Mechanical,194000.0,Gasoline,1299
+2810,Chrysler,Sebring,2007,Automatic,156000.0,Gasoline,1299
+2811,Skoda,Roomster,2007,Mechanical,296000.0,Gasoline,1299
+2812,Mitsubishi,Colt,2004,Mechanical,189000.0,Gasoline,1299
+2813,Opel,Corsa,2007,Mechanical,154000.0,Gasoline,1299
+2814,Opel,Meriva,2005,Mechanical,144000.0,Gasoline,1299
+2815,Volvo,V70,2006,Automatic,404000.0,Diesel,1299
+2816,Hyundai,Sonata,2005,Mechanical,210000.0,Gasoline,1299
+2817,Chevrolet,Aveo,2007,Mechanical,139000.0,Gasoline,1299
+2818,Renault,Megane,2004,Mechanical,163000.0,Gasoline,1299
+2819,Saab,9-3,2007,Mechanical,337000.0,Diesel,1299
+2820,Audi,A4 B6,2002,Automatic,,Gasoline,1300
+2821,Audi,A4 B6,2002,Mechanical,348000.0,Diesel,1300
+2822,Lancia,Musa,2007,Mechanical,200000.0,Diesel,1300
+2823,Mercedes-Benz,A 180,2004,Mechanical,270000.0,Diesel,1300
+2824,Peugeot,307 I,2004,Mechanical,283738.0,Diesel,1300
+2825,Skoda,Superb,2006,Automatic,313500.0,Diesel,1300
+2826,Subaru,Forester III,2009,Mechanical,,Diesel,1300
+2827,Audi,A4 B5,1996,Mechanical,,Diesel,1300
+2828,Mercedes-Benz,C 220 W203,2002,Automatic,396000.0,Diesel,1300
+2829,Renault,Megane II,2003,Mechanical,239000.0,Petrol / Gas,1300
+2830,Volkswagen,Bora,2001,Mechanical,,Gasoline,1300
+2831,Volkswagen,Golf,1994,Automatic,,Gasoline,1300
+2832,Mitsubishi,Colt Z30,2005,Mechanical,200800.0,Diesel,1300
+2833,Chevrolet,Matiz,2007,Mechanical,120000.0,Gasoline,1300
+2834,Mitsubishi,Colt,2005,Mechanical,,Diesel,1300
+2835,Volkswagen,Passat,2001,Mechanical,,Diesel,1300
+2836,Audi,A6 C5,2001,Mechanical,,Diesel,1300
+2837,Volkswagen,Sharan,2003,Automatic,,Diesel,1300
+2838,Nissan,Primera,2004,Mechanical,215000.0,Gasoline,1300
+2839,Volkswagen,Bora,2002,Mechanical,365243.0,Diesel,1300
+2840,BMW,320,2001,Mechanical,290000.0,Diesel,1300
+2841,Jeep,Cherokee,2001,Automatic,,Diesel,1300
+2842,Volvo,S60 I,2003,Mechanical,,Diesel,1300
+2843,Ford,Focus,2008,Mechanical,299464.0,Diesel,1300
+2844,Chrysler,Voyager,2003,Mechanical,,Gasoline,1300
+2845,Subaru,Forester II,2003,Automatic,,Petrol / Gas,1300
+2846,Toyota,Avensis II,2004,Mechanical,393300.0,Diesel,1300
+2847,Volkswagen,Golf,2002,Mechanical,,Gasoline,1300
+2848,Peugeot,807,2003,Mechanical,194316.0,Diesel,1300
+2849,BMW,320 E46,2002,Mechanical,300000.0,Gasoline,1300
+2850,BMW,330 E46,2001,Mechanical,360000.0,Diesel,1300
+2851,Volkswagen,Passat B3,1993,Automatic,,Gasoline,1300
+2852,Opel,Rekord,1985,Mechanical,64433.0,Gasoline,1300
+2853,Iveco,35C18,2004,Mechanical,,Diesel,1300
+2854,Volvo,S40,2004,Mechanical,,Diesel,1300
+2855,Seat,Ibiza,2006,Mechanical,141173.0,Gasoline,1300
+2856,Opel,Astra,2002,Mechanical,295000.0,Gasoline,1300
+2857,Volkswagen,Passat,2007,Mechanical,,Diesel,1300
+2858,Volkswagen,Passat CC,2000,Mechanical,,Diesel,1300
+2859,BMW,530,2002,Automatic,283983.0,Diesel,1300
+2860,Volvo,S60 I,2000,Mechanical,334000.0,Gasoline,1300
+2861,Audi,A6,1995,Mechanical,430000.0,Diesel,1300
+2862,Audi,A4,2001,Mechanical,384085.0,Diesel,1300
+2863,Volvo,V50,2005,Mechanical,274000.0,Diesel,1300
+2864,Volkswagen,Passat,1998,Automatic,250000.0,Diesel,1300
+2865,Volkswagen,Passat,2001,Automatic,,Diesel,1300
+2866,Seat,Alhambra,1998,Mechanical,,Gasoline,1300
+2867,Peugeot,206 CC,2002,Mechanical,191000.0,Gasoline,1300
+2868,Opel,Astra,2006,Mechanical,,Diesel,1300
+2869,Seat,Leon I,2003,Mechanical,253900.0,Diesel,1300
+2870,Opel,Vectra C,2006,Mechanical,303000.0,Diesel,1300
+2871,Opel,Vectra C,2006,Mechanical,303000.0,Diesel,1300
+2872,Seat,Alhambra,2002,Automatic,227423.0,Diesel,1300
+2873,Mercedes-Benz,S 300,1994,Automatic,299999.0,Diesel,1300
+2874,Peugeot,407,2006,Mechanical,,Diesel,1300
+2875,Volkswagen,Golf,2007,Mechanical,,Diesel,1300
+2876,Saab,9-3,2004,Mechanical,,Petrol / Gas,1300
+2877,Opel,Astra,2002,Mechanical,,Gasoline,1300
+2878,Ford,C-MAX,2007,Mechanical,,Diesel,1300
+2879,Audi,A6 C4,1996,Mechanical,479635.0,Diesel,1300
+2880,Audi,A4,1998,Automatic,190000.0,Gasoline,1300
+2881,Opel,Zafira,2004,Mechanical,,Diesel,1300
+2882,Volkswagen,Touran,2006,Mechanical,272000.0,Diesel,1300
+2883,BMW,320 E46,2003,Automatic,,Diesel,1300
+2884,Volkswagen,Bora,2002,Mechanical,419209.0,Diesel,1300
+2885,Volkswagen,Passat,2002,Automatic,,Diesel,1300
+2886,Opel,Zafira,2002,Mechanical,306000.0,Diesel,1300
+2887,Suzuki,Liana,2004,Mechanical,192212.0,Gasoline,1300
+2888,Opel,Zafira A,2003,Mechanical,372800.0,Diesel,1300
+2889,Audi,A3,2003,Mechanical,290000.0,Gasoline,1300
+2890,Smart,Coupe,1999,Automatic,,Gasoline,1300
+2891,Chevrolet,Lacetti,2007,Mechanical,180000.0,Gasoline,1300
+2892,UAZ,469,1979,Mechanical,419.0,Diesel,1300
+2893,Opel,Astra II,2003,Mechanical,315500.0,Diesel,1300
+2894,Volkswagen,Caddy III,2006,Mechanical,360000.0,Diesel,1300
+2895,Chevrolet,Kalos,2006,Mechanical,158950.0,Gasoline,1330
+2896,Mercedes-Benz,190,1987,Mechanical,,Gasoline,1330
+2897,Mitsubishi,Space Runner,1992,Mechanical,,Petrol / Gas,1330
+2898,Citroen,C2,2007,Mechanical,162431.0,Gasoline,1345
+2899,Renault,Megane I,1998,Mechanical,156487.0,Gasoline,1350
+2900,Volkswagen,Passat,2000,Mechanical,348000.0,Diesel,1350
+2901,Chrysler,Town & Country,2008,Automatic,,Petrol / Gas,1350
+2902,Hyundai,H-1,2005,Mechanical,,Diesel,1350
+2903,Land,Rover Freelander,2005,Mechanical,,Diesel,1350
+2904,Seat,Altea,2006,Mechanical,284678.0,Diesel,1350
+2905,Ford,Transit,2001,Mechanical,404000.0,Diesel,1350
+2906,Citroen,C5,2001,Automatic,285465.0,Petrol / Gas,1350
+2907,Fiat,Linea,2008,Mechanical,140000.0,Gasoline,1350
+2908,Volkswagen,Golf IV,2000,Mechanical,,Gasoline,1350
+2909,Peugeot,206,2007,Mechanical,294000.0,Gasoline,1350
+2910,Volkswagen,Passat,1998,Mechanical,,Diesel,1350
+2911,Volkswagen,Touran I,2006,Mechanical,,Diesel,1350
+2912,Audi,A4,1995,Mechanical,332587.0,Petrol / Gas,1350
+2913,Audi,A6,2001,Mechanical,,Petrol / Gas,1350
+2914,BMW,330,2002,Mechanical,325000.0,Diesel,1350
+2915,Ford,Mondeo,2004,Mechanical,165086.0,Gasoline,1350
+2916,Volkswagen,Golf,2002,Mechanical,334215.0,Diesel,1350
+2917,Toyota,Carina,1997,Mechanical,,Gasoline,1350
+2918,Toyota,Corolla Verso,2005,Mechanical,,Diesel,1350
+2919,Toyota,Yaris Verso,2002,Mechanical,265999.0,Diesel,1350
+2920,Skoda,Octavia,2008,Mechanical,426123.0,Diesel,1350
+2921,Toyota,Avensis Verso,2003,Mechanical,375421.0,Diesel,1350
+2922,Volkswagen,Golf,2005,Mechanical,232653.0,Diesel,1350
+2923,Audi,A3 8P,2005,Mechanical,,Gasoline,1350
+2924,Mercedes-Benz,Vito W638,2003,Mechanical,160000.0,Diesel,1350
+2925,Volkswagen,Transporter,1998,Mechanical,,Diesel,1350
+2926,Land,Rover Freelander,2003,Mechanical,,Diesel,1350
+2927,Volkswagen,Bora,2000,Mechanical,,Diesel,1350
+2928,Chrysler,Grand Voyager,2001,Automatic,264000.0,Gasoline,1350
+2929,Volkswagen,Bora,2001,Automatic,270000.0,Petrol / Gas,1350
+2930,BMW,530 E39,1999,Automatic,,Diesel,1350
+2931,Volvo,S80 I,2003,Automatic,300000.0,Gasoline,1350
+2932,Honda,Jazz,2005,Mechanical,,Gasoline,1350
+2933,Audi,A4,2001,Mechanical,,Diesel,1350
+2934,Audi,A3 8P,2004,Mechanical,340562.0,Diesel,1350
+2935,Renault,Modus,2006,Mechanical,245000.0,Diesel,1350
+2936,Peugeot,307,2004,Automatic,300000.0,Gasoline,1350
+2937,Audi,A4,2002,Mechanical,244779.0,Diesel,1350
+2938,Opel,Zafira,2006,Mechanical,,Diesel,1350
+2939,Volkswagen,Golf,2003,Mechanical,320632.0,Diesel,1350
+2940,Volkswagen,Polo,2005,Mechanical,220000.0,Gasoline,1350
+2941,Audi,100 C3,1987,Mechanical,180000.0,Petrol / Gas,1350
+2942,Opel,Zafira A,2003,Mechanical,312000.0,Gasoline,1350
+2943,Saab,9-3,2004,Mechanical,,Diesel,1350
+2944,Volkswagen,Touran,2004,Mechanical,370000.0,Diesel,1350
+2945,Audi,A4,1999,Mechanical,323000.0,Diesel,1350
+2946,Mercedes-Benz,C 220 W203,2001,Mechanical,,Diesel,1350
+2947,Audi,A4 B6,2004,Mechanical,490000.0,Diesel,1350
+2948,Opel,Corsa,2008,Mechanical,,Diesel,1350
+2949,Opel,Astra,2005,Mechanical,250000.0,Diesel,1350
+2950,Ford,Galaxy,2001,Mechanical,,Diesel,1350
+2951,Mercedes-Benz,C 270,2002,Automatic,350000.0,Diesel,1350
+2952,Opel,Astra III,2005,Mechanical,,Diesel,1350
+2953,Citroen,C3,2006,Mechanical,152500.0,Gasoline,1350
+2954,Ford,C-MAX,2004,Mechanical,325180.0,Diesel,1350
+2955,Mercedes-Benz,E 320,2003,Automatic,366500.0,Diesel,1350
+2956,Opel,Corsa D,2010,Mechanical,135426.0,Diesel,1350
+2957,Volkswagen,Fox,2005,Mechanical,168820.0,Gasoline,1350
+2958,Volkswagen,Sharan,1998,Mechanical,,Petrol / Gas,1350
+2959,Opel,Meriva,2005,Mechanical,216000.0,Gasoline,1350
+2960,Audi,A2,2000,Mechanical,275708.0,Gasoline,1350
+2961,Opel,Signum,2004,Mechanical,240594.0,Diesel,1350
+2962,Mercedes-Benz,A 150 W169,2004,Mechanical,91700.0,Gasoline,1350
+2963,Ford,Mondeo,2006,Mechanical,,Gasoline,1350
+2964,Volkswagen,Passat B5,2000,Mechanical,,Gasoline,1350
+2965,Volvo,V70,2002,Automatic,304200.0,Diesel,1350
+2966,Audi,A4 B6,2002,Mechanical,245356.0,Diesel,1350
+2967,Toyota,Avensis,2004,Mechanical,319000.0,Diesel,1350
+2968,Peugeot,206,2003,Mechanical,,Diesel,1350
+2969,Volkswagen,Golf,2000,Mechanical,282432.0,Petrol / Gas,1350
+2970,Mercedes-Benz,Vaneo,2003,Mechanical,,Diesel,1350
+2971,Mercedes-Benz,B 150,2007,Automatic,120000.0,Gasoline,1350
+2972,Toyota,Corolla Verso,2007,Mechanical,289681.0,Diesel,1350
+2973,Volkswagen,Passat,2004,Mechanical,250000.0,Diesel,1370
+2974,BMW,520 E39,1999,Mechanical,,Gasoline,1380
+2975,Seat,Altea,2005,Mechanical,339852.0,Diesel,1380
+2976,Ford,Mondeo Mk4,2008,Mechanical,380000.0,Diesel,1385
+2977,Toyota,Corolla,2003,Automatic,,Petrol / Gas,1390
+2978,Opel,Zafira B,2006,Mechanical,,Diesel,1390
+2979,Peugeot,306,2000,Mechanical,543300.0,Diesel,1390
+2980,Opel,Zafira A,2001,Mechanical,263444.0,Gasoline,1395
+2981,Opel,Zafira,2004,Mechanical,324101.0,Diesel,1399
+2982,Nissan,Note I,2007,Mechanical,255000.0,Gasoline,1399
+2983,Opel,Zafira A,2002,Mechanical,,Diesel,1399
+2984,Smart,City,2001,Automatic,88973.0,Gasoline,1399
+2985,Hyundai,Getz,2007,Mechanical,204000.0,Gasoline,1399
+2986,Chrysler,Voyager,2002,Mechanical,190000.0,Diesel,1399
+2987,Volvo,S60 I,2002,Mechanical,,Diesel,1399
+2988,Citroen,C4,2007,Automatic,376000.0,Diesel,1399
+2989,Toyota,Avensis,2003,Mechanical,374000.0,Diesel,1399
+2990,Subaru,Legacy,2010,Mechanical,236138.0,Diesel,1399
+2991,Saab,9-5,2007,Mechanical,218000.0,Diesel,1399
+2992,Opel,Frontera,1999,Mechanical,215000.0,Gasoline,1399
+2993,Audi,A4,2004,Mechanical,336000.0,Diesel,1399
+2994,Honda,Jazz,2004,Mechanical,165000.0,Gasoline,1399
+2995,Chrysler,Sebring,2007,Automatic,218000.0,Gasoline,1399
+2996,Mercedes-Benz,Vaneo,2002,Mechanical,287000.0,Gasoline,1399
+2997,Suzuki,Liana,2005,Mechanical,169000.0,Gasoline,1399
+2998,Opel,Zafira,1999,Automatic,199000.0,Gasoline,1399
+2999,Audi,A6,2000,Automatic,299000.0,Diesel,1399
+3000,Audi,A4,2001,Automatic,379000.0,Gasoline,1399
+3001,Saab,9-3,2003,Automatic,258000.0,Gasoline,1399
+3002,Opel,Combo,2006,Mechanical,410000.0,Gasoline,1399
+3003,Nissan,Primera,2003,Automatic,167000.0,Gasoline,1399
+3004,Toyota,Aygo,2005,Mechanical,227000.0,Gasoline,1399
+3005,Mercedes-Benz,C 270,2002,Automatic,330000.0,Diesel,1399
+3006,Audi,A4,2001,Mechanical,269000.0,Gasoline,1399
+3007,Citroen,Jumper,2006,Mechanical,347000.0,Diesel,1399
+3008,Volkswagen,Sharan,2001,Mechanical,386000.0,Gasoline,1399
+3009,Peugeot,207,2007,Mechanical,155000.0,Gasoline,1399
+3010,Peugeot,207,2007,Mechanical,255000.0,Gasoline,1399
+3011,Audi,A6,2003,Automatic,313000.0,Gasoline,1399
+3012,Mazda,6,2007,Mechanical,116000.0,Gasoline,1399
+3013,Peugeot,407,2005,Mechanical,126000.0,Gasoline,1399
+3014,Peugeot,207,2008,Mechanical,365000.0,Diesel,1399
+3015,Opel,Omega,2004,Automatic,294000.0,Gasoline,1399
+3016,Opel,Astra,2007,Mechanical,334000.0,Diesel,1399
+3017,Nissan,Micra,2004,Automatic,228700.0,Gasoline,1400
+3018,Volkswagen,Polo,2002,Mechanical,137000.0,Gasoline,1400
+3019,Audi,A4 B7,2006,Automatic,,Diesel,1400
+3020,Honda,Civic VIII,2008,Mechanical,,Diesel,1400
+3021,Subaru,Legacy,2005,Mechanical,,Petrol / Gas,1400
+3022,Honda,Jazz,2002,Mechanical,,Gasoline,1400
+3023,Opel,Astra,2008,Mechanical,,Diesel,1400
+3024,Volvo,S80 I,1999,Mechanical,433000.0,Petrol / Gas,1400
+3025,Ford,Mondeo,2005,Mechanical,,Diesel,1400
+3026,Opel,Vectra,2003,Automatic,,Diesel,1400
+3027,Peugeot,407,2004,Mechanical,300000.0,Diesel,1400
+3028,Opel,Astra,2001,Mechanical,,Gasoline,1400
+3029,Audi,A6,2001,Mechanical,,Petrol / Gas,1400
+3030,Ford,Galaxy Mk2,2003,Mechanical,,Diesel,1400
