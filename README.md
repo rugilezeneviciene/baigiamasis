@@ -9,6 +9,10 @@ Turinys
 - Duomenų analizė
 - Išvados
 
+| Valstybė |
+| -------- |
+|
+|
  
 Projekto eiga
 1. Atsisiųsti duomenis iš atvirų šaltinių.
