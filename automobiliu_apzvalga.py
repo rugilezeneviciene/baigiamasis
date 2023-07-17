@@ -93,7 +93,7 @@ import matplotlib.dates as mdates
 #                 'price_in_euro': price,
 #             })
 # # #         i+=1
-# # #     time.sleep(10) # palaukia 10 sekundziu, kad nebutu uzblokuotas skelbimu portalo
+# # #     time.sleep(10) # Palaukia 10 sekundžių, kad nebūtų užblokuotas skelbimų portalo
 # # #     return auto_listings
 
 # # # auto_listings = scrape_auto_listings()
@@ -253,29 +253,29 @@ df_lt = df_lt.drop(df_lt[df_lt['fuel_type'] == '2020 y'].index)
 #nesutapo kuro pasiskirstymas, todel suvienodinu is lt duomenu Gasoline i Petrol
 df_lt['fuel_type'] = df_lt['fuel_type'].str.replace("Gasoline", "Petrol")
 
-## Sukuriama f-ja suskaičiuoti automobilių amžiui skirtingose valstybėse
-# def calculate_age(dataframe):
-#     for index, value in enumerate(dataframe['year']):
-#         try:
-#             dataframe.at[index, 'year'] = int(value)
-#             dataframe.at[index, 'age'] = 2023 - dataframe.at[index, 'year']
-#         except ValueError:
-#             dataframe.at[index, 'year'] = None
-# #     #print(dataframe)
-#     return dataframe
+# Sukuriama f-ja suskaičiuoti automobilių amžiui skirtingose valstybėse
+def calculate_age(dataframe):
+    for index, value in enumerate(dataframe['year']):
+        try:
+            dataframe.at[index, 'year'] = int(value)
+            dataframe.at[index, 'age'] = 2023 - dataframe.at[index, 'year']
+        except ValueError:
+            dataframe.at[index, 'year'] = None
+#     #print(dataframe)
+    return dataframe
 
 # Sukuriami skirtingų valstybių duomenų DataFrame su automobilių amžiumi ir duomenimis, nuskaitytais iš csv
 
 
 
-# df_lithuania = calculate_age(pd.read_csv('auto_listings.csv'))
-# df_germany = calculate_age(pd.read_csv('Germany_autoscout24_2023.csv'))
-# df_poland = calculate_age(pd.read_csv('Polish_market_scrapped_on_2023 06 27.csv'))
+df_lithuania = calculate_age(pd.read_csv('auto_listings.csv'))
+df_germany = calculate_age(pd.read_csv('Germany_autoscout24_2023.csv'))
+df_poland = calculate_age(pd.read_csv('Polish_market_scrapped_on_2023 06 27.csv'))
 
 # Skaičiuojamas skirtingose valstybėse parduodamų automobilių amžiaus vidurkis
-# avg_age_lt = df_lithuania['age'].mean()
-# avg_age_pl = df_germany['age'].mean()
-# avg_age_ger = df_poland['age'].mean()
+avg_age_lt = df_lithuania['age'].mean()
+avg_age_pl = df_germany['age'].mean()
+avg_age_ger = df_poland['age'].mean()
 #
 #
 # print(avg_age_lt)
@@ -294,21 +294,21 @@ df_lt['fuel_type'] = df_lt['fuel_type'].str.replace("Gasoline", "Petrol")
 # plt.title('Vidutinis parduodamų automobilių amžius Lietuvoje, Lenkijoje ir Vokietijoje', pad=20)
 # plt.show()
 
-# avg_age_lt = df_lithuania['age'].mean()
-# avg_age_pl = df_germany['age'].mean()
-# avg_age_ger = df_poland['age'].mean()
+avg_age_lt = df_lithuania['age'].mean()
+avg_age_pl = df_germany['age'].mean()
+avg_age_ger = df_poland['age'].mean()
 #
 
-# # Nubraižomas grafikas pavaizduoti vidutinį parduodamų automobilių amžių kiekvienoje šalyje
-# countries = ['Lietuva', 'Vokietija', 'Lenkija']
-# average_ages = avg_age_lt, avg_age_pl, avg_age_ger
-# for i, v in enumerate(average_ages):
-#    plt.text(i, v, "{:.0f}".format(v), ha='center', va='bottom')
-# plt.bar(countries, average_ages)
-# plt.xlabel('Valstybė')
-# plt.ylabel('Vidutinis amžius')
-# plt.title('Vidutinis parduodamų automobilių amžius Lietuvoje, Lenkijoje ir Vokietijoje', pad=20)
-# plt.show()
+# Nubraižomas grafikas pavaizduoti vidutinį parduodamų automobilių amžių kiekvienoje šalyje
+countries = ['Lietuva', 'Vokietija', 'Lenkija']
+average_ages = avg_age_lt, avg_age_pl, avg_age_ger
+for i, v in enumerate(average_ages):
+   plt.text(i, v, "{:.0f}".format(v), ha='center', va='bottom')
+plt.bar(countries, average_ages)
+plt.xlabel('Valstybė')
+plt.ylabel('Vidutinis amžius')
+plt.title('Vidutinis parduodamų automobilių amžius Lietuvoje, Lenkijoje ir Vokietijoje', pad=20)
+plt.show()
 # plt.savefig("Grafikas_Vidutinis parduodamų automobilių amžius Lietuvoje, Lenkijoje ir Vokietijoje.png")
 
 
@@ -518,30 +518,6 @@ def top_8_brangiausi_pagal_kainu_vidurki(data, n=8):
 # # plt.title('Automatinės ir mechaninės pavarų dėžės pasiskirstymas Vokietijoje')
 # # plt.show()
 
-# countries = ['Lietuva', 'Lenkija', 'Vokietija']
-# # Sujungia trijų valstybių DataFrame į vieną
-# testdf = pd.concat([df_germany_in_lt, df_lithuania_in_lt, df_poland_in_lt])
-# # Sudaroma dviejų ašių lentelė
-# cross_tab_prop = pd.crosstab(index=testdf['country'],
-#                              columns=testdf['transmission_type'],
-#                              normalize="index")
-#
-# cross_tab_prop.plot(kind='bar',
-#                     # Kelios reik6m4s viename stulpelyje
-#                     stacked=True,
-#                     colormap='tab10',
-#                     figsize=(10, 6))
-# # Einama per reikšmes ir uždedamos duomenų etiketės
-# for i, (x, y) in enumerate(cross_tab_prop.iterrows()):
-#     # Nustatoma duomenų etiketės vieta diagramoje
-#     plt.text(x=i-0.05, y=y.Automatinė/2, s=f"{round(y.Automatinė*100)}%")
-#     plt.text(x=i-0.05, y=(y.Mechaninė/2)+y.Automatinė, s=f"{round(y.Mechaninė*100)}%")
-# # Legendos vieta ir jos stulplių skaičius
-# plt.legend(loc="upper left", ncol=2)
-# plt.xlabel("Valstybės")
-# plt.ylabel("Dalis")
-# plt.show()
-#
 #
 #
 # ###      AUTOMATINĖS IR MECHANINĖS PAVARŲ DĖŽĖS PASISKIRSTYMAS       ####
@@ -564,7 +540,7 @@ def top_8_brangiausi_pagal_kainu_vidurki(data, n=8):
 #     # Nustatoma duomenų etiketės vieta diagramoje
 #     plt.text(x=i-0.05, y=y.Automatinė/2, s=f"{round(y.Automatinė*100)}%")
 #     plt.text(x=i-0.05, y=(y.Mechaninė/2)+y.Automatinė, s=f"{round(y.Mechaninė*100)}%")
-# # Legendos vieta ir jos stulplių skaičius
+# # Legendos vieta ir jos stulpelių skaičius
 # plt.legend(loc="upper left", ncol=2)
 # plt.xlabel("Valstybės")
 # plt.ylabel("Dalis")
@@ -600,7 +576,7 @@ def top_8_brangiausi_pagal_kainu_vidurki(data, n=8):
 
 
 #########################
-# Surkuriama f-ja pavaizduoti populiauriausias markes skirtingose valstybėse
+# Sukuriama f-ja pavaizduoti populiauriausias markes skirtingose valstybėse
 # def distribution_of_brands(df,salis):
 #     # Markės sudedamos į sąrašą
 #     makes = df['brand'].tolist()
