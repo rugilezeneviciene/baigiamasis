@@ -42,7 +42,7 @@ Analizės klausimai:
 7. Ar pasiskirstymui turi įtakos naftos kainos už barelį pokyčiai?
    
 Išvados
-1. Lietuvoje didžiausias vidutinis parduodamų automobilių amžius, o Vokietijoje mažiausias.
+1. Lietuvoje didžiausias vidutinis parduodamų automobilių amžius, o Vokietijoje mažiausias. Lietuvoje vidutinis parduodamų automobilių amžius apie 20 m., Lenkijoje 10 m., o Vokietijoje - 7 m.
 2. Lenkijoje ir Vokietijoje vidutiniškai brangiausia automobilio markė  - Lamborghini, Lietuvoje - Porsche. Lenkijoje ir Vokietijoje vidutiniškai brangiausia automobilio markė  - Daewoo, Lietuvoje - Moskvitch.
 3. Remiantis heatmap diagrama, egzistuoja atvirkštinis ryšys tarp automobilio pagaminimo metų ir automobilio ridos, vadinasi, galima teigti, kad kuo automobilis naujesnis, tuo jo rida yra mažesnė. Tarp automobilio amžiaus ir kainos egzistuoja silpnas statistinis ryšys, o tarp ridos ir kainos silpnas atvirkštinis ryšys.
 4. Lietuvoje didžiausią parduodamų automobilių dalį sudaro dyzeliu varomi automobiliai, o Lenkijoje ir Vokietijoje - benzinu. 
